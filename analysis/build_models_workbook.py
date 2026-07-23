@@ -1,16 +1,16 @@
 """
-Builds deliverables/Clipboard_Analysis_Models.xlsx — the Excel models submitted
+Builds deliverables/Clipboard_Analysis_Models.xlsx, the Excel models submitted
 with the proposal.
 
 Layered design (so the file opens and recalculates in seconds, yet every
 headline number is a live, auditable formula):
 
-  RAW LOGS      Shifts / Bookings / Cancels — the three logs verbatim, sorted,
+  RAW LOGS      Shifts / Bookings / Cancels: the three logs verbatim, sorted,
                 with AutoFilter so a reviewer can re-sort and slice them.
 
   ANALYSIS      Shift_Analysis (one row per clean shift) and Booking_Analysis
                 (one row per booking joinable to the clean universe) carry the
-                per-row derived columns — worked/empty flags, final cancel class,
+                per-row derived columns: worked/empty flags, final cancel class,
                 point-in-time prior-offense counts, worker-level outcome flags.
                 These derivations are documented on each tab and reproduced
                 independently by clipboard_reliability_analysis.py; they are
@@ -21,7 +21,7 @@ headline number is a live, auditable formula):
 
   SUMMARY/SORT  Calc_* and Sort_* tabs produce every figure in the proposal with
                 live COUNTIFS / SUMIFS / AVERAGEIFS over the analysis tabs (small
-                ranges — instant recalc). Change an analysis-tab cell and the
+                ranges, instant recalc). Change an analysis-tab cell and the
                 proposal numbers move.
 
 Inputs (not committed): data/Cleveland_shifts_logs.xlsx, data/Booking_logs.xlsx,
@@ -34,6 +34,7 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 from openpyxl import Workbook
+from openpyxl.workbook.defined_name import DefinedName
 from openpyxl.styles import Alignment, Font, PatternFill
 from openpyxl.utils import get_column_letter
 
@@ -158,7 +159,10 @@ def main():
     last_ev = c_anchor.sort_values("Created At").groupby("Shift ID").last()
     clean["FinalCancelClass"] = clean["Shift ID"].map(last_ev["Class"]).fillna("none")
     lead_map = last_ev["Lead Time"].to_dict()
-    clean["FinalCancelLead"] = clean["Shift ID"].map(lead_map).round(2)
+    # Do NOT round: rounding to 2 dp pushes a ~3.995h value onto 4.00 and moves it
+    # across the runway-bucket boundary, so the workbook would disagree with the
+    # unrounded figures in the proposal by one shift.
+    clean["FinalCancelLead"] = clean["Shift ID"].map(lead_map)
     clean["StartMonth"] = clean["Start"].dt.strftime("%Y-%m")
 
     shift_an = clean[["Shift ID", "Worker ID", "Facility ID", "Start", "Agent Req", "Deleted",
@@ -207,25 +211,36 @@ def main():
     rm = wb.active
     rm.title = "ReadMe"
     L = [
-        ("Clipboard Health — Marketplace Reliability Case: Excel models", TITLE),
-        ("Market: Cleveland. Shift starts Oct 1 2021 – Jan 31 2022. Author: David Ezieshi.", ARIAL),
+        ("Clipboard Health, Marketplace Reliability Case: Excel models", TITLE),
+        ("Market: Cleveland. Shift starts Oct 1 2021 to Jan 31 2022. Author: David Ezieshi.", ARIAL),
         ("", ARIAL),
         ("Three layers", BOLD),
-        ("  RAW LOG — Shifts: the provided shifts log verbatim, sorted, with AutoFilter on (embeds all 41,040", ARIAL),
-        ("    rows so the junk-row cleaning, 41,040 -> 35,926, is auditable). The Booking_logs and Cancel_logs", ARIAL),
+        ("  RAW LOG (Shifts): the provided shifts log verbatim, sorted, with AutoFilter on (embeds all 41,040", ARIAL),
+        ("    rows so the junk-row cleaning, 41,040 down to 35,926, is auditable). The Booking_logs and Cancel_logs", ARIAL),
         ("    are the files you provided; their in-scope rows (with every source column) are carried on the", ARIAL),
         ("    Booking_Analysis and Cancel_Analysis tabs, so nothing needed for the analysis is missing here.", ARIAL),
-        ("  ANALYSIS — Shift_Analysis (one row per clean shift) and Booking_Analysis (one row per booking", ARIAL),
+        ("  ANALYSIS: Shift_Analysis (one row per clean shift) and Booking_Analysis (one row per booking", ARIAL),
         ("    on the clean universe) hold the per-row derived columns. Each derivation rule is stated at the", ARIAL),
         ("    bottom of its tab and is reproduced independently by analysis/clipboard_reliability_analysis.py.", ARIAL),
         ("    Cancel_Analysis keeps its classification columns as LIVE formulas so you can see the rule.", ARIAL),
-        ("  SUMMARY / SORT — every Calc_* and Sort_* figure is a LIVE COUNTIFS / SUMIFS / AVERAGEIFS over the", ARIAL),
+        ("  SUMMARY / SORT: every Calc_* and Sort_* figure is a LIVE COUNTIFS / SUMIFS / AVERAGEIFS over the", ARIAL),
         ("    analysis tabs. Edit an analysis cell and the proposal numbers recalculate.", ARIAL),
+        ("", ARIAL),
+        ("Named ranges (so the Calc_ formulas read in plain English)", BOLD),
+        ("  Every column used in a summary has a name, so a formula reads =COUNTIFS(FinalClass,\"late\",ShiftWorked,1)", ARIAL),
+        ("  instead of =COUNTIFS(Shift_Analysis!$N$2:$N$35927, ...). To see or edit them: Formulas > Name Manager.", ARIAL),
+        ("  Shift rows:   FinalClass (early/late/NCNS), ShiftWorked, FacDeleted, ShiftEmpty, GrossRev, FinalLead", ARIAL),
+        ("                (hours notice at final cancel), StartMonth, Facility.", ARIAL),
+        ("  Booking rows: LastMinute (claimed <24h out), PriorOffenses, PriorNCNS, DidFail (this worker failed", ARIAL),
+        ("                this booking), DidNoShow, DidCancelAfter, IsRescueClaim, BkShiftWorked, ShiftFailedNaive.", ARIAL),
+        ("  Cancel rows:  CxClass (early/late/NCNS), NoticeBucket, CxWorker, CxLead (hours; negative = after start).", ARIAL),
+        ("  Read a formula out loud: COUNTIFS just means 'count the rows where every condition is true'; SUMIFS", ARIAL),
+        ("  means 'add up one column for the rows where every condition is true'; a lone /B3 divides by the total.", ARIAL),
         ("", ARIAL),
         ("Why the per-row history columns are values, not formulas", BOLD),
         ("  A live point-in-time prior-offense count is a COUNTIFS over the 78,000-row cancel log for every", ARIAL),
-        ("  one of 9,713 bookings (~10^9 cell tests) — it makes the file take many minutes to open. They are", ARIAL),
-        ("  computed once by the documented rule; the summary tables that use them stay live and instant.", ARIAL),
+        ("  one of 9,713 bookings (about a billion cell tests), which makes the file take many minutes to open.", ARIAL),
+        ("  They are computed once by the documented rule; the summary tables that use them stay live and instant.", ARIAL),
         ("", ARIAL),
         ("Load-bearing sort orders", BOLD),
         ("  Shifts: by Shift ID.  Cancels: by Shift ID then Created At (so the last row per shift is its final", ARIAL),
@@ -286,7 +301,7 @@ def main():
     for j, w in enumerate([26, 18, 26, 18, 26, 18, 26, 10, 9, 9, 12], start=1):
         ws.column_dimensions[get_column_letter(j)].width = w
     ws.cell(row=NCA + 2, column=1,
-            value="Anchor cancels only (events on the clean universe). Class / IsOffense / NoticeBucket are live formulas — the classification rule in cell form.").font = NOTE
+            value="Anchor cancels only (events on the clean universe). Class / IsOffense / NoticeBucket are live formulas; the classification rule in cell form.").font = NOTE
 
     # ------------------------------------------------------------- Shift_Analysis (values)
     ws = wb.create_sheet("Shift_Analysis")
@@ -321,19 +336,48 @@ def main():
     for i, t in enumerate(notes):
         ws.cell(row=NBA + 2 + i, column=1, value=t).font = NOTE
 
-    # convenience range strings
-    SA = "Shift_Analysis"
+    # ---- Named ranges: give every column a plain-English name so the summary
+    # formulas read like "=COUNTIFS(FinalClass,\"late\",ShiftWorked,1)" instead of
+    # "=COUNTIFS(Shift_Analysis!$N$2:$N$35927, ...)". Legend is on the ReadMe tab.
+    SA, BA, CAn = "Shift_Analysis", "Booking_Analysis", "Cancel_Analysis"
+    named = {
+        # Shift_Analysis (one row per clean shift)
+        "FinalClass":      f"{SA}!$N$2:$N${NSA}",   # early / late / NCNS / none
+        "ShiftWorked":     f"{SA}!$J$2:$J${NSA}",   # 1 if the shift was worked
+        "FacDeleted":      f"{SA}!$K$2:$K${NSA}",   # 1 if the facility deleted it
+        "ShiftEmpty":      f"{SA}!$L$2:$L${NSA}",   # 1 if it died empty
+        "GrossRev":        f"{SA}!$M$2:$M${NSA}",   # charge x hours
+        "FinalLead":       f"{SA}!$O$2:$O${NSA}",   # hours of notice at the final cancel
+        "StartMonth":      f"{SA}!$P$2:$P${NSA}",   # YYYY-MM
+        "Facility":        f"{SA}!$C$2:$C${NSA}",
+        # Booking_Analysis (one row per booking on the clean universe)
+        "AllBookings":     f"{BA}!$A$2:$A${NBA}",   # booking id, for counting
+        "LastMinute":      f"{BA}!$F$2:$F${NBA}",   # 1 if claimed < 24h before start
+        "PriorOffenses":   f"{BA}!$G$2:$G${NBA}",   # late/NCNS before this booking
+        "PriorNCNS":       f"{BA}!$H$2:$H${NBA}",   # no-shows before this booking
+        "DidFail":         f"{BA}!$I$2:$I${NBA}",   # 1 if this worker failed this booking
+        "DidNoShow":       f"{BA}!$J$2:$J${NBA}",   # 1 if this worker no-showed it
+        "DidCancelAfter":  f"{BA}!$K$2:$K${NBA}",   # 1 if any cancel after booking
+        "IsRescueClaim":   f"{BA}!$L$2:$L${NBA}",   # 1 if shift already had a cancel
+        "BkShiftWorked":   f"{BA}!$M$2:$M${NBA}",   # 1 if that shift ended up worked
+        "ShiftFailedNaive":f"{BA}!$O$2:$O${NBA}",   # naive shift-level fail flag
+        # Cancel_Analysis (anchor cancel events)
+        "CxClass":         f"{CAn}!$I$2:$I${NCA}",  # early / late / NCNS
+        "NoticeBucket":    f"{CAn}!$K$2:$K${NCA}",  # <4h / 4-24h / 24-72h / 72h+
+        "CxWorker":        f"{CAn}!$E$2:$E${NCA}",
+        "CxLead":          f"{CAn}!$H$2:$H${NCA}",  # hours of notice (negative = after start)
+    }
+    for nm, ref in named.items():
+        wb.defined_names.add(DefinedName(nm, attr_text=ref))
+
+    # summary formulas now reference the names
     S_CLS, S_WK, S_FD, S_EM, S_REV, S_LEAD, S_MON, S_FAC = (
-        f"{SA}!$N$2:$N${NSA}", f"{SA}!$J$2:$J${NSA}", f"{SA}!$K$2:$K${NSA}", f"{SA}!$L$2:$L${NSA}",
-        f"{SA}!$M$2:$M${NSA}", f"{SA}!$O$2:$O${NSA}", f"{SA}!$P$2:$P${NSA}", f"{SA}!$C$2:$C${NSA}")
-    BA = "Booking_Analysis"
+        "FinalClass", "ShiftWorked", "FacDeleted", "ShiftEmpty", "GrossRev", "FinalLead", "StartMonth", "Facility")
     B_LM, B_PO, B_PN, B_FA, B_NA, B_AC, B_RC, B_SW, B_SFN = (
-        f"{BA}!$F$2:$F${NBA}", f"{BA}!$G$2:$G${NBA}", f"{BA}!$H$2:$H${NBA}", f"{BA}!$I$2:$I${NBA}",
-        f"{BA}!$J$2:$J${NBA}", f"{BA}!$K$2:$K${NBA}", f"{BA}!$L$2:$L${NBA}", f"{BA}!$M$2:$M${NBA}",
-        f"{BA}!$O$2:$O${NBA}")
-    NB = f"COUNTA({BA}!$A$2:$A${NBA})"
-    CA_CLS, CA_NB, CA_WK = (f"Cancel_Analysis!$I$2:$I${NCA}", f"Cancel_Analysis!$K$2:$K${NCA}", f"Cancel_Analysis!$E$2:$E${NCA}")
-    CA_LEAD = f"Cancel_Analysis!$H$2:$H${NCA}"
+        "LastMinute", "PriorOffenses", "PriorNCNS", "DidFail", "DidNoShow",
+        "DidCancelAfter", "IsRescueClaim", "BkShiftWorked", "ShiftFailedNaive")
+    NB = "COUNTA(AllBookings)"
+    CA_CLS, CA_NB, CA_WK, CA_LEAD = ("CxClass", "NoticeBucket", "CxWorker", "CxLead")
 
     # ------------------------------------------------------------- Calc_ShiftOutcomes
     ws = wb.create_sheet("Calc_ShiftOutcomes")
@@ -366,7 +410,7 @@ def main():
                for i, (lbl, lo, hi) in enumerate([("12-24h", 12, 24), ("4-12h", 4, 12), ("<4h", 0, 4)])],
               pct=(4, 5), widths=[26, 10, 16, 10, 10])
     months = ["2021-10", "2021-11", "2021-12", "2022-01"]
-    r = block(ws, r, "Late-cancel refill by month (it was already improving — baseline honesty)",
+    r = block(ws, r, "Late-cancel refill by month (it was already improving; baseline honesty)",
               ["Month", "Late-cancelled shifts", "Refilled & worked", "Refill %"],
               [[m, f'=COUNTIFS({S_CLS},"late",{S_MON},"{m}")',
                 f'=COUNTIFS({S_CLS},"late",{S_MON},"{m}",{S_WK},1)', f"=C{r+2+i}/B{r+2+i}"]
@@ -441,7 +485,7 @@ def main():
     ws = wb.create_sheet("Calc_LastMin_Correction")
     r = block(ws, 1, "Last-minute claims: naive (shift-level) vs corrected (worker-level) failure rates",
               ["Definition of 'failure'", "Base (all bookings)", "Last-minute claims", "Booked-ahead"],
-              [["Shift-level: shift's final event is late/NCNS (naive — counts failures that predate the claim)",
+              [["Shift-level: shift's final event is late/NCNS (naive; counts failures that predate the claim)",
                 f"=SUM({B_SFN})/{NB}", f"=COUNTIFS({B_LM},1,{B_SFN},1)/SUM({B_LM})",
                 f"=COUNTIFS({B_LM},0,{B_SFN},1)/({NB}-SUM({B_LM}))"],
                ["Worker-level: THIS claimant late-cancels/NCNSes after booking",
@@ -451,7 +495,7 @@ def main():
                 f"=SUM({B_AC})/{NB}", f"=COUNTIFS({B_LM},1,{B_AC},1)/SUM({B_LM})",
                 f"=COUNTIFS({B_LM},0,{B_AC},1)/({NB}-SUM({B_LM}))"]],
               pct=(2, 3, 4), widths=[58, 16, 16, 14],
-              note="The naive definition brands last-minute claimers ~2x risky; the corrected one shows they are the MOST reliable segment. The gap is reverse causality — see rescue evidence below.")
+              note="The naive definition brands last-minute claimers ~2x risky; the corrected one shows they are the MOST reliable segment. The gap is reverse causality; see rescue evidence below.")
     block(ws, r, "Rescue evidence (the same-day pool already works)",
           ["Metric", "Value"],
           [["Last-minute claims (<24h before start)", f"=SUM({B_LM})"],
@@ -541,7 +585,7 @@ def main():
     ws.cell(row=foot, column=1, value=f"Top 10% of these workers (n={k10}) cause this share of NCNS:").font = BOLD
     c = ws.cell(row=foot, column=2, value=f"=SUM(B3:B{2+k10})/SUM(B3:B{m+2})"); c.font = ARIAL; c.number_format = PCT
     ws.cell(row=foot + 1, column=1,
-            value="Concentration is real, but Calc_Prediction shows 42% of NCNS bookings come from workers with zero prior offenses — history can't carry a proactive strategy.").font = NOTE
+            value="Concentration is real, but Calc_Prediction shows 42% of NCNS bookings come from workers with zero prior offenses, so history can't carry a proactive strategy.").font = NOTE
     ws.freeze_panes = "A3"
     for j, w in enumerate([26, 12, 9, 15], start=1):
         ws.column_dimensions[get_column_letter(j)].width = w

@@ -1,4 +1,4 @@
-// Builds deliverables/Clipboard_Case_Proposal.docx — an editable Word version of
+// Builds deliverables/Clipboard_Case_Proposal.docx, an editable Word version of
 // the proposal, mirroring the PDF's humanized voice and structured to satisfy the
 // case's stated grading characteristics (work backwards, anti-incremental,
 // intellectual honesty, metrics-driven, ownership). US Letter.
@@ -102,7 +102,7 @@ function table(rows, widths) {
 
 const doc = new Document({
   creator: "David Ezieshi",
-  title: "Marketplace Reliability Case — Project Proposal",
+  title: "Marketplace Reliability Case: Project Proposal",
   styles: { default: { document: { run: { font: BODY_FONT, size: 21, color: INK } } } },
   sections: [{
     properties: {
@@ -128,7 +128,7 @@ function buildBody() {
   S.push(new Paragraph({
     spacing: { after: 200 },
     children: [new TextRun({
-      text: "Project proposal for executive leadership   |   David Ezieshi   |   Operations Strategy   |   February 1, 2022   |   Data: Cleveland, shift starts Oct 1 2021 – Jan 31 2022",
+      text: "Project proposal for executive leadership   |   David Ezieshi   |   Operations Strategy   |   February 1, 2022   |   Data: Cleveland, shift starts Oct 1 2021 - Jan 31 2022",
       font: BODY_FONT, size: 19, color: GREY })],
   }));
 
@@ -194,8 +194,8 @@ function buildBody() {
   S.push(h2("2.2 Within the danger zone, speed separates recovery from loss"));
   S.push(table([
     ["Time remaining when late cancel lands", "Shifts", "Refilled & worked", "Died empty"],
-    ["12–24 hours", "316", "44.9%", "37.3%"],
-    ["4–12 hours", "669", "33.5%", "57.2%"],
+    ["12-24 hours", "316", "44.9%", "37.3%"],
+    ["4-12 hours", "669", "33.5%", "57.2%"],
     ["Under 4 hours", "1,303", "24.9%", "67.2%"],
   ], [Math.round(W * 0.40), Math.round(W * 0.14), Math.round(W * 0.24), W - Math.round(W * 0.40) - Math.round(W * 0.14) - Math.round(W * 0.24)]));
   S.push(caption("Source: models workbook, Calc_ShiftOutcomes tab."));
@@ -283,13 +283,13 @@ function buildBody() {
     "A no-show we hear about a median of 35 hours late. So on the facility side I will add a one-tap \"worker " +
     "hasn't shown up\" button that pops up automatically 15 minutes after the shift starts if the worker has not " +
     "confirmed arrival in the app. The target: late cancels kick off the loop in under 5 minutes, and half of " +
-    "no-shows get reported within an hour of the start time, up from about 16% today.", true));
+    "no-shows get reported within an hour of the start time, up from 16.5% today.", true));
   S.push(leadPara("Re-offer it right away to the same-day pool.",
     "The failed shift jumps to the top of an Urgent Shifts feed and fires targeted push notifications to workers " +
     "who match on three things we know matter: the right license, a habit of claiming same-day work, and past " +
     "shifts at that facility. This pool is not hypothetical. In the booking log, 4,259 different workers made a " +
     "claim inside 24 hours, 356 of them in Cleveland during this window, and those claims stick 88% of the time. " +
-    "To hit the target we need them to soak up something like three or four extra rescues a day across the market.", true));
+    "To hit the target we need them to soak up something like three or four extra rescues a day across the market (about 104 a month).", true));
   S.push(leadPara("Start the race early for the shifts we can see coming.",
     "The one predictive signal that held up under testing, three or more prior offenses, carries about 1.8 times " +
     "the failure risk and covers roughly 16% of bookings. I use it to point the same pipeline earlier. A flagged " +
@@ -314,9 +314,10 @@ function buildBody() {
   S.push(new Paragraph({
     spacing: { after: 140, line: 264 }, alignment: AlignmentType.JUSTIFIED,
     children: [
-      run("One caveat on the baseline before the targets. Late-cancel refill already climbed over this window, " +
-        "from 14% in October to 39% in January, as the market filled out. So I measure against January, the most " +
-        "recent month, rather than the kinder four-month average, and I track the "),
+      run("One caveat on the baseline before the targets. Late-cancel refill rose over this window on net, " +
+        "from 14% in October to 39% in January (it slipped to 28% in December before recovering), as the market " +
+        "filled out. So I measure against January, the most recent month, rather than the kinder four-month " +
+        "average, and I track the "),
       run("gap", { italic: true }),
       run(" to early-cancel refill so that any market-wide drift cancels out of the scorecard."),
     ],
@@ -327,7 +328,7 @@ function buildBody() {
     ["Primary driver: late-cancel refill-to-worked, 30-day rolling", "39.3%", "≥53%", "Success ≥50%; failure <45%"],
     ["Gap to early-cancel refill benchmark (67.4%)", "28.1 pts", "≤14 pts", "Controls for organic drift"],
     ["Median time from failure event to re-offer", "no pipeline", "<5 min", "Leading indicator, weekly"],
-    ["No-shows reported within 1h of shift start", "~16%", "≥50%", "Leading indicator, weekly"],
+    ["No-shows reported within 1h of shift start", "16.5%", "≥50%", "Leading indicator, weekly"],
   ], [Math.round(W * 0.34), Math.round(W * 0.16), Math.round(W * 0.15), W - Math.round(W * 0.34) - Math.round(W * 0.16) - Math.round(W * 0.15)]));
   S.push(h2("Guardrails, reviewed weekly, and I hold the authority to pause on any of them"));
   S.push(new Paragraph({
@@ -351,11 +352,11 @@ function buildBody() {
   S.push(h1("6. Execution: the first 90 days"));
   S.push(table([
     ["When", "What ships", "Owner"],
-    ["Weeks 1–2 (Feb 1–14)", "Metrics instrumented from existing logs; baseline dashboard live; auto re-list trigger on late-cancel events, so the manual gap disappears", "Me + 1 backend eng"],
-    ["Weeks 3–4", "Urgent Shifts feed and targeted push to same-day claimers, Cleveland pilot; start with the 10 facilities carrying half of late/NCNS empties", "Me + mobile eng (part-time)"],
-    ["Weeks 5–6", "Facility one-tap no-show report and arrival-confirmation prompt", "Me + facility CS lead"],
-    ["Weeks 7–8", "Confirmation requests 24h out on 3+ offense bookings; pre-warm flow live", "Me"],
-    ["Weeks 9–13", "Weekly metric and guardrail reviews; iterate targeting; Day-90 readout with a scale-or-kill decision, pre-committed to the thresholds above", "Me, reporting to exec sponsor"],
+    ["Weeks 1-2 (Feb 1-14)", "Metrics instrumented from existing logs; baseline dashboard live; auto re-list trigger on late-cancel events, so the manual gap disappears", "Me + 1 backend eng"],
+    ["Weeks 3-4", "Urgent Shifts feed and targeted push to same-day claimers, Cleveland pilot; start with the 10 facilities carrying half of late/NCNS empties", "Me + mobile eng (part-time)"],
+    ["Weeks 5-6", "Facility one-tap no-show report and arrival-confirmation prompt", "Me + facility CS lead"],
+    ["Weeks 7-8", "Confirmation requests 24h out on 3+ offense bookings; pre-warm flow live", "Me"],
+    ["Weeks 9-13", "Weekly metric and guardrail reviews; iterate targeting; Day-90 readout with a scale-or-kill decision, pre-committed to the thresholds above", "Me, reporting to exec sponsor"],
   ], [Math.round(W * 0.20), W - Math.round(W * 0.20) - Math.round(W * 0.22), Math.round(W * 0.22)]));
   S.push(para(
     "If the pipeline is clearly working, offers going out in minutes, but conversion still lags the target, then " +
@@ -396,8 +397,8 @@ function buildBody() {
   S.push(h1("B. Key volumes"));
   S.push(table([
     ["Quantity", "Value", "Workbook tab"],
-    ["Cancel events on clean universe (early / late / NCNS)", "3,347 / 2,436 / 1,177", "Calc_Notice"],
-    ["Notice given, worker cancels: 72h+ / 24–72h / 4–24h / under 4h", "48.8% / 9.1% / 18.7% / 23.4%", "Calc_Notice"],
+    ["Cancel events (not shifts) on clean universe: early / late / NCNS", "3,347 / 2,436 / 1,177", "Calc_Notice"],
+    ["Notice given, worker cancels: 72h+ / 24-72h / 4-24h / under 4h", "48.8% / 9.1% / 18.7% / 23.4%", "Calc_Notice"],
     ["Cancel-driven empty shifts (late / NCNS / early)", "1,376 / 976 / 282 = 2,634", "Calc_ShiftOutcomes"],
     ["Facility charge destroyed by late + NCNS empties (4 mo)", "$729,559 gross; ~$160K CBH take", "Calc_Prize"],
     ["Facilities hit by at least one late/NCNS empty; top-10 share", "55 of 66; 50.2%", "Sort_Facilities"],
@@ -440,8 +441,8 @@ function buildBody() {
     ["Verified timesheet = worked; unverified and undeleted = empty", "Verified is the only ground truth for delivery; deletions are separated out", "Some empty shifts were worked unverified; the prize shrinks proportionally but the option ranking does not change"],
     ["Final-event classification of multi-cancel shifts", "The last event determines the shift's ending state and avoids double counting", "An any-event classification shifts totals by about 10% but not the ordering of the findings"],
     ["Booking-log subset represents claim behavior", "Stated in the case brief; it is provided to observe HCP booking behavior", "Behavioral rates (12% vs 26%) could shift; the refill economics from the shifts log are unaffected"],
-    ["Cancel-log timestamps ≈ what the system knew in real time", "Events are logged at action time; it is our own event stream", "The history-flag lift (1.8x) could soften, but the first-timer wall (42–70%) is far too large to flip"],
-    ["Half the late-to-early refill gap is closable with speed", "Refill rises steeply with runway (25→45%), and unmanaged rescues already work at 80.5%", "Full convergence is not assumed; targets and kill thresholds are pre-committed at day 90"],
+    ["Cancel-log timestamps ≈ what the system knew in real time", "Events are logged at action time; it is our own event stream", "The history-flag lift (1.8x) could soften, but the first-timer wall (42-70%) is far too large to flip"],
+    ["Half the late-to-early refill gap is closable with speed", "Refill rises steeply with runway (25% to 45%), and unmanaged rescues already work at 80.5%", "Full convergence is not assumed; targets and kill thresholds are pre-committed at day 90"],
     ["Cleveland generalizes across markets", "Stated in the case brief", "The rollout decision is gated on the Cleveland pilot readout regardless"],
   ], [Math.round(W * 0.30), Math.round(W * 0.35), W - Math.round(W * 0.30) - Math.round(W * 0.35)]));
 

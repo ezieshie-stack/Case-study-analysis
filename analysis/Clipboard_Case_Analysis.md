@@ -1,4 +1,4 @@
-# Clipboard Health — Marketplace Reliability Case
+# Clipboard Health, Marketplace Reliability Case
 
 ## Working notes and how I got to the recommendation
 
@@ -45,8 +45,8 @@ Most give plenty. A hard core give almost none.
 | Notice window | Share of worker cancels |
 |---|---|
 | Under 4h (basically no notice) | 23.4% |
-| 4–24h | 18.7% |
-| 24–72h | 9.1% |
+| 4-24h | 18.7% |
+| 24-72h | 9.1% |
 | 72h+ | 48.8% |
 
 Median notice is about 65 hours. It is a barbell: roughly half are considerate, roughly a quarter are ambushes.
@@ -88,9 +88,9 @@ The lesson I kept coming back to is that rate is not volume. My flashiest early 
 
 | Option | What it does | Where it landed |
 |---|---|---|
-| A — Booking friction | Add commitment friction to last-minute claims | Dead twice over. Tiny prize (about 116 empties), and the premise inverted once I tested it properly (section 6). Last-minute claimers are actually the most reliable segment. |
-| B — Refill race | Catch failures in minutes and re-offer them to proven same-day workers | The winner. Biggest prize (about 104 shifts a month at half the gap), near-zero worker risk, and the supply already exists and already behaves this way. |
-| C — No-show crackdown | Go after no-shows with history or punishment | 42% of no-shows come from workers with no prior offense, 70% with no prior no-show. You cannot predict most of them from history. Punishment also converts late cancels (60% empty) into no-shows (83% empty). Only the 3+ prior-offense flag survives, and it folds into B as a targeting input. |
+| A. Booking friction | Add commitment friction to last-minute claims | Dead twice over. Tiny prize (about 116 empties), and the premise inverted once I tested it properly (section 6). Last-minute claimers are actually the most reliable segment. |
+| B. Refill race | Catch failures in minutes and re-offer them to proven same-day workers | The winner. Biggest prize (about 104 shifts a month at half the gap), near-zero worker risk, and the supply already exists and already behaves this way. |
+| C. No-show crackdown | Go after no-shows with history or punishment | 42% of no-shows come from workers with no prior offense, 70% with no prior no-show. You cannot predict most of them from history. Punishment also converts late cancels (60% empty) into no-shows (83% empty). Only the 3+ prior-offense flag survives, and it folds into B as a targeting input. |
 
 ### 5.1. The test that decided it
 

@@ -61,7 +61,7 @@ def build():
     S.append(p("Reducing the cost of late cancellations by winning the refill race", title_st))
     S.append(p("Project proposal for executive leadership &nbsp;|&nbsp; David Ezieshi &nbsp;|&nbsp; "
                "Operations Strategy &nbsp;|&nbsp; February 1, 2022 &nbsp;|&nbsp; "
-               "Data: Cleveland, shift starts Oct 1, 2021 – Jan 31, 2022", sub_st))
+               "Data: Cleveland, shift starts Oct 1, 2021 - Jan 31, 2022", sub_st))
 
     # ------------------------------------------------------------------ 1
     S.append(p("1. Summary of the recommendation", h1))
@@ -120,8 +120,8 @@ def build():
     S.append(p("2.2 Within the danger zone, speed is what separates recovery from loss", h2))
     S.append(tbl([
         ["Time remaining when late cancel lands", "Shifts", "Refilled &amp; worked", "Died empty"],
-        ["12–24 hours", "316", "44.9%", "37.3%"],
-        ["4–12 hours", "669", "33.5%", "57.2%"],
+        ["12-24 hours", "316", "44.9%", "37.3%"],
+        ["4-12 hours", "669", "33.5%", "57.2%"],
         ["Under 4 hours", "1,303", "24.9%", "67.2%"],
     ], [2.3 * inch, 0.7 * inch, 1.3 * inch, 1.0 * inch]))
     S.append(p("Source: models workbook, Calc_ShiftOutcomes tab.", cap))
@@ -178,14 +178,14 @@ def build():
         "late. So on the facility side I will add a one-tap \"worker hasn't shown up\" button that pops up "
         "automatically 15 minutes after the shift starts if the worker has not confirmed arrival in the app. "
         "The target: late cancels kick off the loop in under 5 minutes, and half of no-shows get reported "
-        "within an hour of the start time, up from about 16% today.", bullet))
+        "within an hour of the start time, up from 16.5% today.", bullet))
     S.append(p(
         "<b>Re-offer it right away to the same-day pool.</b> The failed shift jumps to the top of an Urgent "
         "Shifts feed and fires targeted push notifications to workers who match on three things we know "
         "matter: the right license, a habit of claiming same-day work, and past shifts at that facility. This "
         "pool is not hypothetical. In the booking log, 4,259 different workers made a claim inside 24 hours, "
         "356 of them in Cleveland during this window, and those claims stick 88% of the time. To hit the "
-        "target we need them to soak up something like three or four extra rescues a day across the market.", bullet))
+        "target we need them to soak up something like three or four extra rescues a day across the market (about 104 a month).", bullet))
     S.append(p(
         "<b>Start the race early for the shifts we can see coming.</b> The one predictive signal that held up "
         "under testing, three or more prior offenses, carries about 1.8 times the failure risk and covers "
@@ -211,19 +211,20 @@ def build():
     # ------------------------------------------------------------------ 5
     S.append(p("5. Metrics: how we will know, by when", h1))
     S.append(p(
-        "One caveat on the baseline before the targets. Late-cancel refill already climbed over this window, "
-        "from 14% in October to 39% in January, as the market filled out. So I measure against January, the "
-        "most recent month, rather than the kinder four-month average, and I track the <i>gap</i> to "
-        "early-cancel refill so that any market-wide drift cancels out of the scorecard."))
+        "One caveat on the baseline before the targets. Late-cancel refill rose over this window on net, "
+        "from 14% in October to 39% in January (it slipped to 28% in December before recovering), as the "
+        "market filled out. So I measure against January, the most recent month, rather than the kinder "
+        "four-month average, and I track the <i>gap</i> to early-cancel refill so that any market-wide drift "
+        "cancels out of the scorecard."))
     S.append(tbl([
         ["Metric", "Baseline (Jan 2022)", "Day-90 target", "Success / failure line"],
         ["North star: cancel-driven empty shifts per week (Cleveland)", "~134", "≤110",
-         "Success ≤115; failure &gt;125 → kill or redesign"],
+         "Success ≤115; failure &gt;125 -> kill or redesign"],
         ["Primary driver: late-cancel refill-to-worked, 30-day rolling", "39.3%", "≥53%",
          "Success ≥50%; failure &lt;45%"],
         ["Gap to early-cancel refill benchmark (67.4%)", "28.1 pts", "≤14 pts", "Controls for organic drift"],
         ["Median time from failure event to re-offer", "no pipeline (n/a)", "&lt;5 min", "Leading indicator, weekly"],
-        ["NCNS reported within 1h of shift start", "~16%", "≥50%", "Leading indicator, weekly"],
+        ["NCNS reported within 1h of shift start", "16.5%", "≥50%", "Leading indicator, weekly"],
     ], [2.15 * inch, 1.25 * inch, 1.0 * inch, 1.9 * inch]))
     S.append(p("Guardrails, reviewed weekly, and I hold the authority to pause on any of them:", h2))
     S.append(p(
@@ -240,13 +241,13 @@ def build():
     S.append(p("6. Execution: the first 90 days", h1))
     S.append(tbl([
         ["When", "What ships", "Owner"],
-        ["Weeks 1–2 (Feb 1–14)", "Metrics instrumented from existing logs; baseline dashboard live; "
+        ["Weeks 1-2 (Feb 1-14)", "Metrics instrumented from existing logs; baseline dashboard live; "
          "auto re-list trigger on late-cancel events (no more manual gap)", "Me + 1 backend eng"],
-        ["Weeks 3–4", "Urgent Shifts feed + targeted push to same-day claimers, Cleveland pilot; "
+        ["Weeks 3-4", "Urgent Shifts feed + targeted push to same-day claimers, Cleveland pilot; "
          "start with the 10 facilities carrying 50% of late/NCNS empties", "Me + mobile eng (part-time)"],
-        ["Weeks 5–6", "Facility one-tap no-show report + arrival confirmation prompt", "Me + facility CS lead"],
-        ["Weeks 7–8", "T-24h confirmation requests on 3+ offense bookings; pre-warm flow live", "Me"],
-        ["Weeks 9–13", "Weekly metric/guardrail reviews; iterate targeting; Day-90 readout with "
+        ["Weeks 5-6", "Facility one-tap no-show report + arrival confirmation prompt", "Me + facility CS lead"],
+        ["Weeks 7-8", "T-24h confirmation requests on 3+ offense bookings; pre-warm flow live", "Me"],
+        ["Weeks 9-13", "Weekly metric/guardrail reviews; iterate targeting; Day-90 readout with "
          "scale-to-all-markets or kill decision, pre-committed to the thresholds above", "Me, reporting to exec sponsor"],
     ], [1.15 * inch, 3.85 * inch, 1.3 * inch]))
     S.append(p(
@@ -272,7 +273,7 @@ def build():
     S.append(p("A. Data cleaning and definitions", h1))
     S.append(p(
         "<b>Universe:</b> 41,040 raw shifts; 5,114 rows removed for non-positive charge or duration (data "
-        "errors); 35,926 clean shifts across 66 facilities, Oct 1 2021 – Jan 31 2022 starts; 91.5% CNA/LVN. "
+        "errors); 35,926 clean shifts across 66 facilities, Oct 1 2021 - Jan 31 2022 starts; 91.5% CNA/LVN. "
         "The shifts table is the anchor; the booking (127,005 claims) and cancellation (78,073 events) logs "
         "are joined onto it. Both logs cover a wider date range than the shifts window, which is why raw join "
         "rates come in below 100%. <b>Worked</b> = Verified timesheet. <b>Facility-deleted</b> = Deleted flag "
@@ -285,8 +286,8 @@ def build():
     S.append(p("B. Key volumes", h1))
     S.append(tbl([
         ["Quantity", "Value", "Workbook tab"],
-        ["Cancel events on clean universe (early / late / NCNS)", "3,347 / 2,436 / 1,177", "Calc_Notice"],
-        ["Notice given, worker cancels: ≥72h / 24–72h / 4–24h / &lt;4h", "48.8% / 9.1% / 18.7% / 23.4%", "Calc_Notice"],
+        ["Cancel events (not shifts) on clean universe: early / late / NCNS", "3,347 / 2,436 / 1,177", "Calc_Notice"],
+        ["Notice given, worker cancels: ≥72h / 24-72h / 4-24h / &lt;4h", "48.8% / 9.1% / 18.7% / 23.4%", "Calc_Notice"],
         ["Cancel-driven empty shifts (late / NCNS / early)", "1,376 / 976 / 282 = 2,634", "Calc_ShiftOutcomes"],
         ["Facility charge destroyed by late+NCNS empties (4 mo)", "$729,559 gross; ~$160K CBH take", "Calc_Prize"],
         ["Facilities hit by ≥1 late/NCNS empty; top-10 share", "55 of 66; 50.2%", "Sort_Facilities"],
@@ -329,7 +330,7 @@ def build():
         ["Assumption", "Why it is reasonable", "If wrong"],
         ["Verified timesheet = worked; unverified &amp; undeleted = empty",
          "Verified is the only ground truth for delivery; deletions are separated out",
-         "Some \"empty\" shifts were worked unverified → prize shrinks proportionally; option ranking unchanged"],
+         "Some \"empty\" shifts were worked unverified, so the prize shrinks proportionally; option ranking unchanged"],
         ["Final-event classification of multi-cancel shifts",
          "The last event determines the shift's ending state; avoids double counting",
          "Alternative (any-event) classification shifts totals ±10% but not the ordering of findings"],
@@ -338,9 +339,9 @@ def build():
          "Behavioral rates (12% vs 26%) could shift; refill economics (from shifts log) unaffected"],
         ["Cancel-log timestamps ≈ what our system knew in real time",
          "Events are logged at action time; it is our own event stream",
-         "History-flag lift (1.8x) could attenuate; the first-timer wall (42–70%) is too large to flip"],
-        ["Half the late→early refill gap is closable with speed",
-         "Refill rises steeply with runway (25→45%); unmanaged rescues already work at 80.5%",
+         "History-flag lift (1.8x) could attenuate; the first-timer wall (42-70%) is too large to flip"],
+        ["Half the late-to-early refill gap is closable with speed",
+         "Refill rises steeply with runway (25% to 45%); unmanaged rescues already work at 80.5%",
          "Full convergence is NOT assumed; targets and kill thresholds are pre-committed at day 90"],
         ["Cleveland generalizes across markets", "Stated in the case brief",
          "Rollout decision is gated on the Cleveland pilot readout regardless"],
@@ -353,7 +354,7 @@ def on_page(canvas, doc):
     canvas.saveState()
     canvas.setFont("Helvetica", 8)
     canvas.setFillColor(colors.HexColor("#8a8a94"))
-    canvas.drawString(0.85 * inch, 0.5 * inch, "Clipboard Health — Marketplace Reliability Case — D. Ezieshi")
+    canvas.drawString(0.85 * inch, 0.5 * inch, "Clipboard Health  |  Marketplace Reliability Case  |  D. Ezieshi")
     canvas.drawRightString(letter[0] - 0.85 * inch, 0.5 * inch, f"Page {doc.page}")
     canvas.restoreState()
 
