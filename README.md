@@ -7,9 +7,10 @@ Working repository for a marketplace-reliability case study (Cleveland shift dat
 | Path | What it is |
 |---|---|
 | `deliverables/Clipboard_Case_Proposal.pdf` | The submission: 4-page narrative proposal + 2-page appendix |
-| `deliverables/Clipboard_Analysis_Models.xlsx` | The Excel models: every figure in the proposal, one tab per analysis |
-| `analysis/clipboard_reliability_analysis.py` | Reproducible script that generates the models workbook from the raw logs |
+| `deliverables/Clipboard_Analysis_Models.xlsx` | The Excel models: raw logs + live formula calculations (COUNTIFS/SUMIFS/VLOOKUP joins) and sorted concentration views — every figure in the proposal is traceable and recalculates in Excel |
+| `analysis/build_models_workbook.py` | Script that generates the formula-driven models workbook from the raw logs |
 | `analysis/build_proposal.py` | Script that generates the proposal PDF |
+| `analysis/clipboard_reliability_analysis.py` | Independent Python cross-check: recomputes every figure and prints it (used to verify the workbook) |
 | `analysis/Clipboard_Case_Analysis.md` | The reasoning record: findings, options considered, tests run, corrections made |
 
 ## Reproducing
@@ -18,8 +19,9 @@ The raw case data files are **not** committed (they are the case provider's mate
 
 ```bash
 pip install pandas openpyxl reportlab
-python analysis/clipboard_reliability_analysis.py   # writes the models workbook
+python analysis/build_models_workbook.py            # writes the models workbook (recalculate once in Excel/LibreOffice)
 python analysis/build_proposal.py                   # writes the proposal PDF
+python analysis/clipboard_reliability_analysis.py   # prints the independent cross-check figures
 ```
 
 ## The one-line recommendation

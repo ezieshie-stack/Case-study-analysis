@@ -1,8 +1,11 @@
 """
 Clipboard Health - Marketplace Reliability Case (Cleveland, Oct 2021 - Jan 2022)
 
-Reproducible analysis: reads the three raw logs and writes every figure used in
-the proposal to a single Excel workbook (deliverables/Clipboard_Analysis_Models.xlsx).
+Independent Python cross-check: recomputes every figure used in the proposal
+directly from the three raw logs and prints them. The submitted Excel models
+(deliverables/Clipboard_Analysis_Models.xlsx, built by build_models_workbook.py)
+compute the same figures with live Excel formulas; this script is the second,
+independent derivation used to verify them.
 
 Inputs (not committed to this repo - place them in ./data/):
     data/Cleveland_shifts_logs.xlsx
@@ -324,17 +327,7 @@ def main():
         }
     )
 
-    with pd.ExcelWriter(OUT, engine="openpyxl") as xw:
-        readme.to_excel(xw, sheet_name="0_ReadMe", index=False)
-        for name, df in tabs.items():
-            df.to_excel(xw, sheet_name=name[:31], index=False)
-        # column widths
-        for ws in xw.book.worksheets:
-            for col in ws.columns:
-                width = max(len(str(c.value)) if c.value is not None else 0 for c in col)
-                ws.column_dimensions[col[0].column_letter].width = min(width + 2, 80)
-
-    print(f"written {OUT}")
+    _ = readme  # documentation lives in the workbook's ReadMe tab
     for name, df in tabs.items():
         print(f"\n### {name}\n{df.to_string(index=False)}")
 
