@@ -496,22 +496,26 @@ def main():
                 f"=COUNTIFS({B_LM},0,{B_AC},1)/({NB}-SUM({B_LM}))"]],
               pct=(2, 3, 4), widths=[58, 16, 16, 14],
               note="The naive definition brands last-minute claimers ~2x risky; the corrected one shows they are the MOST reliable segment. The gap is reverse causality; see rescue evidence below.")
-    block(ws, r, "Rescue evidence, and rescues-per-day (today vs the target)",
+    block(ws, r, "Rescue evidence, and the section-4 rescues-per-day arithmetic",
           ["Metric", "Value"],
           [["Last-minute claims (<24h before start)", f"=SUM({B_LM})"],
            ["...that were RESCUES (shift already had a cancel before the claim)", f"=COUNTIFS({B_LM},1,{B_RC},1)"],
            ["Rescue share of last-minute claims", f"=B{r+3}/B{r+2}"],
            ["Last-minute claims that held (no cancel of any kind after)", f"=1-COUNTIFS({B_LM},1,{B_AC},1)/B{r+2}"],
            ["Rescue claims where the shift ended up WORKED", f"=COUNTIFS({B_LM},1,{B_RC},1,{B_SW},1)/B{r+3}"],
-           ["Target rescues per MONTH (half-gap, from Calc_Prize C13)", "=Calc_Prize!C13"],
-           ["Target rescues per DAY (section 4's 'three or four'): month / 30.4", f"=B{r+7}/30.4"],
-           ["Rescue claims per DAY today (baseline for context): 354 / 122-day window", f"=B{r+3}/122"]],
-          widths=[58, 14],
-          note="Today the same-day pool already absorbs ~2.9 rescue claims/day; the plan asks it to take ~3.4/day at target. Having both here answers the obvious question: yes, we know today's rate, and the target is a modest step up, not a leap.")
+           ["Failed shifts ALREADY recovered per day today (late+NCNS worked / 122)",
+            f'=(COUNTIFS({S_CLS},"late",{S_WK},1)+COUNTIFS({S_CLS},"NCNS",{S_WK},1))/122'],
+           ["Target ADDITIONAL saved shifts per day (increment; half-gap/month from Calc_Prize C13, / 30.4)", "=Calc_Prize!C13/30.4"],
+           ["Target as a share of today's recoveries (the section-4 'half again')", f"=B{r+8}/B{r+7}"],
+           ["Memo: last-minute rescue CLAIMS per day today (one channel only, 354/122)", f"=B{r+3}/122"]],
+          widths=[64, 14],
+          note="Section 4 compares like with like: today the marketplace already recovers about 7 failed shifts/day (row above the target), and the target adds ~3.4/day on top, i.e. roughly half again as many. The last-minute rescue CLAIMS figure (~2.9/day) is a different, narrower quantity and is shown only as a memo so the two are not confused.")
     for rr in (r + 4, r + 5, r + 6):
         ws[f"B{rr}"].number_format = PCT
-    for rr in (r + 7, r + 8, r + 9):
-        ws[f"B{rr}"].number_format = "0.0"
+    ws[f"B{r+7}"].number_format = "0.0"
+    ws[f"B{r+8}"].number_format = "0.0"
+    ws[f"B{r+9}"].number_format = PCT
+    ws[f"B{r+10}"].number_format = "0.0"
 
     # ------------------------------------------------------------- Calc_Prize
     ws = wb.create_sheet("Calc_Prize")
