@@ -261,9 +261,10 @@ def build():
     S.append(NextPageTemplate("appendix"))
     S.append(PageBreak())
     S.append(p("Appendix", title_st))
-    S.append(p("Supporting analysis. The attached Excel models (Clipboard_Analysis_Models.xlsx) contain the raw "
-               "logs with all classifications, joins, and summaries as live formulas — every figure can be "
-               "traced, filtered, and re-sorted in the workbook; tab references given per table.", sub_st))
+    S.append(p("Supporting analysis. The attached Excel models (Clipboard_Analysis_Models.xlsx) carry the shifts "
+               "log and per-row analysis tabs (each classification and join shown as a column), feeding "
+               "live-formula summary and sorted tabs — every figure can be traced, filtered, and re-sorted in "
+               "the workbook; tab references given per table.", sub_st))
 
     S.append(p("A. Data cleaning and definitions", h1))
     S.append(p(

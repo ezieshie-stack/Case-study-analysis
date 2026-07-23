@@ -28,6 +28,7 @@ Inputs (not committed): data/Cleveland_shifts_logs.xlsx, data/Booking_logs.xlsx,
 data/Cancel_logs.xlsx.  Recalculate once after building.
 """
 
+import os
 from pathlib import Path
 
 import numpy as np
@@ -35,6 +36,13 @@ import pandas as pd
 from openpyxl import Workbook
 from openpyxl.styles import Alignment, Font, PatternFill
 from openpyxl.utils import get_column_letter
+
+# Which raw logs to embed as full data tabs. The analysis tabs already carry
+# every source column for the rows in scope, so the two large logs are optional
+# weight; embedding all three inflates the file past what a headless recalc can
+# reopen. "shifts" (default) keeps the compact anchor log and drops the 127k-row
+# Bookings and 78k-row Cancels raw dumps (the provider already has those files).
+RAW_TABS = os.environ.get("RAW_TABS", "shifts")  # "shifts" | "all" | "none"
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
@@ -203,8 +211,10 @@ def main():
         ("Market: Cleveland. Shift starts Oct 1 2021 – Jan 31 2022. Author: David Ezieshi.", ARIAL),
         ("", ARIAL),
         ("Three layers", BOLD),
-        ("  RAW LOGS — Shifts, Bookings, Cancels: the provided logs verbatim, sorted, with AutoFilter", ARIAL),
-        ("    on. Re-sort or slice them freely; the analysis tabs are separate, so you won't break anything.", ARIAL),
+        ("  RAW LOG — Shifts: the provided shifts log verbatim, sorted, with AutoFilter on (embeds all 41,040", ARIAL),
+        ("    rows so the junk-row cleaning, 41,040 -> 35,926, is auditable). The Booking_logs and Cancel_logs", ARIAL),
+        ("    are the files you provided; their in-scope rows (with every source column) are carried on the", ARIAL),
+        ("    Booking_Analysis and Cancel_Analysis tabs, so nothing needed for the analysis is missing here.", ARIAL),
         ("  ANALYSIS — Shift_Analysis (one row per clean shift) and Booking_Analysis (one row per booking", ARIAL),
         ("    on the clean universe) hold the per-row derived columns. Each derivation rule is stated at the", ARIAL),
         ("    bottom of its tab and is reproduced independently by analysis/clipboard_reliability_analysis.py.", ARIAL),
@@ -230,7 +240,7 @@ def main():
         ("  after the booking time (removes reverse-causality). Prior offenses counted strictly before booking.", ARIAL),
         ("", ARIAL),
         ("Tab guide", BOLD),
-        ("  Shifts · Bookings · Cancels ............ raw logs (sorted, filterable)", ARIAL),
+        ("  Shifts ................................ raw shifts log (sorted, filterable)", ARIAL),
         ("  Cancel_Analysis ....................... anchor cancels; LIVE classification formulas", ARIAL),
         ("  Shift_Analysis ........................ per-shift derived columns + rules", ARIAL),
         ("  Booking_Analysis ...................... per-booking derived columns + rules (prediction engine room)", ARIAL),
@@ -247,12 +257,14 @@ def main():
     rm.column_dimensions["A"].width = 108
 
     # ------------------------------------------------------------- raw logs
-    dump_raw(wb.create_sheet("Shifts"), shifts, ["Start", "End", "Created At"],
-             [26, 26, 26, 18, 10, 18, 9, 10, 18, 9, 9, 7])
-    dump_raw(wb.create_sheet("Bookings"), book, ["Created At"],
-             [26, 18, 26, 13, 26, 26, 10])
-    dump_raw(wb.create_sheet("Cancels"), cancel, ["Created At", "Start"],
-             [26, 18, 26, 18, 26, 18, 26, 10, 8, 9])
+    if RAW_TABS in ("shifts", "all"):
+        dump_raw(wb.create_sheet("Shifts"), shifts, ["Start", "End", "Created At"],
+                 [26, 26, 26, 18, 10, 18, 9, 10, 18, 9, 9, 7])
+    if RAW_TABS == "all":
+        dump_raw(wb.create_sheet("Bookings"), book, ["Created At"],
+                 [26, 18, 26, 13, 26, 26, 10])
+        dump_raw(wb.create_sheet("Cancels"), cancel, ["Created At", "Start"],
+                 [26, 18, 26, 18, 26, 18, 26, 10, 8, 9])
 
     # ------------------------------------------------------------- Cancel_Analysis (LIVE classification)
     ws = wb.create_sheet("Cancel_Analysis")
