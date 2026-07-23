@@ -1,165 +1,164 @@
 # Clipboard Health — Marketplace Reliability Case
-## Analysis & Decision Journey
 
-*Working document — the reasoning record behind the submission. Market: Cleveland. Period: Oct 2021 – Jan 2022 (shift start dates). All figures derived from the three provided logs (shifts, bookings, cancellations), cleaned to remove junk rows (zero/negative charge and duration). Canonical numbers are produced by `clipboard_reliability_analysis.py` and live in `deliverables/Clipboard_Analysis_Models.xlsx`; the submission itself is `deliverables/Clipboard_Case_Proposal.pdf`.*
+## Working notes and how I got to the recommendation
 
----
-
-## 1. The problem, in plain terms
-
-Clipboard is a two-sided marketplace. Facilities post healthcare shifts; workers claim the ones they want; Clipboard takes ~22%. The problem: workers claim shifts and then bail — sometimes days ahead, sometimes hours ahead, and sometimes they simply never show up (a No-Call-No-Show). Late abandonment leaves a facility short-staffed for patient care with no time to recover, and repeated pain drives facilities off the platform.
-
-**The constraint that shapes everything:** both sides are customers. Workers are on the app *for the flexibility*. Any fix that erodes that flexibility attacks Clipboard's own supply. So the solution must protect facility certainty **without** punishing the worker base.
-
-**What's already been tried (and is therefore "spent"):**
-- An attendance policy (deactivates repeat offenders) — moved the needle only partly.
-- Pre-shift reminders — already in the app.
-
-Both of the obvious answers (punish harder, remind more) are pre-empted. The real answer had to be found elsewhere.
+These are my working notes, not the submission. Market is Cleveland, shift starts from October 2021 through January 2022. Every number comes from the three provided logs (shifts, bookings, cancellations), cleaned to drop junk rows with a charge or duration of zero or less. The canonical figures are produced by `clipboard_reliability_analysis.py` and live in `deliverables/Clipboard_Analysis_Models.xlsx`. The submission itself is `deliverables/Clipboard_Case_Proposal.pdf`.
 
 ---
 
-## 2. What we're working with (data orientation)
+## 1. The problem in plain terms
 
-- **41,040 posted shifts** (raw) across ~997 workers and 67 facilities; **35,926 clean** after removing 5,114 junk rows.
-- Workforce is CNA/LVN-heavy (91.5% of clean shifts).
-- The shifts table is the anchor universe; booking and cancel logs extend beyond its window, so they are joined *onto* the shifts table.
-- Only 45.5% of clean shifts are verified as worked; 27.8% are deleted by the facility itself.
-- 9,570 clean shifts ended **empty** (not worked, not facility-deleted). Of these, 2,634 followed a worker cancel/NCNS (this case's scope); 6,936 never had a cancel event at all — mostly never-claimed supply, a demand-fill problem outside the late-cancellation case.
+Clipboard runs a two-sided marketplace. Facilities post healthcare shifts, workers claim the ones they want, and Clipboard takes about 22%. The trouble is that workers claim shifts and then bail. Sometimes days ahead, sometimes hours ahead, and sometimes they just never turn up (a no-call-no-show). A late bail leaves a facility short-staffed for patient care with no time to fix it, and enough of that pain drives facilities off the platform.
 
----
+The constraint that shapes everything: both sides are customers. Workers are on the app for the flexibility. Any fix that eats into that flexibility is really an attack on Clipboard's own supply. So whatever I propose has to give facilities more certainty without punishing the workers.
 
-## 3. The reasoning journey (blind → context → data)
-
-**Blind instinct (no data):** add accountability — harsher penalties / reputation scores. *But the case already tried penalties and they underperformed, and the two intuitive levers are spent. The naive answer is the wrong one.*
-
-**Context layer (before numbers):** This is healthcare (asymmetric stakes), 22% take (real revenue per shift), both sides are customers, and the reported cancel reasons are mostly **legitimate and unpreventable** (sickness, family emergencies, transport, facility issues). You cannot punish someone out of a sick child. This alone points away from prevention-by-punishment and toward **earlier warning + faster recovery**.
-
-**Data layer:** confirmed and located the fragility, resized the prize, then — in the final verification pass — caught and corrected a reverse-causality error in our own "best" finding (§5.6).
+Two obvious answers are already spent. There is an attendance policy that deactivates repeat offenders, and it only moved things partway. And there are pre-shift reminders, which already exist in the app. Punish harder and remind more are both off the table, so the answer had to be somewhere else.
 
 ---
 
-## 4. Key findings from the data
+## 2. Getting oriented in the data
 
-### 4a. How much notice do workers give?
-Most give plenty; a hard core give almost none.
+- 41,040 posted shifts in the raw file, about 997 workers and 67 facilities. After cleaning, 35,926 shifts.
+- The workforce is mostly CNA and LVN, about 91.5% of clean shifts.
+- The shifts table is the anchor. Booking and cancel logs run past its window, so I join them onto it.
+- Only 45.5% of clean shifts are verified as worked. 27.8% are deleted by the facility itself.
+- 9,570 clean shifts ended up empty (not worked, not facility-deleted). Of those, 2,634 followed a worker cancel or no-show, which is the part this case is about. The other 6,936 never had a cancel event at all, so they are mostly shifts nobody ever claimed. That is a demand problem, not a late-cancellation one.
 
-| Notice window | % of worker cancels |
+---
+
+## 3. How my thinking moved
+
+Before I looked at anything, my gut said add accountability: harsher penalties, some kind of reputation score. But the case already tried penalties and they underperformed, and the two intuitive levers are used up. The naive answer was the wrong one, which is usually a good sign the interesting answer is elsewhere.
+
+Adding context before the numbers pushed me further from prevention. This is healthcare, so the stakes are lopsided. The 22% take means there is real revenue riding on each shift. Both sides are customers. And the reasons workers give for last-minute cancels are mostly legitimate and unpreventable: sickness, family emergencies, transport, facility problems. You cannot punish someone out of a sick child. That alone points toward warning earlier and recovering faster rather than policing everyone.
+
+Then the data. I confirmed where the fragility is, sized the prize, and in the final pass caught a reverse-causality error in my own best-looking finding. More on that in section 6.
+
+---
+
+## 4. What the data actually says
+
+### 4a. How much notice do workers give
+
+Most give plenty. A hard core give almost none.
+
+| Notice window | Share of worker cancels |
 |---|---|
-| <4h (basically no notice) | 23.4% |
+| Under 4h (basically no notice) | 23.4% |
 | 4–24h | 18.7% |
 | 24–72h | 9.1% |
 | 72h+ | 48.8% |
 
-Median notice ≈ 65 hours. It's a barbell: ~49% considerate, ~23% ambush.
+Median notice is about 65 hours. It is a barbell: roughly half are considerate, roughly a quarter are ambushes.
 
-### 4b. Cancellation mix — events vs shifts (reconciled)
-Event level (6,960 cancel events on the clean universe): early 3,347 (48.1%), late 2,436 (35.0%), NCNS 1,177 (16.9%). A shift can be cancelled more than once (claim → cancel → re-claim → cancel), so events > shifts: the 6,960 events collapse to **5,850 distinct cancelled shifts**. All shift-level tables classify each shift **once, by its final cancel event** — this is what reconciles the earlier 3,347-vs-2,812 discrepancy between tabs.
+### 4b. Events versus shifts, reconciled
 
-### 4c. THE pivotal finding — refill depends entirely on notice
-Final-event classification, each shift counted once:
+At the event level there are 6,960 cancel events on the clean universe: 3,347 early (48.1%), 2,436 late (35.0%), 1,177 no-show (16.9%). A shift can be cancelled more than once, since it can be claimed, cancelled, re-claimed, and cancelled again, so events outnumber shifts. Those 6,960 events collapse to 5,850 distinct cancelled shifts. Every shift-level table classifies a shift once, by its final cancel event. That is what reconciles the 3,347-versus-2,812 gap I had between two tabs early on.
 
-| Type | Shifts | Refilled & worked | Died empty |
+### 4c. The finding the whole case turns on
+
+Recovery depends almost entirely on notice. Each shift counted once:
+
+| Type | Shifts | Refilled and worked | Died empty |
 |---|---|---|---|
-| Early cancel (≥24h) | 2,392 | **67.4%** | 11.8% |
-| Late cancel (<24h) | 2,288 | **30.2%** | 60.1% |
-| No-show | 1,170 | **13.8%** | 83.4% |
+| Early cancel (24h+) | 2,392 | 67.4% | 11.8% |
+| Late cancel (under 24h) | 2,288 | 30.2% | 60.1% |
+| No-show | 1,170 | 13.8% | 83.4% |
 
-The system already recovers early cancels well. The bleeding is concentrated in **late cancels and no-shows that never get refilled**. Two sharpening facts from verification:
-- **Runway gradient:** late cancels with 12–24h left refill at 44.9%; 4–12h → 33.5%; <4h → 24.9%. Median remaining runway on a late cancel: **3.1 hours**. Speed is the lever.
-- **NCNS detection lag:** the median NCNS event is logged **~35 hours after shift start**. No-show recovery fails partly because we learn about the race after it's over.
+The marketplace already recovers early cancels well. The bleeding is in late cancels and no-shows that never get refilled. Two things sharpened this when I dug in:
 
-### 4d. Where empty shifts actually come from (sizing the prize)
+- Runway matters. Late cancels with 12 to 24 hours left refill at 44.9%. With 4 to 12 hours, 33.5%. Under 4 hours, 24.9%. The median late cancel leaves 3.1 hours. Speed is the lever.
+- No-shows have a detection problem. The median no-show is not even logged until about 35 hours after the shift was supposed to start. Part of why no-show recovery fails is that we learn about the race after it is over.
 
-| Source (final event) | Empty shifts | Share of cancel-driven empty |
+### 4d. Where the empty shifts come from
+
+| Source (final event) | Empty shifts | Share of cancel-driven empties |
 |---|---|---|
-| Late cancels | 1,376 | **52.2%** |
-| No-shows | 976 | **37.1%** |
+| Late cancels | 1,376 | 52.2% |
+| No-shows | 976 | 37.1% |
 | Early cancels | 282 | 10.7% |
 
-**89% of the damage is late cancels + no-shows.** In dollars: the late+NCNS empties destroyed ~$730K of gross facility bookings (~$160K CBH take at 22%) in 4 months, in one market, touching 55 of 66 active facilities (top 10 facilities absorb half the pain).
+So 89% of the damage is late cancels plus no-shows. In dollars, the late and no-show empties destroyed about $730K of gross facility bookings, roughly $160K of Clipboard's take at 22%, over four months in one market, touching 55 of 66 active facilities. The top ten facilities absorb about half of it.
 
-**Lesson: rate ≠ volume.** The "striking" last-minute-claim finding (§5.6) sized out at ~116 empty shifts (~4%) even before it was overturned entirely. The boring-but-large finding wins.
+The lesson I kept coming back to is that rate is not volume. My flashiest early finding (the last-minute-claim angle) had the highest failure rate but small volume, and it sized out at about 116 empty shifts, roughly 4% of the total. Even before I found out it was wrong, it was the smallest prize on the board.
 
 ---
 
-## 5. The candidate solutions (BABOK "Define Change Strategy")
+## 5. The options I weighed
 
-| Option | What it does | Verdict |
+| Option | What it does | Where it landed |
 |---|---|---|
-| **A — Booking friction** | Add commitment friction to last-minute claims | Killed twice over: tiny prize (~116 empties) AND the premise inverted under worker-level testing (§5.6). Last-minute claimers are the *most* reliable segment. **Dead.** |
-| **B — Refill race** | Detect failures in minutes; re-offer instantly to proven same-day claimers | Biggest prize (~104 shifts/month at half-gap), near-zero worker risk, supply already exists and already behaves this way. **Winner.** |
-| **C — No-show crackdown** | Attack no-shows via history/punishment | First-timer wall: 42% of NCNS come from workers with zero prior offenses, 70% with zero prior NCNS. Structurally unpredictable; punishment converts late cancels (60% empty) into no-shows (83% empty). Only the 3+ prior-offense flag survives, folded into B as a targeting input. |
+| A — Booking friction | Add commitment friction to last-minute claims | Dead twice over. Tiny prize (about 116 empties), and the premise inverted once I tested it properly (section 6). Last-minute claimers are actually the most reliable segment. |
+| B — Refill race | Catch failures in minutes and re-offer them to proven same-day workers | The winner. Biggest prize (about 104 shifts a month at half the gap), near-zero worker risk, and the supply already exists and already behaves this way. |
+| C — No-show crackdown | Go after no-shows with history or punishment | 42% of no-shows come from workers with no prior offense, 70% with no prior no-show. You cannot predict most of them from history. Punishment also converts late cancels (60% empty) into no-shows (83% empty). Only the 3+ prior-offense flag survives, and it folds into B as a targeting input. |
 
-### 5.5. The prediction test (the hinge)
-Tested point-in-time (each worker's offense history counted strictly before the claim; no forward leakage), on 9,713 bookings joinable to the clean universe. First run defined "failure" at the **shift level** and appeared to show a strong last-minute-claim signal (31.3% vs 17.5% base). The final verification pass (§5.6) showed that definition was contaminated; the corrected, worker-level results are canonical:
+### 5.1. The test that decided it
 
-- **Base rate:** 13.0% of bookings end with *that worker* late-cancelling or no-showing *after booking*. NCNS base: 3.6%.
-- **History gradient:** 0 prior offenses → 10.4% | 1 → 11.6% | 2 → 12.8% | **3+ → 23.6% (1.81×, n=1,582)**. The flag covers 16.3% of bookings and catches 29.5% of failures.
-- **First-timer wall (unchanged, the decider against prediction-led strategies):** 42.2% of NCNS bookings had zero prior offenses; 69.8% had zero prior NCNS.
+I tested the load-bearing question point-in-time, counting each worker's offense history only up to strictly before the current claim so there is no leakage, on 9,713 bookings that join to the clean universe. My first cut defined failure at the shift level and seemed to show a strong last-minute signal, 31.3% against a 17.5% base. The final pass showed that definition was contaminated. The corrected, worker-level numbers are the ones I trust:
 
-### 5.6. The final verification pass — the reverse-causality catch
-Re-deriving every number from the raw logs before submission exposed a flaw in our own "2× flake" finding:
+- Base rate: 13.0% of bookings end with that worker late-cancelling or no-showing after booking. No-show base is 3.6%.
+- History gradient: 0 prior offenses gives 10.4%, one gives 11.6%, two gives 12.8%, and three-plus jumps to 23.6% (1.8 times base, on 1,582 bookings). The flag covers 16.3% of bookings and catches 29.5% of failures.
+- The first-timer wall, which is the thing that kills prediction-led strategies: 42.2% of no-show bookings had zero prior offenses, and 69.8% had zero prior no-shows.
 
-| Definition | Base | Last-minute claims | Booked-ahead |
+### 5.2. The reverse-causality catch
+
+Re-deriving everything from the raw logs before submission is where I caught the flaw in my own "twice as likely to flake" finding:
+
+| Definition | Base | Last-minute claims | Booked ahead |
 |---|---|---|---|
-| Shift-level "fail" (naive) | 17.5% | **31.3%** | 15.4% |
-| Worker-level: this claimant fails after booking | 13.0% | **12.0%** | 13.2% |
-| Worker-level: any cancel after booking | 24.4% | **12.0%** | 26.3% |
+| Shift-level fail (naive) | 17.5% | 31.3% | 15.4% |
+| Worker-level: this claimant fails after booking | 13.0% | 12.0% | 13.2% |
+| Worker-level: any cancel after booking | 24.4% | 12.0% | 26.3% |
 
-The naive 31.3% counted failures that happened **before** the claim: **27% of last-minute claims are rescues of shifts someone else already cancelled** — the claim is the *cure*, not the *risk*. Rescued shifts get worked **80.5%** of the time (n=339), indistinguishable from never-cancelled shifts. Last-minute claimers abandon only 12% of their claims vs 26% for far-ahead bookers.
+The naive 31.3% was counting failures that happened before the claim. About 27% of last-minute claims are made on shifts someone else already cancelled, so the claim is the cure, not the cause. Those rescued shifts get worked 80.5% of the time, which is basically the same as a shift that was never cancelled. Last-minute claimers walk away from only 12% of their claims, against 26% for people who book far ahead.
 
-**Consequences:**
-1. The last-minute-claim "risk signal" is **dead** — worse than dead for Option A: adding friction to last-minute claims would sabotage the marketplace's own recovery engine.
-2. The same finding is **reborn as B's feasibility proof**: 4,259 distinct workers made sub-24h claims (356 in Cleveland in-window), their claims hold 88% of the time, and unmanaged rescues already work at 80.5%.
-3. The proactive layer keeps exactly **one** tested signal: 3+ prior offenses (1.8×), used to start the refill race early (T-24h confirmation → pre-warm), never to punish.
+Three things followed from that. The last-minute "risk signal" is dead, and worse than dead for option A, because adding friction to last-minute claims would sabotage the marketplace's own recovery engine. The same finding comes back as B's feasibility proof: 4,259 distinct workers made sub-24h claims, 356 in Cleveland in-window, their claims hold 88% of the time, and unmanaged rescues already work at 80.5%. And the proactive layer keeps exactly one tested signal, three-plus prior offenses at 1.8 times, used to start the refill race early, never to punish.
 
 ---
 
-## 6. Locked recommendation (final)
+## 6. The recommendation I locked
 
-**Solution = win the refill race.** When a booked shift fails — late cancel or no-show — Clipboard detects it within minutes and re-offers it instantly to proven same-day claimers, so the shift is worked instead of dying empty. One pipeline, three jobs:
+Win the refill race. When a booked shift fails, whether a late cancel or a no-show, catch it within minutes and re-offer it to proven same-day workers so it gets worked instead of going empty. One pipeline, three jobs:
 
-1. **Detect fast:** late cancels trigger at t=0 (event already logged; nothing fires today). No-shows: facility one-tap "hasn't arrived" report prompted 15 min after start (vs ~35h median detection today).
-2. **Re-offer instantly:** Urgent Shifts feed + targeted push to workers with matching license, same-day claim history, and history at that facility. At target this pool absorbs ~3–4 extra rescues/day market-wide.
-3. **Start early where possible:** 3+ prior-offense flag → T-24h confirmation request; no response quietly pre-lists the shift as "backup wanted." No penalty, no visibility to facilities, no release of the shift.
+1. Detect fast. Late cancels already hit the logs at the moment they happen; nothing fires today. No-shows get a facility one-tap "hasn't shown up" prompt 15 minutes after start, against the roughly 35-hour median detection lag we have now.
+2. Re-offer right away. An Urgent Shifts feed plus targeted push to workers who match on license, same-day claim history, and history at that facility. At target the pool needs to absorb three or four extra rescues a day across the market.
+3. Start early where we can. The 3+ prior-offense flag triggers a confirmation request 24 hours out. No response does not punish the worker or release the shift; it quietly pre-lists the shift as backup wanted.
 
-**The honest limit, stated in the proposal:** the NCNS residual. 37% of cancel-driven empties are no-shows; they're mostly first offenses no signal can flag, and rescue can usually save only part of the hours. The proposal recovers late cancels well, no-show hours partially, and says so.
+The honest limit is no-shows. They are 37% of cancel-driven empties, mostly first offenses no signal can flag, and rescue can usually save only part of the hours. The plan recovers late cancels well and no-show hours only partly, and I say so.
 
-**Prize (haircut, not ceiling):** close **half** the late→early refill gap from the honest baseline. Baseline = Jan 2022 exit rate (39.3% — refill improved organically 14%→39% over the window, so the 4-month average of 30% would flatter us). Half-gap to the 67.4% benchmark ≈ **104 shifts/month in Cleveland** (~$85K/yr take), before churn effects and before generalizing across markets. Full convergence (~208/month) is explicitly *not* claimed.
+On the size of the prize, I lead with the haircut number, not the ceiling. I close half the gap between late-cancel refill and early-cancel refill, measured off the January baseline of 39.3% rather than the four-month average of 30% (refill improved on its own over the window, from 14% to 39%, so the average would flatter me). Half the gap to the 67.4% benchmark is about 104 shifts a month in Cleveland, roughly $85K a year in take, before churn and before other markets. Full convergence to 67.4% would be about 208 a month, and I do not claim it.
 
-**Metrics (defined, dated, with kill thresholds):** north star = cancel-driven empty shifts/week (134 → ≤110 by day 90; failure >125 = kill/redesign); primary driver = late-cancel refill-to-worked 30-day rolling (39.3% → ≥53%; failure <45%); gap-to-benchmark tracked to net out drift; leading indicators = time-to-re-offer <5 min, ≥50% of NCNS reported within 1h. Guardrails: late-cancel rate per 100 bookings (moral-hazard alert at +10% relative), total-empty north star guards against supply cannibalization, push caps + non-punitive flag protect workers, one-tap reports audited against timesheets.
+I am not banning late cancellations. With mostly legitimate reasons, blocking a late cancel just turns it into a no-show, which is the worst outcome (83% empty against 60%).
 
-**Do NOT** simply ban late cancellations: with mostly-legitimate reasons, blocking late cancels converts them into no-shows — the *worst* outcome (83% empty vs 60%).
-
-**One solution, not a bundle:** recovery *is* the solution; detection and the risk flag exist only to trigger the same re-offer pipeline sooner.
+This is one solution, not a bundle. Recovery is the solution. Detection and the risk flag only exist to trigger the same re-offer pipeline sooner.
 
 ---
 
-## 7. BABOK framing (write-up spine)
+## 7. BABOK spine (for the write-up)
 
-- **BACCM Need:** facilities churn because depended-on shifts die empty with no recovery time.
-- **Change:** reduce *empty, unrecovered* shifts (not cancellations in general).
-- **Value:** facility retention + revenue protection, without eroding worker flexibility.
-- **Strategy Analysis:** current state ✅, future state ✅, risks ✅, change strategy → **refill race (reactive core) + one tested proactive signal (3+ prior offenses); last-minute-claim signal tested, overturned, and repurposed as feasibility evidence; no-show-history signal tested and excluded.**
-- **Solution Evaluation:** metrics/dates/kill thresholds as in §6.
-
----
-
-## 8. Open items — all closed
-
-1. ~~Confirm early prediction works~~ — **ANSWERED (§5.5–5.6).** Mostly it doesn't (first-timer wall); one signal survives (3+ prior, 1.8×); the last-minute signal inverted under worker-level testing.
-2. ~~Validate thresholds~~ — 3+ threshold documented as sample-fit; day-90 readout with pre-committed kill thresholds is the validation plan.
-3. ~~Define metric targets and dates~~ — done (§6, proposal §5).
-4. ~~Define guardrails~~ — done (§6, proposal §5).
+- Need: facilities churn because shifts they depend on die empty with no time to recover.
+- Change: reduce empty, unrecovered shifts, not cancellations in general.
+- Value: facility retention and revenue, without eroding worker flexibility.
+- Strategy analysis: current state, future state, and risks all covered; strategy is the refill race as the reactive core plus one tested proactive signal (3+ prior offenses). The last-minute-claim signal was tested, overturned, and repurposed as feasibility evidence. The no-show-history signal was tested and excluded.
+- Metrics, dates, and kill thresholds are in section 6 and the proposal.
 
 ---
 
-## Appendix — method & honesty notes
-- Junk rows (charge ≤ 0, time ≤ 0) removed before analysis.
-- "Empty" defined as: not verified-worked AND not facility-deleted.
-- Shifts table treated as anchor universe; logs joined onto it (explains apparent low raw join rates — logs cover a wider window).
-- Multi-cancel shifts classified once, by final event (events 6,960 → shifts 5,850).
-- Worker-level outcomes require the cancel event to postdate the booking (removes rescue-claim contamination).
-- Point-in-time histories counted strictly before each booking timestamp (no leakage). Cancel-log timestamps are a directional proxy for real-time system knowledge; the first-timer wall (42–70%) is too large for proxy error to flip.
-- External research was used only to sharpen mechanism thinking; per case instructions it is **not** cited in the proposal, and all conclusions derive from the provided data.
+## 8. Open items, now closed
+
+1. Can we predict failures early enough to act? Answered in 5.1 and 5.2. Mostly not, because of the first-timer wall, but one signal works (3+ prior offenses), and the last-minute signal inverted under proper testing.
+2. Validate the 3+ threshold. It is fit on this sample; the day-90 readout with pre-committed kill thresholds is the validation plan.
+3. Metric targets and dates. Done, in section 6 and the proposal.
+4. Guardrails. Done, in section 6 and the proposal.
+
+---
+
+## Method and honesty notes
+
+- Junk rows (charge or time of zero or less) removed before analysis.
+- Empty means not verified-worked and not facility-deleted.
+- The shifts table is the anchor; the logs join onto it, which is why raw join rates look low (the logs cover a wider window).
+- Multi-cancel shifts are classified once, by the final event (6,960 events collapse to 5,850 shifts).
+- Worker-level outcomes require the cancel event to come after the booking, which removes the rescue-claim contamination.
+- Point-in-time histories are counted strictly before each booking, so there is no leakage. Cancel-log timestamps are a directional proxy for what the system knew in real time; the first-timer wall (42 to 70%) is far too large for that proxy error to flip the conclusion.
+- I used outside reading only to sharpen my thinking on mechanisms. Per the case instructions, none of it is cited in the proposal, and every conclusion comes from the provided data.
