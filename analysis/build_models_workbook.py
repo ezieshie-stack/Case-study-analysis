@@ -333,6 +333,7 @@ def main():
         f"{BA}!$O$2:$O${NBA}")
     NB = f"COUNTA({BA}!$A$2:$A${NBA})"
     CA_CLS, CA_NB, CA_WK = (f"Cancel_Analysis!$I$2:$I${NCA}", f"Cancel_Analysis!$K$2:$K${NCA}", f"Cancel_Analysis!$E$2:$E${NCA}")
+    CA_LEAD = f"Cancel_Analysis!$H$2:$H${NCA}"
 
     # ------------------------------------------------------------- Calc_ShiftOutcomes
     ws = wb.create_sheet("Calc_ShiftOutcomes")
@@ -365,12 +366,23 @@ def main():
                for i, (lbl, lo, hi) in enumerate([("12-24h", 12, 24), ("4-12h", 4, 12), ("<4h", 0, 4)])],
               pct=(4, 5), widths=[26, 10, 16, 10, 10])
     months = ["2021-10", "2021-11", "2021-12", "2022-01"]
-    block(ws, r, "Late-cancel refill by month (it was already improving — baseline honesty)",
-          ["Month", "Late-cancelled shifts", "Refilled & worked", "Refill %"],
-          [[m, f'=COUNTIFS({S_CLS},"late",{S_MON},"{m}")',
-            f'=COUNTIFS({S_CLS},"late",{S_MON},"{m}",{S_WK},1)', f"=C{r+2+i}/B{r+2+i}"]
-           for i, m in enumerate(months)],
-          pct=(4,), widths=[10, 20, 16, 10])
+    r = block(ws, r, "Late-cancel refill by month (it was already improving — baseline honesty)",
+              ["Month", "Late-cancelled shifts", "Refilled & worked", "Refill %"],
+              [[m, f'=COUNTIFS({S_CLS},"late",{S_MON},"{m}")',
+                f'=COUNTIFS({S_CLS},"late",{S_MON},"{m}",{S_WK},1)', f"=C{r+2+i}/B{r+2+i}"]
+               for i, m in enumerate(months)],
+              pct=(4,), widths=[10, 20, 16, 10])
+    # No-show detection timing (the 'today' baseline for the reporting metric).
+    # NCNS lead time is negative (logged after start); within 1h of start => lead >= -1.
+    block(ws, r, "No-show detection timing today (why reactive recovery starts late)",
+          ["Metric", "Events", "Share of no-shows"],
+          [["No-show events (anchor)", f'=COUNTIF({CA_CLS},"NCNS")', 1],
+           ["...logged within 1h of shift start (lead >= -1h)",
+            f'=COUNTIFS({CA_CLS},"NCNS",{CA_LEAD},">=-1")', f"=B{r+3}/B{r+2}"],
+           ["...logged within 4h of shift start (lead >= -4h)",
+            f'=COUNTIFS({CA_CLS},"NCNS",{CA_LEAD},">=-4")', f"=B{r+4}/B{r+2}"]],
+          pct=(3,), widths=[42, 10, 16],
+          note="Lead time = shift start minus action time; negative means logged after start. This is the baseline the facility one-tap report is meant to lift toward 50%.")
 
     # ------------------------------------------------------------- Calc_Notice
     ws = wb.create_sheet("Calc_Notice")

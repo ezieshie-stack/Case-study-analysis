@@ -178,7 +178,7 @@ def build():
         "late. So on the facility side I will add a one-tap \"worker hasn't shown up\" button that pops up "
         "automatically 15 minutes after the shift starts if the worker has not confirmed arrival in the app. "
         "The target: late cancels kick off the loop in under 5 minutes, and half of no-shows get reported "
-        "within an hour of the start time, against roughly 2% today.", bullet))
+        "within an hour of the start time, up from about 16% today.", bullet))
     S.append(p(
         "<b>Re-offer it right away to the same-day pool.</b> The failed shift jumps to the top of an Urgent "
         "Shifts feed and fires targeted push notifications to workers who match on three things we know "
@@ -223,7 +223,7 @@ def build():
          "Success ≥50%; failure &lt;45%"],
         ["Gap to early-cancel refill benchmark (67.4%)", "28.1 pts", "≤14 pts", "Controls for organic drift"],
         ["Median time from failure event to re-offer", "no pipeline (n/a)", "&lt;5 min", "Leading indicator, weekly"],
-        ["NCNS reported within 1h of shift start", "~2%", "≥50%", "Leading indicator, weekly"],
+        ["NCNS reported within 1h of shift start", "~16%", "≥50%", "Leading indicator, weekly"],
     ], [2.15 * inch, 1.25 * inch, 1.0 * inch, 1.9 * inch]))
     S.append(p("Guardrails, reviewed weekly, and I hold the authority to pause on any of them:", h2))
     S.append(p(
@@ -252,7 +252,7 @@ def build():
     S.append(p(
         "If the pipeline is clearly working, offers going out in minutes, but conversion still lags the "
         "target, then the problem is incentive rather than speed, and the next lever is a small same-day bonus "
-        "paid for out of the roughly $75 we take on each rescued shift. I am leaving that spend out of this "
+        "paid for out of the roughly $68 we take on each rescued shift. I am leaving that spend out of this "
         "proposal on purpose. It is the obvious second iteration, and the data will tell us if we need it."))
     S.append(p(
         "At target this is about 104 more shifts worked every month in Cleveland, roughly $85K a year of "
