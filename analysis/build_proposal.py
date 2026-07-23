@@ -184,8 +184,10 @@ def build():
         "Shifts feed and fires targeted push notifications to workers who match on three things we know "
         "matter: the right license, a habit of claiming same-day work, and past shifts at that facility. This "
         "pool is not hypothetical. In the booking log, 4,259 different workers made a claim inside 24 hours, "
-        "356 of them in Cleveland during this window, and those claims stick 88% of the time. To hit the "
-        "target we need them to soak up something like three or four extra rescues a day across the market (about 104 a month).", bullet))
+        "356 of them in Cleveland during this window, and those claims stick 88% of the time. The pool already "
+        "fields about three rescue claims a day on shifts that had been cancelled. The target, roughly three or "
+        "four more saved shifts a day (about 104 a month), asks it to do modestly more of a thing it already "
+        "does, not something new.", bullet))
     S.append(p(
         "<b>Start the race early for the shifts we can see coming.</b> The one predictive signal that held up "
         "under testing, three or more prior offenses, carries about 1.8 times the failure risk and covers "
