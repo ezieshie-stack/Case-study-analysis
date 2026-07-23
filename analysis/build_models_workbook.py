@@ -496,16 +496,22 @@ def main():
                 f"=COUNTIFS({B_LM},0,{B_AC},1)/({NB}-SUM({B_LM}))"]],
               pct=(2, 3, 4), widths=[58, 16, 16, 14],
               note="The naive definition brands last-minute claimers ~2x risky; the corrected one shows they are the MOST reliable segment. The gap is reverse causality; see rescue evidence below.")
-    block(ws, r, "Rescue evidence (the same-day pool already works)",
+    block(ws, r, "Rescue evidence, and rescues-per-day (today vs the target)",
           ["Metric", "Value"],
           [["Last-minute claims (<24h before start)", f"=SUM({B_LM})"],
            ["...that were RESCUES (shift already had a cancel before the claim)", f"=COUNTIFS({B_LM},1,{B_RC},1)"],
            ["Rescue share of last-minute claims", f"=B{r+3}/B{r+2}"],
            ["Last-minute claims that held (no cancel of any kind after)", f"=1-COUNTIFS({B_LM},1,{B_AC},1)/B{r+2}"],
-           ["Rescue claims where the shift ended up WORKED", f"=COUNTIFS({B_LM},1,{B_RC},1,{B_SW},1)/B{r+3}"]],
-          widths=[58, 14])
+           ["Rescue claims where the shift ended up WORKED", f"=COUNTIFS({B_LM},1,{B_RC},1,{B_SW},1)/B{r+3}"],
+           ["Target rescues per MONTH (half-gap, from Calc_Prize C13)", "=Calc_Prize!C13"],
+           ["Target rescues per DAY (section 4's 'three or four'): month / 30.4", f"=B{r+7}/30.4"],
+           ["Rescue claims per DAY today (baseline for context): 354 / 122-day window", f"=B{r+3}/122"]],
+          widths=[58, 14],
+          note="Today the same-day pool already absorbs ~2.9 rescue claims/day; the plan asks it to take ~3.4/day at target. Having both here answers the obvious question: yes, we know today's rate, and the target is a modest step up, not a leap.")
     for rr in (r + 4, r + 5, r + 6):
         ws[f"B{rr}"].number_format = PCT
+    for rr in (r + 7, r + 8, r + 9):
+        ws[f"B{rr}"].number_format = "0.0"
 
     # ------------------------------------------------------------- Calc_Prize
     ws = wb.create_sheet("Calc_Prize")
@@ -526,6 +532,10 @@ def main():
         ("Avg gross charge per late-cancelled shift", f'=AVERAGEIFS({S_REV},{S_CLS},"late")', MONEY, False),
         ("Monthly take protected at target (Cleveland)", "=C13*C14*C2", MONEY, False),
         ("Annualised take protected at target (Cleveland)", "=C15*12", MONEY, False),
+        ("Avg gross charge per RESCUED shift (late/NCNS that ended worked)",
+         f'=(SUMIFS({S_REV},{S_CLS},"late",{S_WK},1)+SUMIFS({S_REV},{S_CLS},"NCNS",{S_WK},1))'
+         f'/(COUNTIFS({S_CLS},"late",{S_WK},1)+COUNTIFS({S_CLS},"NCNS",{S_WK},1))', MONEY, False),
+        ("CBH take per rescued shift (this is the ~$68 cited in section 6)", "=C17*C2", MONEY, False),
     ]
     for i, (lbl, val, fmt, is_in) in enumerate(rows, start=2):
         ws.cell(row=i, column=1, value=lbl).font = ARIAL
