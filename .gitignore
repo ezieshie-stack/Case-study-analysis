@@ -1,0 +1,7 @@
+# Raw case data (provider's materials — not for a public repo)
+data/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
