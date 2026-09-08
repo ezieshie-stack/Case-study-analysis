@@ -78,6 +78,21 @@ const doc = new Document({
         flag: 'Volume and article number not confirmed.',
       }),
 
+      ...src({
+        cite: 'Christensen, L. T., & Cornelissen, J. (2011). Bridging corporate and organizational communication: Review, development and a look to the future. Management Communication Quarterly.   [READ FIRST]',
+        link: 'https://journals.sagepub.com/doi/abs/10.1177/0893318910390194',
+        argues: 'Reviews and joins two fields that had grown apart: corporate communication, which looks outward at markets and publics, and organizational communication, which looks inward at employees and culture.',
+        use: 'The review closest to your framing, and the one you must name. It bridges the same two fields you do, but it is not about authenticity and it predates the critical work on brand control. Saying that precisely is what makes your gap defensible.',
+        flag: 'Volume, issue and pages need confirming.',
+      }),
+      ...src({
+        cite: 'Employees as a second audience: The effect of external communication on internal brand management outcomes (2018). Journal of Brand Management.',
+        link: 'https://link.springer.com/article/10.1057/s41262-018-0135-z',
+        argues: 'Employees are an audience for their employer’s external communication, not only its producers. Where external messages match internal communication and actual practice, employees understand the brand better; where they do not, the effect weakens.',
+        use: 'Your mechanism, already tested. Not a review, so it does not compete with your gap — it is evidence that the question you are asking is one researchers take seriously.',
+        flag: 'Authors and page range not confirmed.',
+      }),
+
       // ---------------------------------------------------------------
       h1('2. The four strands (your results section)'),
 
@@ -217,6 +232,14 @@ const doc = new Document({
       p([{ text: 'Search strings: ', bold: true }, { text: 'authenticity AND (“strategic communication” OR “public relations” OR “corporate communication”) · “brand authenticity” AND (review OR framework) · authenticity AND (“internal branding” OR “brand ambassador”) · “organizational hypocrisy” OR “aspirational talk” · “normative control” AND brand' }]),
       p([{ text: 'Journals to watch: ', bold: true }, { text: 'International Journal of Strategic Communication · Public Relations Review · Public Relations Inquiry · Journal of Communication Management · Corporate Communications: An International Journal · Management Communication Quarterly · Organization · Organization Studies' }]),
       p([{ text: 'Screening rule: ', bold: true }, { text: 'peer-reviewed articles and academic book chapters only. Trade press, consultancy reports and white papers stay out — grade F specifically penalises confusing research with other kinds of text.' }], { after: 200 }),
+
+      h1('7. Adjacent reviews — know these exist'),
+      p('These review nearby ground. None does what you are doing, but an examiner may know them, so name the closest one (Christensen & Cornelissen, above) rather than claiming the field is empty.'),
+      p('•  A systematic review of internal and external brand management (MDPI Encyclopedia, 2026) — managerial framing, employee brand equity as the outcome.', { indent: { left: convertMillimetersToTwip(4) } }),
+      p('•  Recommendations for internal communication to strengthen the employer brand: a systematic literature review (Administrative Sciences, 2023).', { indent: { left: convertMillimetersToTwip(4) } }),
+      p('•  Internal branding: conceptualization from a literature review and opportunities for future research (Journal of Brand Management).', { indent: { left: convertMillimetersToTwip(4) } }),
+      p('•  An employer branding systematic review covering 145 articles, 2000–2024.', { indent: { left: convertMillimetersToTwip(4) } }),
+      p([{ text: 'Two of these are MDPI journals, where quality varies. Check them before citing; the rubric penalises weak sourcing. ', italics: true }], { after: 200 }),
 
       p([{ text: 'One last thing. ', bold: true }, { text: 'Do not cite anything on this list you have not opened. If a source turns out to say something different from what is written here, trust the source and tell me — the note is my summary, not the paper.' }], { after: 0 }),
     ],
