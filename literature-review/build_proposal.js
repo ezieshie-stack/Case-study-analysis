@@ -17,7 +17,7 @@ const body = (text, opts = {}) => new Paragraph({
 });
 
 const heading = text => new Paragraph({
-  spacing: { line: LINE, before: 180, after: 0 },
+  spacing: { line: LINE, before: 120, after: 0 },
   children: [new TextRun({ text, bold: true, font: FONT, size: SIZE })],
 });
 
@@ -59,9 +59,11 @@ const doc = new Document({
 
       body('Authenticity nevertheless sits awkwardly with the field that pursues it. Strategic communication is the purposeful use of communication by an organisation to achieve its mission (Hallahan et al., 2007); intent is what makes it strategic. Authenticity implies the absence of exactly that. An organisation that plans a campaign in order to be seen as authentic has arguably already forfeited what it pursues.'),
 
-      body('That tension becomes concrete where internal and external communication meet. An organisation presenting itself externally as honest, human or genuinely committed must have that presentation produced somewhere, and it is produced inside: by employees asked to live the brand and act as its ambassadors (Davis, 2013). The external claim is therefore not only a message about the organisation but a demand upon it. This is the review’s starting point. And as public agencies, universities and political actors adopt promotional logics, claims to authenticity become claims to credibility in public life.'),
+      body('That tension becomes concrete where internal and external communication meet. An organisation presenting itself externally as honest, human or genuinely committed must have that presentation produced somewhere, and it is produced inside, by employees asked to live the brand (Davis, 2013). The external claim is therefore not only a message about the organisation but a demand upon it. This is the review’s starting point. And as public agencies, universities and political actors adopt promotional logics, claims to authenticity become claims to credibility in public life.'),
 
-      body('Research has approached this ground from several directions without joining them up. Lehman, O’Connor, Kovács and Newman (2019) review the concept in management studies, but communication is not their object. Molleda (2010) reviews it in public relations in order to propose an index of perceived authenticity, treating it as a property to be measured rather than a relation that can be contested. Li et al. (2024) map twenty-one years of brand authenticity research, but their corpus is consumer-facing and excludes critical organisational scholarship. That scholarship is pointed: Fleming and Sturdy (2009) read managerial invitations to “just be yourself” as a form of neo-normative control, and Müller (2017) shows how internal branding enlists external audiences to discipline employees. No existing review reads the managerial and critical strands against each other within strategic communication, and none takes the movement of authenticity claims between internal and external communication as its organising concern. That is the gap addressed here.'),
+      body('Research has approached this ground from several directions without joining them up. Lehman, O’Connor, Kovács and Newman (2019) review the concept in management studies, but communication is not their object. Molleda (2010) reviews it in public relations to propose an index of perceived authenticity, treating it as a property to be measured rather than a relation that can be contested. Li et al. (2024) map twenty-one years of brand authenticity research, but the studies they review concern consumers rather than organisations, and critical work on what authenticity does inside the organisation falls outside their scope.'),
+
+      body('That work is uncomfortable reading. Fleming and Sturdy (2009), studying a call centre where staff were encouraged to “just be yourself”, found that inviting employees to bring their real selves to work turned those selves into a resource for the employer. Müller (2017) found that internal branding is watched not only by managers but by customers and the public, so that the external audience becomes a further means of holding employees to the brand. No existing review puts these two bodies of work side by side: the research that treats authenticity as something an organisation can achieve and demonstrate, and the research that treats it as something demanded of employees. Nor does any of them follow an authenticity claim as it moves between the inside of the organisation and the outside. That is the gap this review addresses.'),
 
       heading('Purpose and guiding questions'),
 
@@ -70,23 +72,19 @@ const doc = new Document({
       body([
         { text: 'One question drives the review: ' },
         { text: 'what happens when the authenticity an organisation communicates externally has to be produced, performed and maintained internally?', italics: true },
-        { text: ' Two further questions guide the synthesis. Where does the literature locate authenticity: in the organisation, in the judgements of audiences, in the act of communication, or in organisational control? And how does each position account for contradiction between what is communicated inside and claimed outside? The framing is one of mapping rather than adjudication, so that the paradox emerges as a finding rather than a premise.' },
+        { text: ' Two further questions guide the synthesis. Where does the literature locate authenticity: in the organisation, in the judgements of audiences, in the act of communication, or in organisational control? And how does each position account for contradiction between what is communicated inside and claimed outside? The review maps the debate rather than settling it, so that the paradox emerges as a finding rather than a premise.' },
       ]),
 
       heading('Organising principle, delimitation and outline'),
 
       body('The results section is organised by where each strand locates authenticity: as a property of the organisation, consistent with its heritage and values; as a judgement attributed by audiences; as an effect produced in communication itself; and as an instrument of normative control. Each strand is then read for what it says about the internal–external relationship. The first two treat the paradox as a solvable problem of consistency; in the latter two it becomes constitutive, and the internal production of external claims appears as a problem rather than a technique.', { first: false }),
 
-      body('Given the ten-page limit, the review addresses organisational-level authenticity in strategic communication, public relations, corporate and internal communication, and branding, from approximately 2005 onwards. Studies whose object is employee attitude or retention rather than communication itself are excluded, as is the authenticity of products, places and heritage. Authentic leadership is represented through its critique rather than surveyed in full.'),
+      body('Given the ten-page limit, the review addresses organisational-level authenticity in strategic communication, public relations, corporate and internal communication, and branding, from 2005 onwards. Studies whose object is employee attitude or retention rather than communication itself are excluded, as is the authenticity of products, places and heritage. Authentic leadership is represented through its critique rather than surveyed in full.'),
 
-      body('The paper proceeds in four parts: this introduction; a method section reporting databases, search terms and inclusion criteria; a results section following the organising principle above; and a conclusion comparing the findings with the earlier reviews and identifying openings for further research.'),
+      body('The paper proceeds in four parts: this introduction; a method section reporting databases, search terms and inclusion criteria; a results section following the organising principle; and a conclusion comparing the findings with the earlier reviews and identifying openings for research.'),
 
       heading('Preliminary references'),
 
-      refEntry([
-        { text: 'Fleming, P., & Sturdy, A. (2009). “Just be yourself!”: Towards neo-normative control in organisations? ' },
-        { text: 'Employee Relations, 31', italics: true }, { text: '(6), 569–583.' },
-      ]),
       refEntry([
         { text: 'Lehman, D. W., O’Connor, K., Kovács, B., & Newman, G. E. (2019). Authenticity. ' },
         { text: 'Academy of Management Annals, 13', italics: true }, { text: '(1), 1–42.' },
@@ -98,10 +96,6 @@ const doc = new Document({
       refEntry([
         { text: 'Molleda, J.-C. (2010). Authenticity and the construct’s dimensions in public relations and communication research. ' },
         { text: 'Journal of Communication Management, 14', italics: true }, { text: '(3), 223–236.' },
-      ]),
-      refEntry([
-        { text: 'Müller, M. (2017). “Brand-centred control”: A study of internal branding and normative control. ' },
-        { text: 'Organization Studies, 38', italics: true }, { text: '(7).' },
       ]),
     ],
   }],
