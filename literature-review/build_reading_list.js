@@ -51,7 +51,7 @@ const doc = new Document({
       p([{ text: 'Authenticity Claims Across Internal and External Communication', italics: true }], { align: AlignmentType.CENTER, after: 40 }),
       p('Literature review, Module 1 · MA Strategic Communication, Örebro University', { align: AlignmentType.CENTER, after: 240 }),
 
-      p([{ text: 'How to use this. ', bold: true }, { text: 'Seventeen sources against a required minimum of twelve, grouped by where each sits in the review. Start with the five marked READ FIRST; they carry the argument. Bibliographic details were checked against publisher records, but page ranges and full author lists were not all confirmed — anything uncertain is flagged, and you should pull the record from the database before it goes in your reference list. Access everything through the Örebro library proxy; several are open access and the free link is given.' }]),
+      p([{ text: 'How to use this. ', bold: true }, { text: 'Twenty-two sources against a required minimum of twelve, grouped by where each sits in the review. Start with the six marked READ FIRST; they carry the argument. Bibliographic details were checked against publisher records, but page ranges and full author lists were not all confirmed — anything uncertain is flagged, and you should pull the record from the database before it goes in your reference list. Access everything through the Örebro library proxy; several are open access and the free link is given.' }]),
 
       // ---------------------------------------------------------------
       h1('1. The reviews you are writing against'),
@@ -79,11 +79,17 @@ const doc = new Document({
       }),
 
       ...src({
-        cite: 'Christensen, L. T., & Cornelissen, J. (2011). Bridging corporate and organizational communication: Review, development and a look to the future. Management Communication Quarterly.   [READ FIRST]',
+        cite: 'Christensen, L. T., & Cornelissen, J. (2011). Bridging corporate and organizational communication: Review, development and a look to the future. Management Communication Quarterly, 25(3), 383–414.   [READ FIRST]',
         link: 'https://journals.sagepub.com/doi/abs/10.1177/0893318910390194',
-        argues: 'Reviews and joins two fields that had grown apart: corporate communication, which looks outward at markets and publics, and organizational communication, which looks inward at employees and culture.',
-        use: 'The review closest to your framing, and the one you must name. It bridges the same two fields you do, but it is not about authenticity and it predates the critical work on brand control. Saying that precisely is what makes your gap defensible.',
-        flag: 'Volume, issue and pages need confirming.',
+        argues: 'Joins two fields that had grown apart: corporate communication, which looks outward at markets and publics, and organizational communication, which looks inward at employees and culture. It opens with a critical discussion of the objective of speaking with one voice, and proposes polyphony — many voices inside one organisation — as an alternative to control-based approaches to integrated communication.',
+        use: 'The theoretical spine of your review, not a foil. They criticise the coherence ideal your paradox depends on, and they connect integration to control — the same move Fleming and Sturdy and Müller make empirically. Your gap is that their object is communication theory rather than authenticity, and the authenticity reviews ignore their critique.',
+        flag: 'Details now confirmed. The summary above comes from publisher and repository descriptions, not the full text — read the article before attributing specific claims to it.',
+      }),
+      ...src({
+        cite: 'Cornelissen, J. P., Christensen, L. T., & Kinuthia, K. (2012). Corporate brands and identity: Developing stronger theory and a call for shifting the debate. European Journal of Marketing, 46(7–8), 1093–1102.   [READ FIRST]',
+        link: 'https://www.emerald.com/insight/content/doi/10.1108/03090561211230214/full/html',
+        argues: 'Critiques alignment models of corporate branding and identity, and argues for interpretive alternatives that do not rest on conduit models of communication or on assumptions of alignment and consistency.',
+        use: 'Closer to your question than the 2011 paper, because it attacks the specific assumption that an identity claim can be sent out by management and received intact. Read the pair together: 2011 for the two fields, 2012 for identity and branding.',
       }),
       ...src({
         cite: 'Employees as a second audience: The effect of external communication on internal brand management outcomes (2018). Journal of Brand Management.',

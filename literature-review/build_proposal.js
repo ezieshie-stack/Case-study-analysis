@@ -63,7 +63,7 @@ const doc = new Document({
 
       body('Research has approached this ground from several directions without joining them up. Lehman, O’Connor, Kovács and Newman (2019) review the concept in management studies, but communication is not their object. Molleda (2010) reviews it in public relations to propose an index of perceived authenticity, treating it as a property to be measured rather than a relation that can be contested. Li et al. (2024) map twenty-one years of brand authenticity research, but the studies they review concern consumers rather than organisations, and critical work on what authenticity does inside the organisation falls outside their scope.'),
 
-      body('That work is uncomfortable reading. Fleming and Sturdy (2009), studying a call centre where staff were encouraged to “just be yourself”, found that inviting employees to bring their real selves to work turned those selves into a resource for the employer. Müller (2017) found that internal branding is watched not only by managers but by customers and the public, so that the external audience becomes a further means of holding employees to the brand. Reviews spanning internal and external communication do exist (Christensen & Cornelissen, 2011), but they treat that relationship as a problem of alignment to be managed, and none engages the critical research on what producing authenticity requires of employees. None takes authenticity itself as its object. That is the gap this review addresses: what has to happen inside an organisation for a claim made outside it to hold.'),
+      body('That work is uncomfortable reading. Fleming and Sturdy (2009), studying a call centre where staff were encouraged to “just be yourself”, found that inviting employees to bring their real selves to work turned those selves into a resource for the employer. Müller (2017) found that internal branding is watched not only by managers but by customers and the public, so that the external audience becomes a further means of holding employees to the brand. Christensen and Cornelissen (2011) bridge corporate and organisational communication, criticising the ideal of an organisation that speaks with one voice and proposing polyphony as an alternative to control-based integration. Their object, however, is communication theory rather than authenticity, and the reviews that do take authenticity as their object ignore that critique. That is the gap this review addresses: what has to happen inside an organisation for a claim made outside it to hold.'),
 
       heading('Purpose and guiding questions'),
 
@@ -77,9 +77,9 @@ const doc = new Document({
 
       heading('Organising principle, delimitation and outline'),
 
-      body('The results section is organised by where each strand locates authenticity: as a property of the organisation, consistent with its heritage and values; as a judgement attributed by audiences; as an effect produced in communication itself; and as an instrument of normative control. Each strand is then read for what it says about the internal–external relationship. The first two treat the paradox as a solvable problem of consistency; in the latter two it becomes constitutive, and the internal production of external claims appears as a problem rather than a technique.', { first: false }),
+      body('The results section is organised by where each strand locates authenticity: as a property of the organisation; as a judgement attributed by audiences; as an effect produced in communication itself; and as an instrument of normative control. Each strand is then read for what it says about the internal–external relationship. The first two treat the paradox as a solvable problem of consistency; in the latter two it becomes constitutive, and the internal production of external claims appears as a problem rather than a technique.', { first: false }),
 
-      body('Given the ten-page limit, the review addresses organisational-level authenticity in strategic communication, public relations, corporate and internal communication, and branding, from 2005 onwards. Studies whose object is employee attitude or retention rather than communication are excluded, as is the authenticity of products, places and heritage. Authentic leadership is represented through its critique rather than surveyed in full.'),
+      body('Given the ten-page limit, the review addresses organisational-level authenticity in public relations, corporate and internal communication, and branding, from 2005 onwards. Studies whose object is employee attitude or retention rather than communication are excluded, as is the authenticity of products, places and heritage. Authentic leadership is represented through its critique rather than surveyed in full.'),
 
       body('The paper proceeds in four parts: this introduction; a method section reporting databases, search terms and inclusion criteria; a results section following the organising principle; and a conclusion comparing the findings with earlier reviews and identifying openings for research.'),
 
@@ -87,7 +87,7 @@ const doc = new Document({
 
       refEntry([
         { text: 'Christensen, L. T., & Cornelissen, J. (2011). Bridging corporate and organizational communication: Review, development and a look to the future. ' },
-        { text: 'Management Communication Quarterly', italics: true }, { text: '.' },
+        { text: 'Management Communication Quarterly, 25', italics: true }, { text: '(3), 383–414.' },
       ]),
       refEntry([
         { text: 'Lehman, D. W., O’Connor, K., Kovács, B., & Newman, G. E. (2019). Authenticity. ' },
