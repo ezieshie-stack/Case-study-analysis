@@ -8,9 +8,10 @@ This folder is the working kit for the assignment. It is organised in the order 
 
 | File | What it is | Status |
 |---|---|---|
-| `01_Project_Plan.md` | Choosing the place and angle, scope decisions, week-by-week timeline to the deadline | Draft, needs place decision |
+| `01_Project_Plan.md` | Choosing the place and angle, scope decisions, week-by-week timeline to the deadline | Place chosen: the new restaurant, lecturer's confirmation pending |
 | `02_Research_Guide.md` | Desk-research checklist, visit observation template, source log | Ready to use |
 | `03_Interview_Guide.md` | Consent script, question bank, note template, quotation verification log | Ready to use |
+| `07_Restaurant_Field_Guide.md` | Approach script, boxes to tick, and question sets for the owner, customers and neighbours at the chosen restaurant | Ready to use |
 | `fieldwork/` | Where raw notes go: observation notes, interview notes, source log, photos list | Empty until fieldwork |
 | `04_Communication_Plan.md` | The short communication plan, with course concepts mapped to each decision | Skeleton with placeholders |
 | `texts/01_Feature.md` | Feature story based on the interview (counts as one of the four texts) | Structure and placeholders |

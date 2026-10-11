@@ -18,9 +18,9 @@ Names and details below came from travel and study-abroad pages and need checkin
 | **A campus space at Örebro University** (library, student union house, a specific study area) | What does a new international student actually need from one campus space in week one, and does it deliver? | A student union officer, a librarian, two first-term students | Permission to photograph or observe, which service is in scope |
 | **A market or local initiative** (weekly market, repair café, sports club open session, church or association meal) | How does one recurring local event create belonging for people who arrived with no network? | The organiser, one long-time participant, one newcomer | That it runs on a date you can attend before 22 Oct |
 
-**Chosen place:** [[PLACE NAME]]
-**Chosen angle (one sentence):** [[ANGLE]]
-**Why this one and not the others (two or three sentences):** [[REASON]]
+**Chosen place:** [[RESTAURANT NAME]], a family-run restaurant about ten minutes from home that opened on 1 October 2026 in a unit that previously housed another restaurant. See `07_Restaurant_Field_Guide.md`.
+**Chosen angle (one sentence):** A brand-new restaurant as a door into its street and neighbourhood: what the opening tells us about this part of Örebro, who it welcomes, and how it finds its first regulars.
+**Why this one and not the others:** It is visitable twice a week without effort, the owner is reachable in person, and the 1 October opening gives a genuine news angle for the press release that the venues above do not. Lecturer's view, asked after class on 12 October: [[LECTURER'S ANSWER]].
 
 ## 2. Scope decisions
 
