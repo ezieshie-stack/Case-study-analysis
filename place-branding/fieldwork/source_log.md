@@ -12,5 +12,5 @@ One row per source. A fact enters a text only if it can be traced to a row here 
 | 6 | 13 Oct 2026 | Svenskt kvinnobiografiskt lexikon, Cajsa Warg (Maria Sjöberg) | https://skbl.se/en/article/AnnaChristinaWarg | independent reference | Born Örebro 23 Mar 1703, died Stockholm 1769; cookbook 1755 | high |
 | 7 | 13 Oct 2026 | Times Higher Education, Örebro University profile | https://www.timeshighereducation.com/world-university-rankings/orebro-university | independent | 9,711 FTE students, 7% international (WUR 2025) | medium (search snippet, not page read) |
 | 8 | 13 Oct 2026 | SVT Örebro, on the municipality's scrapped slogans | https://www.svt.se/nyheter/lokalt/orebro/dyra-kommunvarumarken | news | Three slogans scrapped, new brand commissioned | low until the article date is checked |
-| 9 | | | | | | |
+| 9 | 13 Oct 2026 | Internetstiftelsen, Svenskarna och internet 2025 | https://svenskarnaochinternet.se/app/uploads/2025/09/internetstiftelsen-svenskarna-och-internet-2025.pdf | independent survey | Platform use by generation, table 3.5 and diagram 3.4b; "Facebook dominerar bland äldre" | high (tables read) |
 | 10 | | | | | | |

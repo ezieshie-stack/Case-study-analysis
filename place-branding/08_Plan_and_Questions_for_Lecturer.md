@@ -37,14 +37,14 @@ In Kavaratzis's (2004) terms, the place story is Örebro's secondary communicati
 
 ## 5. Who I am writing for
 
-The feature is the heart of the project. The brief also asks for at least three shorter texts for other audiences, built from the same research.
+The feature is the main piece. I will then reuse its core message and one photograph from my visit in three short social media posts, each adapted to a different audience. I chose the platforms from Swedish usage data rather than my own habits, because the same platform can mean very different things in different countries.
 
-| Text | Target group | What they need | Platform |
+| Text | Target group | Why this platform | Format |
 |---|---|---|---|
-| Feature (interview-based) | International students and other newcomers to Örebro | A human way into the city, practical reassurance, and an honest picture | Student magazine or Örebro University news site |
-| Practical webpage | Residents of [[AREA]] who have not visited yet | What it is, where, when, what it costs, what to expect | Restaurant's website or a local guide page |
-| LinkedIn text | Local partners: student associations, local food producers and nearby businesses | What they gain from working with the restaurant, and one clear next step | LinkedIn |
-| Instagram caption | Young Örebro locals, roughly 18 to 30, who choose where to eat from social media | A reason to go now, in one image and a few lines | Instagram |
+| Feature | International students and other newcomers to Örebro | The main story, read in full | 900 to 1,200 words, for a student magazine or the Örebro University news site |
+| Instagram | Gen Z and younger millennials in Örebro, roughly 18 to 35 | 69% of Swedes born in the 1990s and 65% born in the 2000s use Instagram daily (Internetstiftelsen, 2025) | The photo first, a short caption and a few hashtags |
+| Facebook | Örebro residents roughly 35 to 65, including families and neighbours | In Sweden Facebook "dominates among older" users: 62 to 64% of those born in the 1950s to 1980s use it daily, against 25% of those born in the 2000s (Internetstiftelsen, 2025) | The same photo, a longer neighbourly post with practical details and a link to the feature |
+| LinkedIn | Local professionals and potential partners: business networks, food producers, student associations | 42% of Swedes born in the 1970s to 1990s used LinkedIn in the past year (Internetstiftelsen, 2025) | The same photo, a professional post on starting a business in Örebro, with one statistic, one quotation and one call to action |
 
 ## 6. Challenges I will address honestly
 
@@ -100,6 +100,7 @@ Hannah asked to see the questions in advance, so I will give her this list on Su
 16. Would you say Örebro is a good place to start something new? Why? (RQ6)
 17. What would you like to change or improve? (RQ4)
 18. Where do you see the restaurant one year from now? (RQ6)
+19. Are there local businesses, food producers or groups you would like to work with? (RQ5)
 
 Practical facts I will confirm at the end: number of seats, opening hours, number of staff, price range, card or cash, booking, and menu languages.
 
@@ -132,7 +133,7 @@ Practical facts I will confirm at the end: number of seats, opening hours, numbe
 | RQ2 Food | 5, 6, 7 | Customers 3; staff 2 | Menu; place story on local produce; Cajsa Warg and Grythyttan background |
 | RQ3 Who comes | 8, 9 | Customers 1, 2, 3; staff 2 | Observation at two times of day; Statistics Sweden population data |
 | RQ4 Opening a business | 10, 11, 12, 17 | Customers 5; neighbours 4; staff 3 | Visita 2025 report; Ekonomifakta business statistics |
-| RQ5 Street and neighbourhood | 3, 11, 13 | Customers 2, 4; neighbours 1, 2, 3 | Observation of the street; what the premises were before |
+| RQ5 Street and neighbourhood | 3, 11, 13, 19 | Customers 2, 4; neighbours 1, 2, 3 | Observation of the street; what the premises were before |
 | RQ6 Place of opportunities | 2, 15, 16, 18 | Customers 4; neighbours 4 | Örebro place story; Örebro University exchange-student figures |
 
 ## 11. Method and ethics
@@ -158,6 +159,8 @@ Practical facts I will confirm at the end: number of seats, opening hours, numbe
 ## References
 
 Ekonomifakta. (2026). *Örebro* [Regional statistics]. https://www.ekonomifakta.se/Fakta/Regional-statistik/Alla-lan/Orebro-lan/Orebro/
+
+Internetstiftelsen. (2025). *Svenskarna och internet 2025* [The Swedes and the internet 2025]. https://svenskarnaochinternet.se/app/uploads/2025/09/internetstiftelsen-svenskarna-och-internet-2025.pdf
 
 Kavaratzis, M. (2004). From city marketing to city branding: Towards a theoretical framework for developing city brands. *Place Branding, 1*(1), 58–73. https://doi.org/10.1057/palgrave.pb.5990005
 

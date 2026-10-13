@@ -1,6 +1,6 @@
 # 10 Örebro research notes: statistics, food, place story, challenges
 
-Collected 13 October 2026. Every figure below was read on the original page or data set, except where marked **check**. Use these in the plan, the feature's background paragraph, the webpage and the LinkedIn text. Each source is also logged in `fieldwork/source_log.md`.
+Collected 13 October 2026. Every figure below was read on the original page or data set, except where marked **check**. Use these in the plan, the feature's background paragraph and the three social media posts. Each source is also logged in `fieldwork/source_log.md`.
 
 ## 1. The city in numbers
 
@@ -68,3 +68,30 @@ Ask in the interview or observe; log each in the source log with the date.
 - [ ] Card or cash; booking; menu languages
 - [ ] Rough number of guests on a normal day, only if they are happy to share
 - [ ] Google rating and number of reviews, with the date you looked; Instagram or Facebook follower count, with the date
+
+## 6. Social media in Sweden: why Instagram, Facebook and LinkedIn
+
+Source: Internetstiftelsen, *Svenskarna och internet 2025*, chapter 3. Table 3.5 (used in the past 12 months, by generation) and diagram 3.4b (used daily, by generation). Base: internet users aged 8 and over, whole of Sweden, not Örebro specifically. Read from the report on 13 October 2026.
+
+**Used in the past 12 months**
+
+| Born in | 1920s to 40s | 1950s | 1960s | 1970s | 1980s | 1990s | 2000s | All |
+|---|---|---|---|---|---|---|---|---|
+| Facebook | 66% | 73% | 78% | 84% | 85% | 82% | 65% | 71% |
+| Instagram | 37% | 49% | 64% | 75% | 75% | 82% | 87% | 65% |
+| LinkedIn | 9% | 11% | 38% | 42% | 42% | 42% | 26% | 29% |
+
+**Used daily**
+
+| Born in | 1920s to 40s | 1950s | 1960s | 1970s | 1980s | 1990s | 2000s | All |
+|---|---|---|---|---|---|---|---|---|
+| Facebook | 47% | 62% | 63% | 64% | 62% | 52% | 25% | 49% |
+| Instagram | 20% | 34% | 42% | 54% | 59% | 69% | 65% | 47% |
+
+What the report says in words:
+- Its heading on age: *"Facebook dominerar bland äldre och Snapchat bland yngre"* ("Facebook dominates among older people and Snapchat among younger people").
+- Facebook use was stable between 2024 and 2025, after daily use fell gradually from 54% in 2021 to 49% in 2024.
+- LinkedIn use has risen gradually from 25% in 2021 to 29% in 2025.
+- Some people who left Facebook described it as full of "gamlingar och reklam" ("old folks and ads"), which supports pitching the Facebook post at older residents.
+
+How to use this honestly: Facebook is not only for the old. Most Swedes born in the 1970s to 1990s also use it. The sharp difference is in **daily** use by people born in the 2000s (25% on Facebook against 65% on Instagram). That is the strongest single number for your platform split. Your class discussion about Germany and Nigeria fits here: the plan can say platforms were chosen from Swedish data because habits differ by country.

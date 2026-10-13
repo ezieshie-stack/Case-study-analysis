@@ -22,25 +22,29 @@
 
 > ✎ Smith (Becoming a Public Relations Writer) treats the feature as a story built around people, with a lead that engages, a nut graph that states the point, a body of quotations and observation, and an ending that returns to a detail. Friedmann (Writing for Visual Media) supports concrete, sensory, scene-based writing: show the place through a person and a moment rather than describe it in the abstract.
 
-**Instagram caption.** Audience: young Örebro locals who choose where to eat from social media. Platform: Instagram. [[Why a caption and one photograph suit this group.]]
+**Reusing the material across platforms.** [[Two or three sentences: the core message and the photograph you reused, and why reusing one strong image and one message keeps the brand consistent while each platform gets its own version.]]
 
-> ✎ Friedmann on image and text working together: the photo shows, the caption adds what the photo cannot. Smith on writing for social platforms: hook first, one action at the end.
+> ✎ The lecturer's point: show that one story can be adapted, not rewritten from scratch. Kavaratzis's idea that a place brand needs consistent communication supports keeping the same core message across all three posts. Name the photo and say how you cropped it.
 
-**Webpage.** Audience: residents who have not visited. Platform: [[the place's or municipality's site]]. [[Why a practical page.]]
+**Why these three platforms.** [[One sentence: you chose by Swedish usage data, not your own habits, because platform habits differ between countries (for example Facebook is used differently in Sweden, Germany and Nigeria).]]
 
-> ✎ Smith's guidance on writing for the web (scannable headings, short paragraphs, front-loaded practical information, plain language) and the newcomer-friction findings from the visit.
+**Instagram.** Audience: Gen Z and younger millennials in Örebro, roughly 18 to 35. [[Why a photo-first post with a short caption suits them.]]
 
-**LinkedIn text.** Audience: community organisations and potential partners. Platform: LinkedIn. [[What the partner gains, what the call to action is.]]
+> ✎ Evidence: 69% of Swedes born in the 1990s and 65% born in the 2000s use Instagram daily (Internetstiftelsen, 2025). Friedmann: the image shows, the caption adds what the image cannot.
 
-> ✎ This is persuasive writing for a professional public. Smith's audience-analysis and persuasion material applies: identify the public's own interests and make the benefit to them explicit, then give one clear next step.
+**Facebook.** Audience: Örebro residents roughly 35 to 65, families and neighbours. [[Why more text and practical detail suit them, and why a Swedish version would be used in practice.]]
 
-**Optional social caption** (if included). Audience: [[...]]. Platform: [[...]].
+> ✎ Evidence: Internetstiftelsen (2025) heads its age chapter "Facebook dominerar bland äldre"; 62 to 64% of Swedes born in the 1950s to 1980s use it daily, against 25% of those born in the 2000s. Facebook use has been stable since 2024 at 71% of internet users.
+
+**LinkedIn.** Audience: local professionals and potential partners. [[What a partner gains and what the call to action is.]]
+
+> ✎ Evidence: 42% of Swedes born in the 1970s to 1990s used LinkedIn in the past year, and its use has risen from 25% in 2021 to 29% in 2025 (Internetstiftelsen, 2025). Smith: persuasive writing for a professional public, benefit first, one clear next step.
 
 ## 4. Tone and language choices
 
 [[How the tone shifts between texts and why. Which texts are in English only, and whether any would be bilingual in a real deployment.]]
 
-> ✎ Address the honesty requirement: the brief asks you to communicate what makes the place meaningful "honestly". Explain how you handled the critical finding across the four texts (kept in the feature and plan, handled how in the webpage, left out of the Instagram caption and why).
+> ✎ Address the honesty requirement: the brief asks you to communicate what makes the place meaningful "honestly". Explain how you handled the critical finding across the four texts (kept in the feature and plan, handled how in the Facebook post, left out of the Instagram caption and why).
 
 ## 5. Gaps in the research
 

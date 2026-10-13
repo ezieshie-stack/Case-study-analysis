@@ -26,7 +26,7 @@ If he mentions the earlier confusion (you asking about openings), laugh about it
 
 Thirty-second version:
 
-> "I'd like to do the place-branding project on a restaurant that opened on 1 October near where I live. My angle is the street and neighbourhood through the eyes of a brand-new business: who it welcomes, how it finds regulars, what it says about the area. Feature from an interview with the owner plus short conversations with customers and a neighbour, then a webpage for residents, a LinkedIn text for local partners and an Instagram caption. Does that fit the brief as you intend it?"
+> "I'd like to do the place-branding project on a restaurant that opened on 1 October near where I live. My angle is the street and neighbourhood through the eyes of a brand-new business: who it welcomes, how it finds regulars, what it says about the area. Feature from an interview with the owner plus short conversations with customers and a neighbour, then three short Instagram, Facebook and LinkedIn posts that reuse the feature's message and one photo. Does that fit the brief as you intend it?"
 
 Write down his answer, especially any condition he adds.
 
@@ -64,7 +64,7 @@ Place branding, not a restaurant review. Each box below maps to something the br
 - [ ] Interviewee's attribution preference written down (full name, first name, or role only)
 
 **G. Four audiences, four different openings**
-- [ ] Feature: a scene. Instagram: one image and one reason to go now. Webpage: what a resident needs to decide to go. LinkedIn: what a partner gains.
+- [ ] Feature: a scene. Instagram: one image and one reason to go now. Facebook: news from the street for neighbours. LinkedIn: what a partner gains.
 - [ ] Each text tells the reader something the other three do not
 
 **H. Photographs** (details later)
@@ -99,7 +99,7 @@ Superseded on 13 October by the numbered, research-question-tagged list in `08_P
 **For the other texts**
 14. If you had to tell a friend in one sentence why this opening matters for the area, what would you say?
 15. Is there a local organisation, business or group you would like to work with? (LinkedIn angle)
-16. What are your hours, how do people book, do you take card, is the menu in English? (webpage facts, confirm against the sign and website)
+16. What are your hours, how do people book, do you take card, is the menu in English? (practical facts for the Facebook post, confirm against the sign and website)
 
 **Close**
 17. Is there anything I have not asked that you think matters?

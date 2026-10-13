@@ -79,6 +79,9 @@ The interview takes about 30 to 40 minutes. You can answer in Swedish or English
 18. **Where do you see the restaurant one year from now?**\
     *Var ser ni restaurangen om ett år?*
 
+19. **Are there local businesses, food producers or groups you would like to work with?**\
+    *Finns det lokala företag, matproducenter eller föreningar som ni skulle vilja samarbeta med?*
+
 ## Practical details / Praktiska detaljer
 
 How many seats? Opening hours? How many people work here? Prices? Card or cash? Can guests book a table? Is the menu in English?

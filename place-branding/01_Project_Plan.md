@@ -24,9 +24,9 @@ Names and details below came from travel and study-abroad pages and need checkin
 
 ## 2. Scope decisions
 
-- **One visit minimum, two if possible.** Second visit is for checking details and taking photos or video notes for the webpage and social text.
+- **One visit minimum, two if possible.** Second visit is for checking details and taking the photograph that all three social media posts will share.
 - **One interview minimum (required for the feature).** Aim for two shorter extra conversations (a visitor, a participant) so the feature can show that others experience the place differently, as the brief asks.
-- **Four texts:** the feature (the main piece), plus a webpage, a LinkedIn post and an Instagram caption for other audiences.
+- **Four texts:** the feature (the main piece), plus three short posts on Instagram, Facebook and LinkedIn that reuse its core message and one photograph.
 - **Communication plan:** short, roughly 600 to 900 words, with concepts cited to the editions actually used.
 - **Honesty requirement:** the brief says research may reveal "things that could be improved". Keep one critical finding in the feature and in the plan; do not sand it off.
 
@@ -35,9 +35,11 @@ Names and details below came from travel and study-abroad pages and need checkin
 | Text | Target group | What they need from it | Format | Platform |
 |---|---|---|---|---|
 | Feature | [[e.g. new international students at Örebro University]] | A human way in, practical reassurance, one honest caveat | Feature story, 900 to 1,200 words | [[e.g. student magazine or university news site]] |
-| Instagram caption | Young Örebro locals, roughly 18 to 30, who pick where to eat from social media | A reason to go now, in one image and a few lines | Caption, 60 to 120 words, plus one photo | Instagram |
-| Webpage | Residents who have not visited | What it is, how to get there, what it costs, when to go, what to expect | Practical web page, 400 to 600 words, scannable | The place's or municipality's website |
-| LinkedIn | Community organisations and potential partners | Why partnering is worth their time, what is on offer, next step | LinkedIn post, 150 to 250 words | LinkedIn, posted from an organisational or personal account |
+| Instagram | Gen Z and younger millennials in Örebro, roughly 18 to 35 | A reason to go, in one image and a few lines | Photo plus 40 to 80 word caption | Instagram |
+| Facebook | Örebro residents roughly 35 to 65, families and neighbours | Local news, practical details, a link to the full story | Same photo plus 120 to 200 words | Restaurant page or local neighbourhood group |
+| LinkedIn | Local professionals and potential partners | Why the opening matters for business in Örebro, one next step | Same photo plus 150 to 250 words | LinkedIn |
+
+The three posts reuse the feature's core message and one photograph, adapted per platform (lecturer's guidance, 12 October). Platforms chosen from Swedish usage data: see `10_Orebro_Research_Notes.md` section 6.
 
 Changing the platform alone does not make a new target group. Each text needs a different **reader need, tone and opening**.
 
@@ -50,7 +52,7 @@ Changing the platform alone does not make a new target group. Each text needs a 
 | **Sun 18 Oct** | **Give Hannah `09_Questions_for_Hannah` (printed).** Confirm Monday's time. | Questions handed over |
 | **Mon 19 Oct** | **Interview the owners** (recorded with permission). First full observation visit. Transcribe quotations the same evening. | `fieldwork/interview_notes.md` filled, verification log started |
 | 19 to 25 Oct | Two or three customers, one or two neighbours, staff if any. Second visit at a different time of day. Get Swedish answers translated and checked. | Every research question has at least two answers |
-| 26 to 29 Oct | Write the feature first, then the webpage, LinkedIn text and Instagram caption, then the communication plan. | All drafts done |
+| 26 to 29 Oct | Write the feature first, then adapt it into the Instagram, Facebook and LinkedIn posts, then the communication plan. | All drafts done |
 | 30 Oct to 1 Nov | Fact-check every claim and quotation, read aloud, build the portfolio, run the checklist, upload. | Uploaded by 1 Nov |
 | Sun 2 Nov | Deadline. Buffer only. | |
 

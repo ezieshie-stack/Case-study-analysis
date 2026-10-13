@@ -18,9 +18,7 @@ This folder is the working kit for the assignment. It is organised in the order 
 | `fieldwork/` | Where raw notes go: observation notes, interview notes, source log, photos list | Empty until fieldwork |
 | `04_Communication_Plan.md` | The short communication plan, with course concepts mapped to each decision | Skeleton with placeholders |
 | `texts/01_Feature.md` | Feature story based on the interview (counts as one of the four texts) | Structure and placeholders |
-| `texts/02_Instagram_Caption.md` | Instagram caption for young Örebro locals | Structure and placeholders |
-| `texts/03_Webpage.md` | Practical webpage for residents who have not visited | Structure and placeholders |
-| `texts/04_LinkedIn.md` | LinkedIn text for community organisations or partners | Structure and placeholders |
+| `texts/02_Social_Media_Posts.md` | Texts 2 to 4: one core message and one photo adapted for Instagram, Facebook and LinkedIn, with a comparison table and Swedish usage figures | Structure and placeholders |
 | `05_References.md` | Reference list (APA 7th), Kavaratzis entry complete, Smith and Friedmann need the editions used | Partial |
 | `06_Submission_Checklist.md` | Final checks before uploading | Ready to use |
 | `build_portfolio.py` | Assembles plan, texts and references into one `.docx` and `.pdf` in `deliverables/` | Ready to use |

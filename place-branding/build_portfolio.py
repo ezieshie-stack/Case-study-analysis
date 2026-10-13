@@ -25,9 +25,7 @@ OUT_BASE = "Place_Branding_Portfolio"
 ORDER = [
     HERE / "04_Communication_Plan.md",
     HERE / "texts" / "01_Feature.md",
-    HERE / "texts" / "02_Instagram_Caption.md",
-    HERE / "texts" / "03_Webpage.md",
-    HERE / "texts" / "04_LinkedIn.md",
+    HERE / "texts" / "02_Social_Media_Posts.md",
     HERE / "05_References.md",
 ]
 

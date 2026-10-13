@@ -6,6 +6,8 @@ Ekonomifakta. (2026). *Örebro* [Regional statistics]. https://www.ekonomifakta.
 
 Friedmann, A. (20XX). *Writing for visual media* ([[X]]th ed.). Routledge. [[check year, edition and publisher of the copy used]]
 
+Internetstiftelsen. (2025). *Svenskarna och internet 2025* [The Swedes and the internet 2025]. https://svenskarnaochinternet.se/app/uploads/2025/09/internetstiftelsen-svenskarna-och-internet-2025.pdf
+
 Kavaratzis, M. (2004). From city marketing to city branding: Towards a theoretical framework for developing city brands. *Place Branding, 1*(1), 58–73. https://doi.org/10.1057/palgrave.pb.5990005
 
 Örebro University. (2026, August 17). *Record number of exchange students choosing Örebro University*. https://www.oru.se/english/news/record-number-of-exchange-students-choosing-orebro-university/

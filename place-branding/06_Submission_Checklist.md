@@ -4,7 +4,9 @@ Run through this on 30 or 31 October. Tick every line before uploading.
 
 ## Contents
 - [ ] Short communication plan, with course concepts cited
-- [ ] At least four texts, each for a different target group
+- [ ] At least four texts, each for a different target group: the feature plus the Instagram, Facebook and LinkedIn posts
+- [ ] The three posts share one core message and one photograph, each adapted in length, tone, crop and call to action
+- [ ] The plan explains why each platform suits its audience, with the Swedish usage figures
 - [ ] One of them is the feature based on an interview
 - [ ] Each text is labelled with audience, format and intended platform (the three lines at the top of each file)
 - [ ] Reference list, APA 7th, editions actually used
