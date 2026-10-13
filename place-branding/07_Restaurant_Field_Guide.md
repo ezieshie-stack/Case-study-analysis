@@ -1,6 +1,6 @@
 # 07 Field Guide: the new restaurant as a place-branding story
 
-Chosen place: a restaurant about ten minutes from home that opened on 1 October 2026 in a unit that previously housed another restaurant. Owner met once in passing; family-run (owner, his wife, their children present). Name, address and street still to be recorded: [[RESTAURANT NAME]], [[STREET / AREA]].
+Chosen place: a restaurant about ten minutes from home that opened on 1 October 2026 in a unit that previously housed another restaurant. Owner met once in passing; family-run (owner, his wife, their children present). Owners: Hannah and her husband. Interview booked for Monday 19 October; Hannah receives the questions on Sunday 18 October. Name, address and street still to be recorded: [[RESTAURANT NAME]], [[STREET / AREA]].
 
 Working angle: **a brand-new restaurant as a door into its street and neighbourhood.** The restaurant is the character; the place being branded is the area around it. The question the portfolio answers: *what does a new restaurant opening here tell us about this part of Örebro, who it welcomes, and how it is finding its first regulars?*
 
@@ -72,6 +72,8 @@ Place branding, not a restaurant review. Each box below maps to something the br
 - [ ] Any person recognisable in a photo has agreed. Staged photos of staff are fine if they are staff; do not present posed friends as customers in anything you label as reporting.
 
 ## 4. Questions for the owner (pick 10 to 12, in this order)
+
+Superseded on 13 October by the numbered, research-question-tagged list in `08_Plan_and_Questions_for_Lecturer.md` section 9, which is what the lecturer will grade against. The list below is kept as a bank of extra follow-ups.
 
 **Warm-up**
 1. Tell me about the first day, 1 October. What do you remember about the first hour?

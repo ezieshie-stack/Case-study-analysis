@@ -5,6 +5,12 @@
 **Intended platform:** [[e.g. university news site / student magazine / Örebro Studentkår channels]]
 
 > ✎ Build the feature around a person, an experience or a question. Everything below must come from your reporting: notes with times, quotations from the verification log. No invented detail, no composite characters.
+>
+> ✎ **Your voice, as the lecturer asked.** You are the narrator. You set the scene, explain, connect, and decide what matters. The interviewees supply quotations, which are short and chosen for colour or emotion, not for facts. Rough guide: no more than about a quarter of the feature should be inside quotation marks. Never string quotes together ("Hannah said... She said... She added...").
+> ✎ Paraphrase facts in your own words and attribute them: *Hannah and her husband opened the doors on 1 October.* Save direct quotation for what only she could say, in the way only she would say it.
+> ✎ Use "I" sparingly, if at all, and only where your presence adds something, for example as a newcomer yourself. Your voice shows mainly in what you notice and how you frame it.
+> ✎ Illustration of the difference, with invented content, not for use: *Transcript style:* "Hannah said it was hard. She said many people came. She said they were happy." *Narrated style:* "By the second week, the question at the door had changed from 'When do you open?' to 'Is the corner table free?'" The second one is the writer's voice; a single quotation would then add Hannah's.
+> ✎ Lens reminder: the feature promotes Örebro as "the place of opportunities" through this family. Weave in one or two facts from `10_Orebro_Research_Notes.md` in your own words, and let the family's experience test the promise.
 
 ## [[HEADLINE: specific, concrete, promises the story]]
 

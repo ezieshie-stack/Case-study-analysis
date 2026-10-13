@@ -12,6 +12,9 @@ This folder is the working kit for the assignment. It is organised in the order 
 | `02_Research_Guide.md` | Desk-research checklist, visit observation template, source log | Ready to use |
 | `03_Interview_Guide.md` | Consent script, question bank, note template, quotation verification log | Ready to use |
 | `07_Restaurant_Field_Guide.md` | Approach script, boxes to tick, and question sets for the owner, customers and neighbours at the chosen restaurant | Ready to use |
+| `08_Plan_and_Questions_for_Lecturer.md` | The plan to send on Thursday 15 Oct: lens, defence of the restaurant, selling points, audiences, challenges, six research questions, all interview questions tagged to them, ethics, timeline, references. Also built as `.docx` | Ready to send once the restaurant name, street and area are filled in |
+| `09_Questions_for_Hannah.md` | Bilingual English and Swedish question sheet to hand Hannah on Sunday 18 Oct. Also built as `.docx` | Ready to print once the restaurant name and your contact are filled in |
+| `10_Orebro_Research_Notes.md` | Verified statistics, Örebro's food identity, the official place story with translations, and the restaurant-sector challenge | Done |
 | `fieldwork/` | Where raw notes go: observation notes, interview notes, source log, photos list | Empty until fieldwork |
 | `04_Communication_Plan.md` | The short communication plan, with course concepts mapped to each decision | Skeleton with placeholders |
 | `texts/01_Feature.md` | Feature story based on the interview (counts as one of the four texts) | Structure and placeholders |

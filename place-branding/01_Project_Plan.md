@@ -18,9 +18,9 @@ Names and details below came from travel and study-abroad pages and need checkin
 | **A campus space at Örebro University** (library, student union house, a specific study area) | What does a new international student actually need from one campus space in week one, and does it deliver? | A student union officer, a librarian, two first-term students | Permission to photograph or observe, which service is in scope |
 | **A market or local initiative** (weekly market, repair café, sports club open session, church or association meal) | How does one recurring local event create belonging for people who arrived with no network? | The organiser, one long-time participant, one newcomer | That it runs on a date you can attend before 22 Oct |
 
-**Chosen place:** [[RESTAURANT NAME]], a family-run restaurant about ten minutes from home that opened on 1 October 2026 in a unit that previously housed another restaurant. See `07_Restaurant_Field_Guide.md`.
-**Chosen angle (one sentence):** A brand-new restaurant as a door into its street and neighbourhood: what the opening tells us about this part of Örebro, who it welcomes, and how it finds its first regulars.
-**Why this one and not the others:** It is visitable twice a week without effort, the owner is reachable in person, and the 1 October opening gives a genuine news angle for the press release that the venues above do not. Lecturer's view, asked after class on 12 October: [[LECTURER'S ANSWER]].
+**Chosen place:** [[RESTAURANT NAME]], owned and run by Hannah and her husband, a family-run restaurant about ten minutes from home that opened on 1 October 2026 in a unit that previously housed another restaurant. See `07_Restaurant_Field_Guide.md`.
+**Chosen angle (one sentence):** Promoting Örebro as "the place of opportunities" (the official place story's own phrase) through a family's brand-new restaurant, and testing that promise honestly. Full plan for the lecturer: `08_Plan_and_Questions_for_Lecturer.md`.
+**Why this one and not the others:** It is visitable twice a week without effort, the owner is reachable in person, and the 1 October opening gives a genuine news angle for the press release that the venues above do not. Lecturer's guidance in class, 12 October: promote Örebro through a chosen lens, name the selling points and the audience, use statistics and quotations, keep the writer's own voice throughout, send potential questions by Thursday 15 October (grading checks whether they were answered), and defend the choice of place in the plan.
 
 ## 2. Scope decisions
 
@@ -45,11 +45,14 @@ Changing the platform alone does not make a new target group. Each text needs a 
 
 | Dates | Work | Done when |
 |---|---|---|
-| Thu 9 to Wed 15 Oct | Decide place and angle. Desk research (website, social media, independent sources). Contact an interviewee and fix a date. Start `fieldwork/source_log.md`. | Place chosen, interview booked, source log has at least 6 entries |
-| Thu 16 to Wed 22 Oct | Visit and take observation notes. Do the interview (recorded with permission, or detailed notes). Transcribe quotations the same day. Draft the feature. | `fieldwork/observation_notes.md` and `fieldwork/interview_notes.md` complete, feature first draft |
-| Thu 23 to Wed 29 Oct | Write press release, webpage and LinkedIn text. Write the communication plan. Second visit if needed for checks. | All four texts and plan drafted, references listed |
-| Thu 30 Oct to Sat 1 Nov | Fact-check every claim and quotation against notes. Read aloud for language. Build the portfolio and run `06_Submission_Checklist.md`. Upload one day early. | Uploaded to Blackboard by 1 Nov |
-| Sun 2 Nov | Buffer only. | |
+| Tue 13 to Wed 14 Oct | Read `08_Plan_and_Questions_for_Lecturer.md`, fill in restaurant name, street and area, adjust anything that does not sound like you. | Plan ready to send |
+| **Thu 15 Oct** | **Send the plan and questions to the lecturer.** Note any feedback. | Sent |
+| **Sun 18 Oct** | **Give Hannah `09_Questions_for_Hannah` (printed).** Confirm Monday's time. | Questions handed over |
+| **Mon 19 Oct** | **Interview the owners** (recorded with permission). First full observation visit. Transcribe quotations the same evening. | `fieldwork/interview_notes.md` filled, verification log started |
+| 19 to 25 Oct | Two or three customers, one or two neighbours, staff if any. Second visit at a different time of day. Get Swedish answers translated and checked. | Every research question has at least two answers |
+| 26 to 29 Oct | Write the feature, press release, webpage and LinkedIn text, then the communication plan. | All drafts done |
+| 30 Oct to 1 Nov | Fact-check every claim and quotation, read aloud, build the portfolio, run the checklist, upload. | Uploaded by 1 Nov |
+| Sun 2 Nov | Deadline. Buffer only. | |
 
 ## 5. Risks and fallbacks
 
