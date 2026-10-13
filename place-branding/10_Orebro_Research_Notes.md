@@ -1,6 +1,6 @@
 # 10 Örebro research notes: statistics, food, place story, challenges
 
-Collected 13 October 2026. Every figure below was read on the original page or data set, except where marked **check**. Use these in the plan, the feature's background paragraph, the press release and the webpage. Each source is also logged in `fieldwork/source_log.md`.
+Collected 13 October 2026. Every figure below was read on the original page or data set, except where marked **check**. Use these in the plan, the feature's background paragraph, the webpage and the LinkedIn text. Each source is also logged in `fieldwork/source_log.md`.
 
 ## 1. The city in numbers
 

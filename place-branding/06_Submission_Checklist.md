@@ -20,7 +20,6 @@ Run through this on 30 or 31 October. Tick every line before uploading.
 ## Honesty and balance
 - [ ] The feature includes a perspective other than the main interviewee's
 - [ ] At least one "what could be better" finding appears in the feature and the plan
-- [ ] The press release is only included if there is a genuine news angle; otherwise the replacement format is explained in the plan
 
 ## Language
 - [ ] Each text read aloud once; stumbles rewritten

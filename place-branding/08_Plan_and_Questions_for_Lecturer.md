@@ -19,7 +19,7 @@ In Kavaratzis's (2004) terms, the place story is Örebro's secondary communicati
 
 ## 3. Why I chose this restaurant
 
-- **It is genuinely new.** It opened on 1 October 2026. That gives the press release a real news angle and gives the feature a moment of change to build on.
+- **It is genuinely new.** It opened on 1 October 2026, so the feature can catch the family at the very start, while everything is still a first: the first guests, the first regulars, the first hard weeks.
 - **It has a before-and-after story.** Another restaurant used to operate in the same premises. The new opening says something about how this street is changing.
 - **It is a family business.** Hannah and her husband own and run it together, often with their children there. That gives the feature a human centre and fits the opportunity lens directly.
 - **It is accessible.** It is about ten minutes from where I live, so I can visit several times at different hours, observe, and check facts. The owners have agreed to an interview on Monday 19 October.
@@ -37,12 +37,14 @@ In Kavaratzis's (2004) terms, the place story is Örebro's secondary communicati
 
 ## 5. Who I am writing for
 
+The feature is the heart of the project. The brief also asks for at least three shorter texts for other audiences, built from the same research.
+
 | Text | Target group | What they need | Platform |
 |---|---|---|---|
 | Feature (interview-based) | International students and other newcomers to Örebro | A human way into the city, practical reassurance, and an honest picture | Student magazine or Örebro University news site |
-| Press release | Local journalists at Nerikes Allehanda, Sveriges Radio P4 Örebro and SVT Örebro | The news, key facts, a quotable source and a contact | Email to news desks |
 | Practical webpage | Residents of [[AREA]] who have not visited yet | What it is, where, when, what it costs, what to expect | Restaurant's website or a local guide page |
 | LinkedIn text | Local partners: student associations, local food producers and nearby businesses | What they gain from working with the restaurant, and one clear next step | LinkedIn |
+| Instagram caption | Young Örebro locals, roughly 18 to 30, who choose where to eat from social media | A reason to go now, in one image and a few lines | Instagram |
 
 ## 6. Challenges I will address honestly
 
@@ -67,7 +69,7 @@ These six questions guide all four texts. Section 10 shows which interview quest
 
 | Who | Why | When |
 |---|---|---|
-| Hannah and her husband, the owners | The central story of the feature, and quotations for the press release and LinkedIn text | Monday 19 October, about 40 minutes at the restaurant |
+| Hannah and her husband, the owners | The central story and main quotations of the feature | Monday 19 October, about 40 minutes at the restaurant |
 | A staff member, if they employ anyone outside the family | A day-to-day view of the restaurant and its guests | Same visit or the following days |
 | Two or three customers | Who comes, why, and an outside view of the place | Two visits at different times of day, 19 to 25 October |
 | One or two neighbours or nearby business owners | The street's view of the opening and of how the area is changing | 19 to 25 October |

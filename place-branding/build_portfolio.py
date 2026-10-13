@@ -25,10 +25,9 @@ OUT_BASE = "Place_Branding_Portfolio"
 ORDER = [
     HERE / "04_Communication_Plan.md",
     HERE / "texts" / "01_Feature.md",
-    HERE / "texts" / "02_Press_Release.md",
+    HERE / "texts" / "02_Instagram_Caption.md",
     HERE / "texts" / "03_Webpage.md",
     HERE / "texts" / "04_LinkedIn.md",
-    HERE / "texts" / "05_Optional_Social_Caption.md",  # dropped automatically if still all placeholders
     HERE / "05_References.md",
 ]
 
@@ -51,18 +50,6 @@ def clean(text: str) -> str:
     return "\n".join(out).strip() + "\n"
 
 
-def is_untouched_optional(path: Path, text: str) -> bool:
-    """The optional fifth text is skipped if nothing in it has been filled in."""
-    if path.name != "05_Optional_Social_Caption.md":
-        return False
-    body = clean(text)
-    body_wo_placeholders = PLACEHOLDER.sub("", body)
-    # If removing placeholders leaves only headings, labels and hashtags, treat as untouched.
-    substantive = [ln for ln in body_wo_placeholders.splitlines()
-                   if ln.strip() and not ln.startswith("#") and not ln.startswith("**") and ln.strip() != "---"]
-    return len(substantive) == 0
-
-
 def main(argv):
     check_only = "--check" in argv
     force = "--force" in argv
@@ -73,9 +60,6 @@ def main(argv):
             problems.append(f"missing file: {path.relative_to(ROOT)}")
             continue
         raw = path.read_text(encoding="utf-8")
-        if is_untouched_optional(path, raw):
-            print(f"skip   {path.relative_to(ROOT)} (optional text, not filled in)")
-            continue
         body = clean(raw)
         for m in PLACEHOLDER.finditer(body):
             line_no = body.count("\n", 0, m.start()) + 1

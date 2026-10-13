@@ -4,7 +4,7 @@
 **Format:** Practical web page, approx. 400 to 600 words, scannable
 **Intended platform:** [[the place's own website / orebro.se visitor pages]]
 
-> ✎ Residents differ from students and journalists: they already know the city, may have passed the place many times, and need a reason and a low-effort way to go. Front-load the practical, keep paragraphs to two or three lines, use headings that answer questions. Smith's web-writing guidance: readers scan, so make each heading carry meaning on its own.
+> ✎ Residents differ from new students: they already know the city, may have passed the place many times, and need a reason and a low-effort way to go. Front-load the practical, keep paragraphs to two or three lines, use headings that answer questions. Smith's web-writing guidance: readers scan, so make each heading carry meaning on its own.
 
 # [[PAGE TITLE: the place name plus the promise, e.g. "Wadköping: a Saturday morning guide for first-time visitors"]]
 

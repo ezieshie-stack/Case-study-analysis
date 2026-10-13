@@ -20,13 +20,13 @@ Names and details below came from travel and study-abroad pages and need checkin
 
 **Chosen place:** [[RESTAURANT NAME]], owned and run by Hannah and her husband, a family-run restaurant about ten minutes from home that opened on 1 October 2026 in a unit that previously housed another restaurant. See `07_Restaurant_Field_Guide.md`.
 **Chosen angle (one sentence):** Promoting Örebro as "the place of opportunities" (the official place story's own phrase) through a family's brand-new restaurant, and testing that promise honestly. Full plan for the lecturer: `08_Plan_and_Questions_for_Lecturer.md`.
-**Why this one and not the others:** It is visitable twice a week without effort, the owner is reachable in person, and the 1 October opening gives a genuine news angle for the press release that the venues above do not. Lecturer's guidance in class, 12 October: promote Örebro through a chosen lens, name the selling points and the audience, use statistics and quotations, keep the writer's own voice throughout, send potential questions by Thursday 15 October (grading checks whether they were answered), and defend the choice of place in the plan.
+**Why this one and not the others:** It is visitable twice a week without effort, the owner is reachable in person, and the 1 October opening lets the feature catch a family at the very start of something new. Lecturer's guidance in class, 12 October: promote Örebro through a chosen lens, name the selling points and the audience, use statistics and quotations, keep the writer's own voice throughout, send potential questions by Thursday 15 October (grading checks whether they were answered), and defend the choice of place in the plan.
 
 ## 2. Scope decisions
 
 - **One visit minimum, two if possible.** Second visit is for checking details and taking photos or video notes for the webpage and social text.
 - **One interview minimum (required for the feature).** Aim for two shorter extra conversations (a visitor, a participant) so the feature can show that others experience the place differently, as the brief asks.
-- **Four texts:** feature, press release, webpage, LinkedIn post. The social caption is a fifth only if time allows.
+- **Four texts:** the feature (the main piece), plus a webpage, a LinkedIn post and an Instagram caption for other audiences.
 - **Communication plan:** short, roughly 600 to 900 words, with concepts cited to the editions actually used.
 - **Honesty requirement:** the brief says research may reveal "things that could be improved". Keep one critical finding in the feature and in the plan; do not sand it off.
 
@@ -35,7 +35,7 @@ Names and details below came from travel and study-abroad pages and need checkin
 | Text | Target group | What they need from it | Format | Platform |
 |---|---|---|---|---|
 | Feature | [[e.g. new international students at Örebro University]] | A human way in, practical reassurance, one honest caveat | Feature story, 900 to 1,200 words | [[e.g. student magazine or university news site]] |
-| Press release | Local journalists (NA, Sveriges Radio P4 Örebro, local TV) | A genuine news angle, facts, a quotable source, a contact | Press release, 350 to 500 words | Email to newsdesk, organisation newsroom page |
+| Instagram caption | Young Örebro locals, roughly 18 to 30, who pick where to eat from social media | A reason to go now, in one image and a few lines | Caption, 60 to 120 words, plus one photo | Instagram |
 | Webpage | Residents who have not visited | What it is, how to get there, what it costs, when to go, what to expect | Practical web page, 400 to 600 words, scannable | The place's or municipality's website |
 | LinkedIn | Community organisations and potential partners | Why partnering is worth their time, what is on offer, next step | LinkedIn post, 150 to 250 words | LinkedIn, posted from an organisational or personal account |
 
@@ -50,7 +50,7 @@ Changing the platform alone does not make a new target group. Each text needs a 
 | **Sun 18 Oct** | **Give Hannah `09_Questions_for_Hannah` (printed).** Confirm Monday's time. | Questions handed over |
 | **Mon 19 Oct** | **Interview the owners** (recorded with permission). First full observation visit. Transcribe quotations the same evening. | `fieldwork/interview_notes.md` filled, verification log started |
 | 19 to 25 Oct | Two or three customers, one or two neighbours, staff if any. Second visit at a different time of day. Get Swedish answers translated and checked. | Every research question has at least two answers |
-| 26 to 29 Oct | Write the feature, press release, webpage and LinkedIn text, then the communication plan. | All drafts done |
+| 26 to 29 Oct | Write the feature first, then the webpage, LinkedIn text and Instagram caption, then the communication plan. | All drafts done |
 | 30 Oct to 1 Nov | Fact-check every claim and quotation, read aloud, build the portfolio, run the checklist, upload. | Uploaded by 1 Nov |
 | Sun 2 Nov | Deadline. Buffer only. | |
 
@@ -59,4 +59,3 @@ Changing the platform alone does not make a new target group. Each text needs a 
 - **Interviewee cancels:** have a second name lined up by 15 Oct. A participant or regular visitor counts, per the brief.
 - **Place closed or event cancelled:** switch to the second shortlisted place by 17 Oct at the latest; the kit does not change.
 - **Cannot visit in person:** the brief says "visit if possible". Document why, rely on the interview plus independent sources, and state the gap in the plan.
-- **No real news angle for a press release:** swap the press release for another format the brief allows (for example a newsletter text for a residents' association). Say so in the plan.

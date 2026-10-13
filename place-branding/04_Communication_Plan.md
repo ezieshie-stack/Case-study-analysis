@@ -22,9 +22,9 @@
 
 > ✎ Smith (Becoming a Public Relations Writer) treats the feature as a story built around people, with a lead that engages, a nut graph that states the point, a body of quotations and observation, and an ending that returns to a detail. Friedmann (Writing for Visual Media) supports concrete, sensory, scene-based writing: show the place through a person and a moment rather than describe it in the abstract.
 
-**Press release.** Audience: local journalists at [[named outlets]]. Platform: [[email to newsdesk / newsroom page]]. [[The genuine news angle, and why it meets news values.]]
+**Instagram caption.** Audience: young Örebro locals who choose where to eat from social media. Platform: Instagram. [[Why a caption and one photograph suit this group.]]
 
-> ✎ Smith's news-value checklist (significance, localness, balance, timeliness, unusualness, fame) and the inverted-pyramid structure justify the format. If you could not find a genuine news angle, say so here and explain the format you used instead.
+> ✎ Friedmann on image and text working together: the photo shows, the caption adds what the photo cannot. Smith on writing for social platforms: hook first, one action at the end.
 
 **Webpage.** Audience: residents who have not visited. Platform: [[the place's or municipality's site]]. [[Why a practical page.]]
 
@@ -40,7 +40,7 @@
 
 [[How the tone shifts between texts and why. Which texts are in English only, and whether any would be bilingual in a real deployment.]]
 
-> ✎ Address the honesty requirement: the brief asks you to communicate what makes the place meaningful "honestly". Explain how you handled the critical finding across the four texts (kept in the feature and plan, handled how in the webpage, omitted from the press release and why).
+> ✎ Address the honesty requirement: the brief asks you to communicate what makes the place meaningful "honestly". Explain how you handled the critical finding across the four texts (kept in the feature and plan, handled how in the webpage, left out of the Instagram caption and why).
 
 ## 5. Gaps in the research
 

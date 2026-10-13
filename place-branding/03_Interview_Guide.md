@@ -33,7 +33,7 @@ Pick and adapt. The brief's own four questions are marked with an asterisk.
 7. Who do you see coming here that people might not expect?
 8. Have you noticed international students or newcomers using the place? What do they seem to come for, and what do they struggle with?
 9. What do people get wrong about this place?
-10. If you had to explain this place to a journalist in one sentence, what would you say? (This often yields the press-release quotation.)
+10. If you had to explain this place to a friend in one sentence, what would you say? (This often yields a strong quotation.)
 
 **Closing**
 11. Is there anything I haven't asked that you think matters?
