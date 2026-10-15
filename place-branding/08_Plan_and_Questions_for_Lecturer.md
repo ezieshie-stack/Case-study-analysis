@@ -1,110 +1,115 @@
 ---
-title: "Place Branding Project: Plan and Interview Questions"
-subtitle: "Örebro, the place of opportunities, seen through a family's new restaurant"
-author: "David Ezieshi · MK009A Content Management I · for Ahmed El Gody"
-date: "15 October 2026"
+title: "Place Branding Project: Working Plan and Interview Questions"
+subtitle: "Testing Örebro's \"place of opportunities\" through a family's new restaurant"
+author: "Ayodele Adeleye · MK009A Content Management I"
+date: "Updated 15 October 2026 after feedback from Ahmed El Gody"
 ---
 
 ## 1. The project in one sentence
 
-I will promote Örebro as a place of opportunity, seen through [[RESTAURANT NAME]], a family-run restaurant that opened on 1 October 2026 on [[STREET]], in premises where another restaurant used to be.
+I will explore the claim that the Örebro region is "the place of opportunities" through the first weeks of Tomasii Restaurang, a family-run restaurant at Karlsdalsallén 63 that opened on 1 October 2026 in premises where another restaurant used to be.
 
-## 2. The lens: Örebro as "the place of opportunities"
+## 2. The lens: a proposition to investigate
 
-Örebro's official place story describes the Greater Örebro Area as *möjligheternas plats*, "the place of opportunities". It says that people "from different parts of the world have moved here" and enrich the region "with new impressions and ideas" (Region Örebro län, 2024; my translation). The same story builds Örebro's identity on food: local produce, pikeperch from Lake Hjälmaren, and restaurants that work with nearby farms.
+The phrase comes from Örebro's regional place story, *Örebro platsberättelse*. It describes "The Greater Örebro Area", meaning the whole county, as *möjligheternas plats*, "the place of opportunities", and says that people "from different parts of the world have moved here" and enrich the region "with new impressions and ideas" (Region Örebro län, 2024; my translation). Region Örebro län developed it with the agency Placebrander as a story "for tourism and the visitor economy" (Region Örebro län, 2023).
 
-My lens tests that promise at street level. A family that has just opened a restaurant is living the "place of opportunities" story right now, including its risks. Through them I can show readers what Örebro offers someone who starts something new here, and be honest about what is hard.
+I treat that phrase as a proposition to investigate, not a fact to promote. The family's first weeks show what starting a business here feels like in practice: what made it possible, what helped, and what has been hard. One restaurant cannot represent the whole city, so the feature presents their experience as one honest case, alongside a customer's and a nearby business owner's view.
 
-In Kavaratzis's (2004) terms, the place story is Örebro's secondary communication, meaning what the city deliberately says about itself. The restaurant and its street are primary communication, meaning what the place actually is and does. Customers, neighbours and online reviews are tertiary communication, meaning what others say. My portfolio puts these three side by side.
+In Kavaratzis's (2004) terms, the place story is secondary communication: what the region deliberately says about itself. The restaurant and its street are primary communication: what the place actually is and does. Customers, neighbours and reviews are tertiary communication: what others say. The portfolio sets these side by side and asks where they agree and where they differ.
 
-## 3. Why I chose this restaurant
+## 3. Why this restaurant
 
-- **It is genuinely new.** It opened on 1 October 2026, so the feature can catch the family at the very start, while everything is still a first: the first guests, the first regulars, the first hard weeks.
-- **It has a before-and-after story.** Another restaurant used to operate in the same premises. The new opening says something about how this street is changing.
-- **It is a family business.** Hannah and her husband own and run it together, often with their children there. That gives the feature a human centre and fits the opportunity lens directly.
-- **It is accessible.** It is about ten minutes from where I live, so I can visit several times at different hours, observe, and check facts. The owners have agreed to an interview on Monday 19 October.
-- **It speaks to my readers.** I am an international student and fairly new to Örebro myself. A newcomer writing about newcomers who are building something here gives the feature an honest point of view.
-- **It lets me be balanced.** Restaurants in Sweden had "yet another year with a record number of bankruptcies" in 2025 (Visita, 2026; my translation). Örebro ranks 245 of 290 municipalities on business climate (Ekonomifakta, 2026). The story can celebrate the opening without pretending it is easy.
+- **It is genuinely new.** It opened on 1 October 2026, so the feature can catch the family at the very start, while everything is still a first.
+- **It has a before-and-after story.** Another restaurant used to operate in the same premises.
+- **It is a family business.** Hannah and her husband own and run it together, which gives the feature a human centre.
+- **It is accessible.** I can visit at different times of day to observe the restaurant and its street, and the owners have agreed to an interview on Monday 19 October.
+- **It matches my readers' position.** I am also new to Örebro, so I can approach the story as a newcomer.
+- **It lets me be balanced.** National and municipal figures give context, though not evidence about this family. Across Sweden, bankruptcies stayed at historically high levels in 2025, with hotels and restaurants among the hardest-hit sectors (Realtid, 2026, reporting UC data). In Svenskt Näringsliv's 2026 ranking, based mainly on a survey of local entrepreneurs, Örebro municipality placed 245th of 290, down from 211th in 2025 (Svenskt Näringsliv, 2026).
 
-## 4. Örebro's selling points through this lens
+## 4. What the region claims, and how I will test it
 
-| Selling point | Evidence | Where it shows in my texts |
+| The region's claim | Evidence the region or statistics offer | How the feature tests it |
 |---|---|---|
-| A city where you can start something | The place story calls the region "the place of opportunities". Örebro is Sweden's seventh-largest municipality, with 160,140 residents in 2024, and grew 1.7% from 2022 to 2025 against 0.8% for the comparison (Ekonomifakta, 2026). | The owners' story of choosing Örebro and opening here |
-| A city shaped by people from everywhere | 19.9% of Örebro's residents were born abroad in 2024 (Statistics Sweden, 2025). Örebro University expects almost 200 exchange students from 27 countries this autumn, a record (Örebro University, 2026). | Who runs, works at and eats at the restaurant |
-| A food city built on local produce and heritage | Pikeperch from Lake Hjälmaren, heritage grains and local farm produce (Region Örebro län, 2024). Cajsa Warg, Sweden's best-known historical cookbook author, was born in Örebro in 1703 (Sjöberg, n.d.). | How the restaurant's food fits into, or adds to, Örebro's food culture |
-| A neighbourly city | The place story says "here good neighbours recommend one another" (Region Örebro län, 2024; my translation). | What neighbours and nearby businesses say about the opening |
+| A place where you can start something | The place story calls the county "the place of opportunities". Örebro municipality grew 1.7% from 2022 to 2025 and is Sweden's seventh-largest (Ekonomifakta, 2026). | When did opening here become realistic, what helped, what was the biggest unexpected difficulty |
+| A place shaped by people from everywhere | 19.9% of Örebro municipality's residents were born abroad in 2024 (Statistics Sweden, 2025). Örebro University expects almost 200 exchange students this autumn, a record (Örebro University, 2026). | Who runs, works at and eats at the restaurant |
+| A food region built on local produce | Pikeperch from Lake Hjälmaren, heritage grains and farm produce (Region Örebro län, 2024). Cajsa Warg was born in Örebro in 1703 (Sjöberg, n.d.). | Where the restaurant's food fits, and whether it uses local ingredients |
+| A neighbourly place | "Here good neighbours recommend one another" (Region Örebro län, 2024; my translation). | How the neighbours and a nearby business owner have received the restaurant |
 
-## 5. Who I am writing for
+## 5. The portfolio
 
-The feature is the main piece. I will then reuse its core message and one photograph from my visit in three short social media posts, each adapted to a different audience. I chose the platforms from Swedish usage data rather than my own habits, because the same platform can mean very different things in different countries.
+### The feature
 
-| Text | Target group | Why this platform | Format |
+- **Length:** about 800 to 1,200 words.
+- **Where it would appear:** The Local Sweden, the English-language news site whose readers are largely international residents and newcomers in Sweden.
+- **Why it matters to international students and other newcomers:** Anyone who moves to Örebro asks the question this family is answering in practice: can I build something here? A concrete, honest account of a family's first weeks, and of how the neighbourhood has received them, tells newcomers more about everyday Örebro than a brochure can. It also points them to a place to eat and meet people beyond campus.
+
+### Three social media posts
+
+Each post reuses the feature's core message and one photograph from my visits, adapted to a specific audience and purpose. I chose the platforms from Swedish usage data rather than my own habits, because platform habits differ between countries.
+
+| Platform | Specific audience | Purpose | Why this platform |
 |---|---|---|---|
-| Feature | International students and other newcomers to Örebro | The main story, read in full | 900 to 1,200 words, for a student magazine or the Örebro University news site |
-| Instagram | Gen Z and younger millennials in Örebro, roughly 18 to 35 | 69% of Swedes born in the 1990s and 65% born in the 2000s use Instagram daily (Internetstiftelsen, 2025) | The photo first, a short caption and a few hashtags |
-| Facebook | Örebro residents roughly 35 to 65, including families and neighbours | In Sweden Facebook "dominates among older" users: 62 to 64% of those born in the 1950s to 1980s use it daily, against 25% of those born in the 2000s (Internetstiftelsen, 2025) | The same photo, a longer neighbourly post with practical details and a link to the feature |
-| LinkedIn | Local professionals and potential partners: business networks, food producers, student associations | 42% of Swedes born in the 1970s to 1990s used LinkedIn in the past year (Internetstiftelsen, 2025) | The same photo, a professional post on starting a business in Örebro, with one statistic, one quotation and one call to action |
+| Instagram | Students at Örebro University, international and Swedish | Introduce the people behind the restaurant | 69% of Swedes born in the 1990s and 65% born in the 2000s use Instagram daily (Internetstiftelsen, 2025) |
+| Facebook | Residents of the neighbourhood around Karlsdalsallén | Tell neighbours who has opened in the old restaurant's premises, with practical details, and invite them in | In Sweden Facebook "dominates among older" users: 62 to 64% of those born in the 1950s to 1980s use it daily (Internetstiftelsen, 2025) |
+| LinkedIn | Örebro's local business community and people considering starting a business | Share what starting a local business in Örebro has been like: what helped and what was hard | 42% of Swedes born in the 1970s to 1990s used LinkedIn in the past year (Internetstiftelsen, 2025) |
 
-## 6. Challenges I will address honestly
+### Theoretical brief
 
-- **A hard market.** Restaurant bankruptcies in Sweden reached record levels again in 2025, and rising purchase prices hit restaurants hardest (Visita, 2026).
-- **Örebro's business figures lag behind its story.** Örebro had 8.6 new businesses per 1,000 residents aged 15 to 74 in 2025, against 9.7 for the comparison, and unemployment of 7.6% against 6.9% (Ekonomifakta, 2026).
-- **The premises have a history.** The previous restaurant in the same space closed. I will find out what neighbours and the owners know about it.
-- **Language.** Hannah is more comfortable in another language than English. I will handle this as described in section 11.
-- **No single famous dish.** Örebro is known for local produce rather than one signature dish. I will ask where the restaurant's own food fits.
+A short brief will explain the place-branding purpose, the research, the audience choices and how I applied the course readings, especially Kavaratzis (2004), Smith and Friedmann.
 
-## 7. Questions my portfolio will answer
+## 6. Context and challenges, with their scope
 
-These six questions guide all four texts. Section 10 shows which interview questions and sources answer each one.
+- **National:** bankruptcies in Sweden stayed at historically high levels in 2025, and hotels and restaurants were among the sectors with the most (Realtid, 2026, reporting UC data). The industry body Visita called 2025 "yet another year with a record number of bankruptcies" for restaurants (Visita, 2026; my translation). That is Visita's characterisation, attributed as such.
+- **Municipal:** Örebro placed 245th of 290 in Svenskt Näringsliv's 2026 business-climate ranking. The ranking measures local entrepreneurs' perceptions, not any single firm's results.
+- **Regional:** "The place of opportunities" is a county-wide tourism narrative, so the feature tests it rather than repeats it.
+- **The premises:** the previous restaurant in the same space closed. I will ask what the owners and neighbours know about it.
+- **Language:** Hannah is more comfortable in Swedish than English. I will handle this as described in section 11.
 
-- **RQ1.** Who are the people behind [[RESTAURANT NAME]], and why did they choose Örebro and this street?
-- **RQ2.** What does the restaurant add to Örebro's food culture, and how does it relate to the city's local-produce identity?
-- **RQ3.** Who comes to eat there, and what does that say about who lives in this part of Örebro and what they like?
-- **RQ4.** What has it been like to open a new business in Örebro in 2026: what helped, and what has been hard?
-- **RQ5.** What does the street and neighbourhood gain from the opening, according to neighbours and nearby businesses?
-- **RQ6.** Does this family's experience support Örebro's promise of being "the place of opportunities", and what should a newcomer know?
+## 7. Questions the portfolio will answer
 
-## 8. Who I will interview
+- **RQ1.** Who are the people behind Tomasii Restaurang, and how did opening here become a realistic possibility for them?
+- **RQ2.** What does the restaurant add to the area's food, and how does it relate to the region's local-produce identity?
+- **RQ3.** Who has come to eat there in the first weeks?
+- **RQ4.** What has it been like to start a business in Örebro in practice: what helped, and what has been the biggest unexpected difficulty?
+- **RQ5.** How have the street and its neighbours received the restaurant?
+- **RQ6.** How far does this family's experience support the region's claim to be "the place of opportunities", given that one restaurant cannot speak for the whole city?
 
-| Who | Why | When |
+## 8. Who I will interview, in priority order
+
+| Priority | Who | Why |
 |---|---|---|
-| Hannah and her husband, the owners | The central story and main quotations of the feature | Monday 19 October, about 40 minutes at the restaurant |
-| A staff member, if they employ anyone outside the family | A day-to-day view of the restaurant and its guests | Same visit or the following days |
-| Two or three customers | Who comes, why, and an outside view of the place | Two visits at different times of day, 19 to 25 October |
-| One or two neighbours or nearby business owners | The street's view of the opening and of how the area is changing | 19 to 25 October |
+| Essential | Hannah and her husband, the owners | The central story of the feature |
+| Essential | One customer | An outside view of the restaurant and why people come |
+| Essential | One nearby business owner | The street's view, and a second experience of doing business here |
+| Only if distinct | A staff member, a second customer, or a resident neighbour | Added only where they offer a perspective the others do not |
 
 ## 9. Interview questions
 
-Each question is tagged with the research question it serves. I will also ask follow-up questions when an answer opens new ground, such as "Can you give me an example?" or "What happened next?", and I will record those in my notes.
+Questions marked with a star are the core set if time is short. I will also ask follow-up questions for concrete moments, such as "Can you give me an example?" or "What happened next?", and record them in my notes.
 
-### 9.1 The owners
+### 9.1 The owners (given to Hannah in English and Swedish on Sunday 18 October, at her request)
 
-Hannah asked to see the questions in advance, so I will give her this list on Sunday 18 October in English and Swedish.
+1. ★ Please tell me about yourselves. Who are you, and how did this restaurant begin? (RQ1)
+2. ★ Why did you choose Örebro? (RQ1, RQ6)
+3. ★ When did opening a restaurant here start to feel like a real possibility? (RQ1, RQ6)
+4. ★ Why this street and this building? What do you know about the restaurant that was here before? (RQ1, RQ5)
+5. What do you remember about the opening day, 1 October? (RQ1)
+6. What food do you serve, and what is the story behind it? (RQ2)
+7. Do you use any ingredients from the Örebro area? Why or why not? (RQ2)
+8. ★ Who comes to eat here? Is it who you expected? (RQ3)
+9. How have the neighbours welcomed you? (RQ5)
+10. ★ What helped you get started? For example people, the municipality, neighbours or other businesses. (RQ4)
+11. ★ What has been the biggest unexpected difficulty so far? (RQ4)
+12. What is it like to run the restaurant as a family? (RQ1)
+13. Are there local businesses, food producers or groups you would like to work with? (RQ5)
+14. ★ What should someone who is new in Örebro know before they come here? (RQ6)
+15. ★ Is Örebro a good place to start something new? Why or why not? (RQ6)
+16. What would you like to change or improve? (RQ4)
+17. Where do you see the restaurant one year from now? (RQ6)
 
-1. Please tell me about yourselves. Who are you, and how did this restaurant begin? (RQ1)
-2. Why did you choose Örebro? (RQ1, RQ6)
-3. Why this street and these premises? What do you know about the restaurant that was here before? (RQ1, RQ5)
-4. What do you remember about the opening day, 1 October? (RQ1)
-5. What food do you serve, and what is the story behind it? (RQ2)
-6. Do you use any ingredients from the Örebro area? Why or why not? (RQ2)
-7. What makes your restaurant special, in your own words? (RQ2)
-8. Who comes to eat here? Is that who you expected? (RQ3)
-9. From what you have seen, what do people in Örebro like when they eat out? (RQ3)
-10. What has been the hardest part of opening a restaurant in Örebro? (RQ4)
-11. Did anyone help you, for example the municipality, neighbours or other businesses? (RQ4, RQ5)
-12. Many restaurants in Sweden have closed in the last two years. How does it feel to start one now? (RQ4)
-13. How have the neighbours welcomed you? (RQ5)
-14. What is it like to run the restaurant as a family? (RQ1)
-15. What should someone who is new in Örebro know before they come here? (RQ6)
-16. Would you say Örebro is a good place to start something new? Why? (RQ6)
-17. What would you like to change or improve? (RQ4)
-18. Where do you see the restaurant one year from now? (RQ6)
-19. Are there local businesses, food producers or groups you would like to work with? (RQ5)
+Practical facts to confirm at the end: number of seats, opening hours, number of staff, price range, card or cash, booking, and menu languages.
 
-Practical facts I will confirm at the end: number of seats, opening hours, number of staff, price range, card or cash, booking, and menu languages.
-
-### 9.2 Customers
+### 9.2 One customer
 
 1. How did you hear about this restaurant? (RQ3)
 2. Do you live or work nearby? How long have you lived in Örebro? (RQ3, RQ5)
@@ -112,48 +117,40 @@ Practical facts I will confirm at the end: number of seats, opening hours, numbe
 4. How would you describe this part of Örebro to a friend? (RQ5, RQ6)
 5. What is one thing that could be better here? (RQ4)
 
-### 9.3 Neighbours and nearby businesses
+### 9.3 One nearby business owner
 
 1. How long have you been on this street, and how has it changed? (RQ5)
 2. What was in the restaurant's premises before, and what happened to it? (RQ5)
 3. Has anything changed on the street since the new restaurant opened? (RQ5)
-4. Is Örebro a good place to run a business? What is hard about it? (RQ4, RQ6)
-
-### 9.4 Staff, if any
-
-1. How did you come to work here? (RQ1)
-2. What do guests say most often about the place? (RQ2, RQ3)
-3. What has surprised you since the opening? (RQ4)
+4. What has it been like for you to run a business here? What helped, and what was hard? (RQ4, RQ6)
 
 ## 10. How each research question will be answered
 
-| Research question | Owner questions | Other interviews | Desk research and observation |
+| Research question | Owner questions | Customer and business owner | Observation and desk research |
 |---|---|---|---|
-| RQ1 People and choice | 1, 2, 3, 4, 14 | Staff 1 | Restaurant's website and social media |
-| RQ2 Food | 5, 6, 7 | Customers 3; staff 2 | Menu; place story on local produce; Cajsa Warg and Grythyttan background |
-| RQ3 Who comes | 8, 9 | Customers 1, 2, 3; staff 2 | Observation at two times of day; Statistics Sweden population data |
-| RQ4 Opening a business | 10, 11, 12, 17 | Customers 5; neighbours 4; staff 3 | Visita 2025 report; Ekonomifakta business statistics |
-| RQ5 Street and neighbourhood | 3, 11, 13, 19 | Customers 2, 4; neighbours 1, 2, 3 | Observation of the street; what the premises were before |
-| RQ6 Place of opportunities | 2, 15, 16, 18 | Customers 4; neighbours 4 | Örebro place story; Örebro University exchange-student figures |
+| RQ1 People and possibility | 1, 2, 3, 4, 5, 12 | | Restaurant's own social media |
+| RQ2 Food | 6, 7 | Customer 3 | Menu; place story on local produce |
+| RQ3 Who comes | 8 | Customer 1, 2, 3 | Observation at two times of day |
+| RQ4 Starting a business | 10, 11, 16 | Customer 5; business owner 4 | National and municipal context, clearly labelled |
+| RQ5 Street and neighbours | 4, 9, 13 | Customer 2, 4; business owner 1, 2, 3 | Observation of the street |
+| RQ6 Place of opportunities | 2, 3, 14, 15, 17 | Customer 4; business owner 4 | Place story; population and student figures |
 
 ## 11. Method and ethics
 
-- **Consent.** I will explain that the interview is for a course project, ask permission to record, and ask how each person wants to be named: full name, first name only, or role only.
-- **Language.** Hannah can answer in Swedish or the language she prefers. I will record, have the answers translated, and have a Swedish speaker check my translations. Any quotation I translate will be marked as translated.
-- **Accuracy.** Every quotation goes into a verification log with a timestamp before I use it. Every fact is logged with its source.
-- **Balance.** The feature will include at least one perspective besides the owners' and at least one thing that could be better.
-- **Photographs.** I will photograph only with permission, and I will not present posed people as real customers.
+- **Consent.** I will explain that the interview is for a course project, ask permission to record and to photograph, and ask how each person wants to be named.
+- **Language and translation.** Hannah can answer in Swedish. I will record the interview and translate the answers. A Swedish speaker will check the translations, and I will check facts and translations as I write rather than leaving it all to the end. Translated quotations will be marked as translated and will preserve the speaker's meaning. Where a word is uncertain, I will say so or paraphrase rather than quote.
+- **Accuracy.** Every quotation goes into a verification log with a timestamp before I use it. Every fact is logged with its source, date and geographical scope.
+- **Balance.** The feature includes a customer's and a nearby business owner's view, and at least one thing that could be better.
 
 ## 12. Timeline
 
 | Date | Step |
 |---|---|
-| Thursday 15 October | Send this plan and the questions |
-| Sunday 18 October | Give Hannah the owner questions in English and Swedish |
-| Monday 19 October | Interview the owners; first observation visit |
-| 19 to 25 October | Customer, neighbour and staff interviews; second visit at a different time |
-| 26 to 29 October | Write the four texts and the communication plan |
-| 30 October to 1 November | Check facts and quotations, edit, and submit |
+| Sunday 18 October | Give Hannah the questions in English and Swedish |
+| 19 to 21 October | Interviews and first visits; transcribe and translate the same day; begin writing |
+| 22 to 25 October | First draft of the feature, checking facts and translations while writing |
+| 26 to 30 October | Further photographs; the three social media posts; the theoretical brief |
+| 31 October to 1 November | Final check of facts and quotations; edit; submit |
 | 2 November | Deadline |
 
 ## References
@@ -166,10 +163,16 @@ Kavaratzis, M. (2004). From city marketing to city branding: Towards a theoretic
 
 Örebro University. (2026, August 17). *Record number of exchange students choosing Örebro University*. https://www.oru.se/english/news/record-number-of-exchange-students-choosing-orebro-university/
 
+Region Örebro län. (2023, November 8). *Platsberättelse Örebro län: Workshop* [Presentation by Placebrander]. https://orta.regionorebrolan.se/contentassets/996289e208b14b398ae838d7ead0cf86/presentation-platsberattelse-231108.pdf
+
 Region Örebro län. (2024). *Örebro platsberättelse* [Örebro place story]. https://orta.regionorebrolan.se/contentassets/28736afd12f143068d738531504839cb/orebro_platsberattelse.pdf
+
+Realtid. (2026, January 5). *Konkurserna rasar för hotell och restauranger* [Bankruptcies plunge for hotels and restaurants; UC data]. https://www.realtid.se/bors-finans/konkurserna-rasar-for-hotell-och-restauranger/
 
 Sjöberg, M. (n.d.). Anna Christina (Cajsa) Warg (A. Grosjean, Trans.). In *Svenskt kvinnobiografiskt lexikon*. Retrieved October 13, 2026, from https://skbl.se/en/article/AnnaChristinaWarg
 
 Statistics Sweden. (2025). *Folkmängd efter region, ålder, kön och födelseregion. År 2013–2024* [Data set]. Statistikdatabasen. https://www.statistikdatabasen.scb.se/
+
+Svenskt Näringsliv. (2026). *Företagsklimat: Örebro*. https://www.foretagsklimat.se/orebro
 
 Visita. (2026). *Verksamhetsberättelse 2025* [Annual report 2025]. https://visita.se/app/uploads/2026/04/Visita-Versamhetsberattelse-2025.pdf

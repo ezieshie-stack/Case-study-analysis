@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Assemble the place-branding portfolio into one document.
 
-Reads the communication plan, the texts and the reference list, strips the
+Reads the theoretical brief, the texts and the reference list, strips the
 `> ✎` guidance lines, refuses to build while `[[...]]` placeholders remain, and
 writes deliverables/Place_Branding_Portfolio.docx (and .pdf when a PDF engine
 is available) using pandoc.
@@ -23,7 +23,7 @@ OUT_DIR = ROOT / "deliverables"
 OUT_BASE = "Place_Branding_Portfolio"
 
 ORDER = [
-    HERE / "04_Communication_Plan.md",
+    HERE / "04_Theoretical_Brief.md",
     HERE / "texts" / "01_Feature.md",
     HERE / "texts" / "02_Social_Media_Posts.md",
     HERE / "05_References.md",

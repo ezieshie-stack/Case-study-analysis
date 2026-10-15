@@ -1,6 +1,6 @@
 ---
 title: "Interview questions / Intervjufrågor"
-subtitle: "[[RESTAURANT NAME]] · Monday 19 October 2026 / måndag 19 oktober 2026"
+subtitle: "Tomasii Restaurang · Monday 19 October 2026 / måndag 19 oktober 2026"
 ---
 
 Hello Hannah,
@@ -23,64 +23,58 @@ The interview takes about 30 to 40 minutes. You can answer in Swedish or English
 2. **Why did you choose Örebro?**\
    *Varför valde ni Örebro?*
 
-3. **Why this street and this building? Do you know about the restaurant that was here before?**\
+3. **When did opening a restaurant here start to feel like a real possibility?**\
+   *När började det kännas som en verklig möjlighet att öppna en restaurang här?*
+
+4. **Why this street and this building? Do you know about the restaurant that was here before?**\
    *Varför just den här gatan och den här lokalen? Vet ni något om restaurangen som fanns här tidigare?*
 
-4. **What do you remember about the opening day, 1 October?**\
+5. **What do you remember about the opening day, 1 October?**\
    *Vad minns ni från öppningsdagen, den 1 oktober?*
 
 ## Your food / Er mat
 
-5. **What food do you serve, and what is the story behind it?**\
+6. **What food do you serve, and what is the story behind it?**\
    *Vilken mat serverar ni, och vad är historien bakom den?*
 
-6. **Do you use any ingredients from the Örebro area? Why or why not?**\
+7. **Do you use any ingredients from the Örebro area? Why or why not?**\
    *Använder ni några råvaror från Örebroområdet? Varför eller varför inte?*
 
-7. **What makes your restaurant special?**\
-   *Vad gör er restaurang speciell?*
-
-## Your guests / Era gäster
+## Your guests and neighbours / Era gäster och grannar
 
 8. **Who comes to eat here? Is it who you expected?**\
    *Vilka kommer hit och äter? Är det de ni hade väntat er?*
 
-9. **What do people in Örebro like when they eat out?**\
-   *Vad tycker folk i Örebro om när de äter ute?*
+9. **How have the neighbours welcomed you?**\
+   *Hur har grannarna tagit emot er?*
 
-## Starting a business / Att starta ett företag
+## Starting the business / Att starta företaget
 
-10. **What has been the hardest part of opening a restaurant in Örebro?**\
-    *Vad har varit svårast med att öppna en restaurang i Örebro?*
+10. **What helped you get started? For example people, the municipality, neighbours or other businesses.**\
+    *Vad hjälpte er att komma igång? Till exempel personer, kommunen, grannar eller andra företag.*
 
-11. **Did anyone help you? For example the municipality, neighbours or other businesses?**\
-    *Fick ni hjälp av någon? Till exempel kommunen, grannar eller andra företag?*
+11. **What has been the biggest unexpected difficulty so far?**\
+    *Vad har varit den största oväntade svårigheten hittills?*
 
-12. **Many restaurants in Sweden have closed in the last two years. How does it feel to start one now?**\
-    *Många restauranger i Sverige har fått stänga de senaste två åren. Hur känns det att starta en just nu?*
-
-13. **How have the neighbours welcomed you?**\
-    *Hur har grannarna tagit emot er?*
-
-14. **What is it like to run the restaurant as a family?**\
+12. **What is it like to run the restaurant as a family?**\
     *Hur är det att driva restaurangen som familj?*
+
+13. **Are there local businesses, food producers or groups you would like to work with?**\
+    *Finns det lokala företag, matproducenter eller föreningar som ni skulle vilja samarbeta med?*
 
 ## Örebro and the future / Örebro och framtiden
 
-15. **What should someone who is new in Örebro know before they come here?**\
+14. **What should someone who is new in Örebro know before they come here?**\
     *Vad bör någon som är ny i Örebro veta innan de kommer hit?*
 
-16. **Is Örebro a good place to start something new? Why?**\
-    *Är Örebro en bra plats att starta något nytt på? Varför?*
+15. **Is Örebro a good place to start something new? Why or why not?**\
+    *Är Örebro en bra plats att starta något nytt på? Varför eller varför inte?*
 
-17. **What would you like to change or improve?**\
+16. **What would you like to change or improve?**\
     *Vad skulle ni vilja ändra eller förbättra?*
 
-18. **Where do you see the restaurant one year from now?**\
+17. **Where do you see the restaurant one year from now?**\
     *Var ser ni restaurangen om ett år?*
-
-19. **Are there local businesses, food producers or groups you would like to work with?**\
-    *Finns det lokala företag, matproducenter eller föreningar som ni skulle vilja samarbeta med?*
 
 ## Practical details / Praktiska detaljer
 
@@ -97,4 +91,4 @@ How many seats? Opening hours? How many people work here? Prices? Card or cash? 
 - May I take some photographs of the restaurant, and of you if you agree? / *Får jag ta några bilder av restaurangen, och av dig om du vill?*
 
 Thank you! / *Tack så mycket!*
-David Ezieshi · [[YOUR PHONE OR EMAIL]]
+Ayodele Adeleye · [[YOUR PHONE OR EMAIL]]

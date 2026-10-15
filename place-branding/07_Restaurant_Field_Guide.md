@@ -1,6 +1,6 @@
 # 07 Field Guide: the new restaurant as a place-branding story
 
-Chosen place: a restaurant about ten minutes from home that opened on 1 October 2026 in a unit that previously housed another restaurant. Owner met once in passing; family-run (owner, his wife, their children present). Owners: Hannah and her husband. Interview booked for Monday 19 October; Hannah receives the questions on Sunday 18 October. Name, address and street still to be recorded: [[RESTAURANT NAME]], [[STREET / AREA]].
+Chosen place: **Tomasii Restaurang, Karlsdalsallén 63, Örebro**, a family-run restaurant about ten minutes from home that opened on 1 October 2026 in premises that previously housed another restaurant. Owners: Hannah and her husband. Interview booked for Monday 19 October; Hannah receives the questions on Sunday 18 October. A property listing places Karlsdalsallén in the Sörbyängen area, near a golf course; confirm the neighbourhood name locally before using it.
 
 Working angle: **a brand-new restaurant as a door into its street and neighbourhood.** The restaurant is the character; the place being branded is the area around it. The question the portfolio answers: *what does a new restaurant opening here tell us about this part of Örebro, who it welcomes, and how it is finding its first regulars?*
 
@@ -10,7 +10,7 @@ Goal: get a yes and a time. Nothing else.
 
 Say roughly this, in your own words:
 
-> "Hi, I'm David. I live ten minutes from here and I'm a master's student at Örebro University. For a course I'm writing a feature about this part of town, and I'd like to build it around your restaurant, since you've just opened. It would mean one conversation of about 30 to 40 minutes, sometime this week or next, when it's quiet for you. It's a course project, not advertising, and I'd quote you accurately. Would you be open to that?"
+> "Hi, I'm Ayo. I live ten minutes from here and I'm a master's student at Örebro University. For a course I'm writing a feature about this part of town, and I'd like to build it around your restaurant, since you've just opened. It would mean one conversation of about 30 to 40 minutes, sometime this week or next, when it's quiet for you. It's a course project, not advertising, and I'd quote you accurately. Would you be open to that?"
 
 Then:
 - Fix a **day and time** before you leave. Quiet hours (mid-afternoon) are best. Write it down in front of him.

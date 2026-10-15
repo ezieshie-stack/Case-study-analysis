@@ -18,43 +18,41 @@ Names and details below came from travel and study-abroad pages and need checkin
 | **A campus space at Örebro University** (library, student union house, a specific study area) | What does a new international student actually need from one campus space in week one, and does it deliver? | A student union officer, a librarian, two first-term students | Permission to photograph or observe, which service is in scope |
 | **A market or local initiative** (weekly market, repair café, sports club open session, church or association meal) | How does one recurring local event create belonging for people who arrived with no network? | The organiser, one long-time participant, one newcomer | That it runs on a date you can attend before 22 Oct |
 
-**Chosen place:** [[RESTAURANT NAME]], owned and run by Hannah and her husband, a family-run restaurant about ten minutes from home that opened on 1 October 2026 in a unit that previously housed another restaurant. See `07_Restaurant_Field_Guide.md`.
-**Chosen angle (one sentence):** Promoting Örebro as "the place of opportunities" (the official place story's own phrase) through a family's brand-new restaurant, and testing that promise honestly. Full plan for the lecturer: `08_Plan_and_Questions_for_Lecturer.md`.
-**Why this one and not the others:** It is visitable twice a week without effort, the owner is reachable in person, and the 1 October opening lets the feature catch a family at the very start of something new. Lecturer's guidance in class, 12 October: promote Örebro through a chosen lens, name the selling points and the audience, use statistics and quotations, keep the writer's own voice throughout, send potential questions by Thursday 15 October (grading checks whether they were answered), and defend the choice of place in the plan.
+**Chosen place:** Tomasii Restaurang, Karlsdalsallén 63, owned and run by Hannah and her husband, a family-run restaurant about ten minutes from home that opened on 1 October 2026 in a unit that previously housed another restaurant. See `07_Restaurant_Field_Guide.md`.
+**Chosen angle (one sentence):** Exploring the region's claim to be "the place of opportunities" (from the county's tourism place story) through a family's brand-new restaurant, treated as a proposition to investigate (lecturer, 15 Oct). Full plan for the lecturer: `08_Plan_and_Questions_for_Lecturer.md`.
+**Why this one and not the others:** It is visitable twice a week without effort, the owner is reachable in person, and the 1 October opening lets the feature catch a family at the very start of something new. Lecturer's guidance in class, 12 October: promote Örebro through a chosen lens, name the selling points and the audience, use statistics and quotations, keep the writer's own voice throughout, send potential questions by Thursday 15 October (grading checks whether they were answered), and defend the choice of place in the plan. Feedback by email on 15 October approved the approach; see `11_Lecturer_Feedback_15Oct.md`.
 
 ## 2. Scope decisions
 
 - **One visit minimum, two if possible.** Second visit is for checking details and taking the photograph that all three social media posts will share.
 - **One interview minimum (required for the feature).** Aim for two shorter extra conversations (a visitor, a participant) so the feature can show that others experience the place differently, as the brief asks.
 - **Four texts:** the feature (the main piece), plus three short posts on Instagram, Facebook and LinkedIn that reuse its core message and one photograph.
-- **Communication plan:** short, roughly 600 to 900 words, with concepts cited to the editions actually used.
+- **Theoretical brief:** short, roughly 600 to 900 words, with concepts cited to the editions actually used.
 - **Honesty requirement:** the brief says research may reveal "things that could be improved". Keep one critical finding in the feature and in the plan; do not sand it off.
 
 ## 3. Audiences, one per text
 
-| Text | Target group | What they need from it | Format | Platform |
+| Text | Target group | Purpose | Format | Platform |
 |---|---|---|---|---|
-| Feature | [[e.g. new international students at Örebro University]] | A human way in, practical reassurance, one honest caveat | Feature story, 900 to 1,200 words | [[e.g. student magazine or university news site]] |
-| Instagram | Gen Z and younger millennials in Örebro, roughly 18 to 35 | A reason to go, in one image and a few lines | Photo plus 40 to 80 word caption | Instagram |
-| Facebook | Örebro residents roughly 35 to 65, families and neighbours | Local news, practical details, a link to the full story | Same photo plus 120 to 200 words | Restaurant page or local neighbourhood group |
-| LinkedIn | Local professionals and potential partners | Why the opening matters for business in Örebro, one next step | Same photo plus 150 to 250 words | LinkedIn |
+| Feature | International students and other newcomers to Örebro | Show what starting something here feels like in practice, honestly | Feature story, 800 to 1,200 words | The Local Sweden |
+| Instagram | Students at Örebro University | Introduce the people behind the restaurant | Photo plus 40 to 80 word caption | Instagram |
+| Facebook | Residents of the neighbourhood around Karlsdalsallén | Tell neighbours who has opened and invite them in | Same photo plus 120 to 200 words | Restaurant page or neighbourhood group |
+| LinkedIn | Örebro's local business community and people considering starting a business | Share what starting a local business has been like | Same photo plus 150 to 250 words | LinkedIn |
 
-The three posts reuse the feature's core message and one photograph, adapted per platform (lecturer's guidance, 12 October). Platforms chosen from Swedish usage data: see `10_Orebro_Research_Notes.md` section 6.
-
-Changing the platform alone does not make a new target group. Each text needs a different **reader need, tone and opening**.
+The three posts reuse the feature's core message and one photograph, adapted per platform. Platforms chosen from Swedish usage data: see `10_Orebro_Research_Notes.md` section 6. A short theoretical brief (`04_Theoretical_Brief.md`) explains the choices.
 
 ## 4. Timeline to 2 November 2026
 
-| Dates | Work | Done when |
-|---|---|---|
-| Tue 13 to Wed 14 Oct | Read `08_Plan_and_Questions_for_Lecturer.md`, fill in restaurant name, street and area, adjust anything that does not sound like you. | Plan ready to send |
-| **Thu 15 Oct** | **Send the plan and questions to the lecturer.** Note any feedback. | Sent |
-| **Sun 18 Oct** | **Give Hannah `09_Questions_for_Hannah` (printed).** Confirm Monday's time. | Questions handed over |
-| **Mon 19 Oct** | **Interview the owners** (recorded with permission). First full observation visit. Transcribe quotations the same evening. | `fieldwork/interview_notes.md` filled, verification log started |
-| 19 to 25 Oct | Two or three customers, one or two neighbours, staff if any. Second visit at a different time of day. Get Swedish answers translated and checked. | Every research question has at least two answers |
-| 26 to 29 Oct | Write the feature first, then adapt it into the Instagram, Facebook and LinkedIn posts, then the communication plan. | All drafts done |
-| 30 Oct to 1 Nov | Fact-check every claim and quotation, read aloud, build the portfolio, run the checklist, upload. | Uploaded by 1 Nov |
-| Sun 2 Nov | Deadline. Buffer only. | |
+This is the timeline sent to the lecturer on 15 October, with his advice to check facts and translations while writing.
+
+| Dates | Work |
+|---|---|
+| **Sun 18 Oct** | Give Hannah `09_Questions_for_Hannah` (printed). Confirm Monday's time. |
+| **19 to 21 Oct** | Interview the owners (Mon 19), one customer and one nearby business owner. First visits at different times of day. Transcribe and translate the same day. Begin writing. |
+| 22 to 25 Oct | First draft of the feature, checking facts and translations as you write. |
+| 26 to 30 Oct | Further photographs; the Instagram, Facebook and LinkedIn posts; the theoretical brief. |
+| 31 Oct to 1 Nov | Final check of facts and quotations; edit; build the portfolio; upload. |
+| Sun 2 Nov | Deadline. |
 
 ## 5. Risks and fallbacks
 

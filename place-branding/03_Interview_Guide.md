@@ -59,5 +59,6 @@ Pick and adapt. The brief's own four questions are marked with an asterisk.
 
 - Never improve a quotation. Tidy "um"s and false starts; do not change meaning or add words.
 - Paraphrase without quotation marks when you are unsure of exact wording.
+- When translating a quotation, preserve the speaker's meaning rather than the word order, mark it as translated, and have a Swedish speaker check it. If a word could mean two things, ask the speaker, say so, or paraphrase (lecturer, 15 Oct).
 - Do not quote anyone who did not consent to being quoted.
 - If the interviewee says something critical about an institution, keep it, but give the institution's position from its own material or a second source where you can.

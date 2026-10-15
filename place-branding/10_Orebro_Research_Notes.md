@@ -13,7 +13,7 @@ Collected 13 October 2026. Every figure below was read on the original page or d
 | Average age, 2025 | 40.8 years (comparison: 42.4) | Ekonomifakta |
 | Unemployment, 2025 | 7.6% (comparison: 6.9%) | Ekonomifakta |
 | New businesses, 2025 | 8.6 per 1,000 residents aged 15 to 74 (comparison: 9.7) | Ekonomifakta |
-| Business-climate ranking, 2026 | 245 of 290 municipalities | Ekonomifakta (ranking originates with Svenskt Näringsliv, **check** the original) |
+| Business-climate ranking, 2026 | 245 of 290 municipalities, down from 211 in 2025 and 162 in 2023 | Svenskt Näringsliv, foretagsklimat.se (verified 15 Oct); SVT Örebro, 30 May 2026 |
 | Exchange students at Örebro University, autumn 2026 | almost 200, from 27 countries, "the highest number on record" | Örebro University news, 17 Aug 2026 |
 | Exchange students, autumn 2025 | 186, a record at the time | same |
 | Örebro University size and international share | 9,711 full-time-equivalent students, 7% international | Times Higher Education, World University Rankings 2025 |
@@ -49,12 +49,34 @@ Source: *Örebro platsberättelse*, a four-page place story for "The Greater Ör
 
 In Kavaratzis's (2004) terms this document is **secondary communication**: the place deliberately describing itself. Your visit and the restaurant itself are **primary** communication. Customers, neighbours, reviews and news are **tertiary**. The portfolio compares the three.
 
-Background, date **check** before use: an SVT Örebro article reports that the municipality scrapped three slogans in a few years ("Örebro – rätt plats", "Mötesplats Örebro", "Överraskande Örebro") and then commissioned a new brand. Useful for the plan as evidence that branding a city is hard, but the article is undated in search results.
+Background only: an SVT Örebro article of **31 January 2013** reports that the municipality scrapped three slogans ("Örebro – rätt plats", "Mötesplats Örebro", "Överraskande Örebro") and commissioned a new brand. It is 13 years old and about the municipality, not the region, so do not present it as current. Leave it out unless you need a historical aside.
 
-## 4. The restaurant sector right now (the challenge)
+## 4. The restaurant sector (context only, national)
 
-- Visita, the Swedish hospitality employers' association, in its 2025 annual report: restaurants "had it tough also during 2025", and "as a whole it was yet another year with a record number of bankruptcies" (Thomas Jakobsson, quoted in the report; my translation of *"som helhet blev det ännu ett år med rekordmånga konkurser"*). The same report says rising purchase prices hit restaurants hardest, and that some members also called 2025 "a very good year".
-- So a family opening a restaurant in October 2026 is doing it in a hard market. That is a fair, factual way to frame the stakes without being negative about them.
+Verified 15 October 2026. These are **national** figures for Sweden. They describe the market the family opened into; they say nothing about this family's own experience, which only the interview can show.
+
+- **UC (credit-information company), full year 2025:** company bankruptcies across all sectors fell by 1% compared with 2024 and stayed at roughly the same high level. Construction, trade, and hotels and restaurants were the sectors where most companies went bankrupt (UC via Placera, 2 Jan 2026; Realtid, 5 Jan 2026).
+- **UC, monthly:** hotel and restaurant bankruptcies fell 32% in December 2025 and 24% in January 2026, year on year (Realtid, 5 Jan 2026; Aktiespararna, reporting UC's January 2026 figures).
+- **Visita's characterisation:** Visita's chief economist, Thomas Jakobsson, says restaurants "had it tough also during 2025" and that "as a whole it was yet another year with a record number of bankruptcies" (Visita annual report 2025, published April 2026, p. 9; my translation). This is the industry body's own description. No full-year restaurant count was found to confirm "record", so attribute it to Visita and do not state it as fact.
+
+**Safe wording for the plan or feature:** "Across Sweden, bankruptcies stayed at historically high levels in 2025, with hotels and restaurants among the hardest-hit sectors (Realtid, 2026, reporting UC data)." If you quote Visita, attribute it: "the industry body Visita called 2025 'yet another year with a record number of bankruptcies' for restaurants."
+
+**Correction to the email of 15 October:** the email said "Swedish restaurants experienced a record number of bankruptcies in 2025". Replace it with the safe wording above in everything you submit.
+
+## 4b. The business-climate ranking (context only, municipal)
+
+- **What it is:** Svenskt Näringsliv's annual ranking of all 290 municipalities. About two-thirds is a survey of local entrepreneurs' opinions of their municipality (31,541 respondents nationally in 2026) and one-third is statistics from SCB.
+- **Örebro municipality:** 245th of 290 in the 2026 ranking, published around 28 to 30 May 2026. It was 211th in 2025, so it fell 34 places, and 162nd in 2023 (foretagsklimat.se; SVT Örebro, 30 May 2026).
+- **What it does not show:** how any single business is doing. It measures how local entrepreneurs *perceive* the municipality's business climate. Use it as context and as a question for the owners, not as evidence about them.
+
+**Safe wording:** "In Svenskt Näringsliv's 2026 ranking, based mainly on a survey of local entrepreneurs, Örebro municipality placed 245th of 290, down from 211th in 2025."
+
+## 4c. The "place of opportunities" phrase: origin and scope
+
+- **Source:** the regional place story *Örebro platsberättelse*, hosted by Region Örebro län. A Region Örebro län workshop presentation of 8 November 2023 describes it as a "regional place story for tourism and the visitor economy in Örebro county", developed with the place-branding agency Placebrander. The PDF was last modified in March 2024.
+- **Scope:** "The Greater Örebro Area" means **the whole county**, from Kopparberg in the north to Askersund in the south, not just the city.
+- **Purpose:** to attract visitors and strengthen regional pride. It is a tourism narrative, not a statement about how easy it is to start a business.
+- **How the lecturer wants it used (15 Oct):** treat it as a *proposition to investigate*. The feature tests a regional tourism promise against one family's lived experience, and says plainly that one restaurant cannot represent the whole city.
 
 ## 5. Facts to collect about the restaurant itself
 
