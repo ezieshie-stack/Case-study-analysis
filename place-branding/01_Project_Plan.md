@@ -18,7 +18,7 @@ Names and details below came from travel and study-abroad pages and need checkin
 | **A campus space at Örebro University** (library, student union house, a specific study area) | What does a new international student actually need from one campus space in week one, and does it deliver? | A student union officer, a librarian, two first-term students | Permission to photograph or observe, which service is in scope |
 | **A market or local initiative** (weekly market, repair café, sports club open session, church or association meal) | How does one recurring local event create belonging for people who arrived with no network? | The organiser, one long-time participant, one newcomer | That it runs on a date you can attend before 22 Oct |
 
-**Chosen place:** Tomasii Restaurang, Karlsdalsallén 63, owned and run by Hannah and her husband, a family-run restaurant about ten minutes from home that opened on 1 October 2026 in a unit that previously housed another restaurant. See `07_Restaurant_Field_Guide.md`.
+**Chosen place:** Tomasii Restaurang, Karlsdalsallén 63, owned and run by a wife and husband, a family-run restaurant about ten minutes from home that opened on 1 October 2026 in a unit that previously housed another restaurant. See `07_Restaurant_Field_Guide.md`.
 **Chosen angle (one sentence):** Exploring the region's claim to be "the place of opportunities" (from the county's tourism place story) through a family's brand-new restaurant, treated as a proposition to investigate (lecturer, 15 Oct). Full plan for the lecturer: `08_Plan_and_Questions_for_Lecturer.md`.
 **Why this one and not the others:** It is visitable twice a week without effort, the owner is reachable in person, and the 1 October opening lets the feature catch a family at the very start of something new. Lecturer's guidance in class, 12 October: promote Örebro through a chosen lens, name the selling points and the audience, use statistics and quotations, keep the writer's own voice throughout, send potential questions by Thursday 15 October (grading checks whether they were answered), and defend the choice of place in the plan. Feedback by email on 15 October approved the approach; see `11_Lecturer_Feedback_15Oct.md`.
 
@@ -47,7 +47,7 @@ This is the timeline sent to the lecturer on 15 October, with his advice to chec
 
 | Dates | Work |
 |---|---|
-| **Sun 18 Oct** | Give Hannah `09_Questions_for_Hannah` (printed). Confirm Monday's time. |
+| **Sun 18 Oct** | Give the owners `09_Questions_for_Owners` (printed). Confirm Monday's time. |
 | **19 to 21 Oct** | Interview the owners (Mon 19), one customer and one nearby business owner. First visits at different times of day. Transcribe and translate the same day. Begin writing. |
 | 22 to 25 Oct | First draft of the feature, checking facts and translations as you write. |
 | 26 to 30 Oct | Further photographs; the Instagram, Facebook and LinkedIn posts; the theoretical brief. |

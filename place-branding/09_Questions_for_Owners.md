@@ -3,17 +3,17 @@ title: "Interview questions / Intervjufrågor"
 subtitle: "Tomasii Restaurang · Monday 19 October 2026 / måndag 19 oktober 2026"
 ---
 
-Hello Hannah,
+Hello,
 
 Thank you for agreeing to talk with me. I am a master's student at Örebro University. This interview is for a writing course. I will write a story about your restaurant and about Örebro. It is not an advertisement.
 
-The interview takes about 30 to 40 minutes. You can answer in Swedish or English, whichever is easier. Your husband is very welcome to join. You can skip any question, and you can tell me if something should not be printed. I may also ask a few small follow-up questions.
+The interview takes about 30 to 40 minutes. You can answer in Swedish or English, whichever is easier. You are both very welcome to take part. You can skip any question, and you can tell me if something should not be printed. I may also ask a few small follow-up questions.
 
-*Hej Hannah,*
+*Hej,*
 
-*Tack för att du vill prata med mig. Jag är masterstudent vid Örebro universitet. Intervjun är till en skrivkurs. Jag ska skriva en berättelse om er restaurang och om Örebro. Det är ingen reklam.*
+*Tack för att ni vill prata med mig. Jag är masterstudent vid Örebro universitet. Intervjun är till en skrivkurs. Jag ska skriva en berättelse om er restaurang och om Örebro. Det är ingen reklam.*
 
-*Intervjun tar cirka 30–40 minuter. Du kan svara på svenska eller engelska, det som är lättast. Din man är också mycket välkommen. Du kan hoppa över en fråga, och du kan säga till om något inte ska skrivas. Jag kan också ställa några små följdfrågor.*
+*Intervjun tar cirka 30–40 minuter. Ni kan svara på svenska eller engelska, det som är lättast. Ni är båda mycket välkomna att vara med. Ni kan hoppa över en fråga, och ni kan säga till om något inte ska skrivas. Jag kan också ställa några små följdfrågor.*
 
 ## About you / Om er
 
@@ -86,9 +86,9 @@ How many seats? Opening hours? How many people work here? Prices? Card or cash? 
 
 **Before we start / Innan vi börjar**
 
-- May I record the interview so I quote you correctly? / *Får jag spela in intervjun så att jag citerar dig rätt?*
+- May I record the interview so I quote you correctly? / *Får jag spela in intervjun så att jag citerar er rätt?*
 - How would you like your name written: full name, first name only, or no name? / *Hur vill du att ditt namn skrivs: fullständigt namn, bara förnamn, eller inget namn?*
-- May I take some photographs of the restaurant, and of you if you agree? / *Får jag ta några bilder av restaurangen, och av dig om du vill?*
+- May I take some photographs of the restaurant, and of you if you agree? / *Får jag ta några bilder av restaurangen, och av er om ni vill?*
 
 Thank you! / *Tack så mycket!*
 Ayodele Adeleye · [[YOUR PHONE OR EMAIL]]

@@ -4,7 +4,7 @@ Ahmed El Gody replied to the email of 15 October. He approved the approach and t
 
 | His point | What changed | Still to do |
 |---|---|---|
-| Proceed with Monday's interview | Hannah's sheet finalised with the restaurant name and your name | Print it and hand it over on Sunday 18 Oct |
+| Proceed with Monday's interview | The owners' question sheet finalised with the restaurant name and your name | Print it and hand it over on Sunday 18 Oct |
 | Treat "the place of opportunities" as a proposition to investigate; one restaurant cannot represent the whole city | Plan section 2, RQ6 and the feature template reworded. Research notes 4c record the phrase's origin: a county-wide tourism place story by Region Örebro län with Placebrander (2023–24) | Say the limit plainly in the feature and the brief |
 | Ask for concrete moments: when opening became realistic, what helped, biggest unexpected difficulty | Added as owner questions 3, 10 and 11, in English and Swedish. Three weaker questions dropped to keep the list at 17 | Ask "Can you give me an example?" after each |
 | Use observations for the opening scene and to connect the restaurant to its neighbourhood | Feature template reminder added | Visit at two times of day; fill in `fieldwork/observation_notes.md` |

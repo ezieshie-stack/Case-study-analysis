@@ -21,7 +21,7 @@ In Kavaratzis's (2004) terms, the place story is secondary communication: what t
 
 - **It is genuinely new.** It opened on 1 October 2026, so the feature can catch the family at the very start, while everything is still a first.
 - **It has a before-and-after story.** Another restaurant used to operate in the same premises.
-- **It is a family business.** Hannah and her husband own and run it together, which gives the feature a human centre.
+- **It is a family business.** A wife and husband own and run it together, which gives the feature a human centre.
 - **It is accessible.** I can visit at different times of day to observe the restaurant and its street, and the owners have agreed to an interview on Monday 19 October.
 - **It matches my readers' position.** I am also new to Örebro, so I can approach the story as a newcomer.
 - **It lets me be balanced.** National and municipal figures give context, though not evidence about this family. Across Sweden, bankruptcies stayed at historically high levels in 2025, with hotels and restaurants among the hardest-hit sectors (Realtid, 2026, reporting UC data). In Svenskt Näringsliv's 2026 ranking, based mainly on a survey of local entrepreneurs, Örebro municipality placed 245th of 290, down from 211th in 2025 (Svenskt Näringsliv, 2026).
@@ -63,7 +63,7 @@ A short brief will explain the place-branding purpose, the research, the audienc
 - **Municipal:** Örebro placed 245th of 290 in Svenskt Näringsliv's 2026 business-climate ranking. The ranking measures local entrepreneurs' perceptions, not any single firm's results.
 - **Regional:** "The place of opportunities" is a county-wide tourism narrative, so the feature tests it rather than repeats it.
 - **The premises:** the previous restaurant in the same space closed. I will ask what the owners and neighbours know about it.
-- **Language:** Hannah is more comfortable in Swedish than English. I will handle this as described in section 11.
+- **Language:** The wife is more comfortable in Swedish than English. I will handle this as described in section 11.
 
 ## 7. Questions the portfolio will answer
 
@@ -78,7 +78,7 @@ A short brief will explain the place-branding purpose, the research, the audienc
 
 | Priority | Who | Why |
 |---|---|---|
-| Essential | Hannah and her husband, the owners | The central story of the feature |
+| Essential | The owners, a wife and husband | The central story of the feature |
 | Essential | One customer | An outside view of the restaurant and why people come |
 | Essential | One nearby business owner | The street's view, and a second experience of doing business here |
 | Only if distinct | A staff member, a second customer, or a resident neighbour | Added only where they offer a perspective the others do not |
@@ -87,7 +87,7 @@ A short brief will explain the place-branding purpose, the research, the audienc
 
 Questions marked with a star are the core set if time is short. I will also ask follow-up questions for concrete moments, such as "Can you give me an example?" or "What happened next?", and record them in my notes.
 
-### 9.1 The owners (given to Hannah in English and Swedish on Sunday 18 October, at her request)
+### 9.1 The owners (given to the owners in English and Swedish on Sunday 18 October, at the wife's request)
 
 1. ★ Please tell me about yourselves. Who are you, and how did this restaurant begin? (RQ1)
 2. ★ Why did you choose Örebro? (RQ1, RQ6)
@@ -138,7 +138,7 @@ Practical facts to confirm at the end: number of seats, opening hours, number of
 ## 11. Method and ethics
 
 - **Consent.** I will explain that the interview is for a course project, ask permission to record and to photograph, and ask how each person wants to be named.
-- **Language and translation.** Hannah can answer in Swedish. I will record the interview and translate the answers. A Swedish speaker will check the translations, and I will check facts and translations as I write rather than leaving it all to the end. Translated quotations will be marked as translated and will preserve the speaker's meaning. Where a word is uncertain, I will say so or paraphrase rather than quote.
+- **Language and translation.** The owners can answer in Swedish. I will record the interview and translate the answers. A Swedish speaker will check the translations, and I will check facts and translations as I write rather than leaving it all to the end. Translated quotations will be marked as translated and will preserve the speaker's meaning. Where a word is uncertain, I will say so or paraphrase rather than quote.
 - **Accuracy.** Every quotation goes into a verification log with a timestamp before I use it. Every fact is logged with its source, date and geographical scope.
 - **Balance.** The feature includes a customer's and a nearby business owner's view, and at least one thing that could be better.
 
@@ -146,7 +146,7 @@ Practical facts to confirm at the end: number of seats, opening hours, number of
 
 | Date | Step |
 |---|---|
-| Sunday 18 October | Give Hannah the questions in English and Swedish |
+| Sunday 18 October | Give the owners the questions in English and Swedish |
 | 19 to 21 October | Interviews and first visits; transcribe and translate the same day; begin writing |
 | 22 to 25 October | First draft of the feature, checking facts and translations while writing |
 | 26 to 30 October | Further photographs; the three social media posts; the theoretical brief |

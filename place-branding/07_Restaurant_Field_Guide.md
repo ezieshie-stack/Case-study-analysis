@@ -1,6 +1,6 @@
 # 07 Field Guide: the new restaurant as a place-branding story
 
-Chosen place: **Tomasii Restaurang, Karlsdalsallén 63, Örebro**, a family-run restaurant about ten minutes from home that opened on 1 October 2026 in premises that previously housed another restaurant. Owners: Hannah and her husband. Interview booked for Monday 19 October; Hannah receives the questions on Sunday 18 October. A property listing places Karlsdalsallén in the Sörbyängen area, near a golf course; confirm the neighbourhood name locally before using it.
+Chosen place: **Tomasii Restaurang, Karlsdalsallén 63, Örebro**, a family-run restaurant about ten minutes from home that opened on 1 October 2026 in premises that previously housed another restaurant. Owners: a wife and husband (record their names and spelling at the interview). Interview booked for Monday 19 October; the owners receive the questions on Sunday 18 October. A property listing places Karlsdalsallén in the Sörbyängen area, near a golf course; confirm the neighbourhood name locally before using it.
 
 Working angle: **a brand-new restaurant as a door into its street and neighbourhood.** The restaurant is the character; the place being branded is the area around it. The question the portfolio answers: *what does a new restaurant opening here tell us about this part of Örebro, who it welcomes, and how it is finding its first regulars?*
 

@@ -33,7 +33,7 @@
 
 > ✎ The picture does the work; the caption adds the one thing the photo cannot show (Friedmann). First line must hook before "more" cuts it off. No long paragraphs. Emoji optional and sparing.
 
-[[FIRST LINE: who is in the photo, or a short verified line from Hannah or her husband.]]
+[[FIRST LINE: who is in the photo, or a short verified line from one of the owners.]]
 
 [[ONE OR TWO SHORT SENTENCES: who they are, what they have started, why a student might drop by. The core message in its lightest form.]]
 
