@@ -100,12 +100,13 @@ Questions marked with a star are the core set if time is short. I will also ask 
 9. How have the neighbours welcomed you? (RQ5)
 10. ★ What helped you get started? For example people, the municipality, neighbours or other businesses. (RQ4)
 11. ★ What has been the biggest unexpected difficulty so far? (RQ4)
-12. What is it like to run the restaurant as a family? (RQ1)
-13. Are there local businesses, food producers or groups you would like to work with? (RQ5)
-14. ★ What should someone who is new in Örebro know before they come here? (RQ6)
-15. ★ Is Örebro a good place to start something new? Why or why not? (RQ6)
-16. What would you like to change or improve? (RQ4)
-17. Where do you see the restaurant one year from now? (RQ6)
+12. Why did you choose to open in the evenings rather than for breakfast or lunch? (RQ3, RQ4)
+13. What is it like to run the restaurant as a family? (RQ1)
+14. Are there local businesses, food producers or groups you would like to work with? (RQ5)
+15. ★ What should someone who is new in Örebro know before they come here? (RQ6)
+16. ★ Is Örebro a good place to start something new? Why or why not? (RQ6)
+17. What would you like to change or improve? (RQ4)
+18. Where do you see the restaurant one year from now? (RQ6)
 
 Practical facts to confirm at the end: number of seats, opening hours, number of staff, price range, card or cash, booking, and menu languages.
 
@@ -128,12 +129,12 @@ Practical facts to confirm at the end: number of seats, opening hours, number of
 
 | Research question | Owner questions | Customer and business owner | Observation and desk research |
 |---|---|---|---|
-| RQ1 People and possibility | 1, 2, 3, 4, 5, 12 | | Restaurant's own social media |
+| RQ1 People and possibility | 1, 2, 3, 4, 5, 13 | | Restaurant's own social media |
 | RQ2 Food | 6, 7 | Customer 3 | Menu; place story on local produce |
-| RQ3 Who comes | 8 | Customer 1, 2, 3 | Observation at two times of day |
-| RQ4 Starting a business | 10, 11, 16 | Customer 5; business owner 4 | National and municipal context, clearly labelled |
-| RQ5 Street and neighbours | 4, 9, 13 | Customer 2, 4; business owner 1, 2, 3 | Observation of the street |
-| RQ6 Place of opportunities | 2, 3, 14, 15, 17 | Customer 4; business owner 4 | Place story; population and student figures |
+| RQ3 Who comes | 8, 12 | Customer 1, 2, 3 | Observation at two times of day |
+| RQ4 Starting a business | 10, 11, 12, 17 | Customer 5; business owner 4 | National and municipal context, clearly labelled |
+| RQ5 Street and neighbours | 4, 9, 14 | Customer 2, 4; business owner 1, 2, 3 | Observation of the street |
+| RQ6 Place of opportunities | 2, 3, 15, 16, 18 | Customer 4; business owner 4 | Place story; population and student figures |
 
 ## 11. Method and ethics
 
