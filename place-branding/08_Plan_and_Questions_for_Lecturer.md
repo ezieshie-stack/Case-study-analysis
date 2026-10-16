@@ -87,7 +87,7 @@ A short brief will explain the place-branding purpose, the research, the audienc
 
 Questions marked with a star are the core set if time is short. I will also ask follow-up questions for concrete moments, such as "Can you give me an example?" or "What happened next?", and record them in my notes.
 
-### 9.1 The owners (given to the owners in English and Swedish on Sunday 18 October, at the wife's request)
+### 9.1 The owners (given to the owners in English on Sunday 18 October, at the wife's request)
 
 1. ★ Please tell me about yourselves. Who are you, and how did this restaurant begin? (RQ1)
 2. ★ Why did you choose Örebro? (RQ1, RQ6)
@@ -147,7 +147,7 @@ Practical facts to confirm at the end: number of seats, opening hours, number of
 
 | Date | Step |
 |---|---|
-| Sunday 18 October | Give the owners the questions in English and Swedish |
+| Sunday 18 October | Give the owners the questions in English |
 | 19 to 21 October | Interviews and first visits; transcribe and translate the same day; begin writing |
 | 22 to 25 October | First draft of the feature, checking facts and translations while writing |
 | 26 to 30 October | Further photographs; the three social media posts; the theoretical brief |
