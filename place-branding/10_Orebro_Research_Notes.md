@@ -78,6 +78,16 @@ Verified 15 October 2026. These are **national** figures for Sweden. They descri
 - **Purpose:** to attract visitors and strengthen regional pride. It is a tourism narrative, not a statement about how easy it is to start a business.
 - **How the lecturer wants it used (15 Oct):** treat it as a *proposition to investigate*. The feature tests a regional tourism promise against one family's lived experience, and says plainly that one restaurant cannot represent the whole city.
 
+## 4d. Municipal support for new businesses (for the "nobody helped us" point)
+
+Source: Örebro kommun, *Stöd & rådgivning till företagare*, page updated 16 October 2025, read 26 October 2026.
+
+- **Företagslotsen:** a free business liaison ("Företagslotsen är en kostnadsfri funktion") that coordinates the business's contacts within the municipality and assigns a contact person who follows up. It is reached through the servicecenter on 019-21 10 00. Meetings are offered on establishment, food businesses and events.
+- **Nyföretagarcentrum:** gives information, advice and training to people starting a company, on the municipality's behalf, free of charge ("Tjänsten är kostnadsfri för dig").
+- **Others listed:** Almi Företagspartner Mälardalen (advice, loans, venture capital), Timbanken (up to five free advisory hours), Företagarna, Region Örebro län, Länsstyrelsen (business support) and others.
+
+How to use it: report what Nicolette said precisely, which was that they had no help and that she knows of no support. Add that the municipality advertises these free services, and ask her whether they knew of them or tried them, and what help they had expected.
+
 ## 5. Facts to collect about the restaurant itself
 
 Ask in the interview or observe; log each in the source log with the date.
