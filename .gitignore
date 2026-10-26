@@ -8,3 +8,7 @@ __pycache__/
 node_modules/
 package.json
 package-lock.json
+
+# Build output of the place-branding portfolio (rebuild with place-branding/build_portfolio.py)
+deliverables/Place_Branding_Portfolio.*
+place-branding/.portfolio_combined.md

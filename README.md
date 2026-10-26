@@ -1,8 +1,15 @@
-# Case Study Analysis — Marketplace Reliability
+# Case Study Analysis
+
+Working repository for coursework. Two projects live here:
+
+1. **Marketplace reliability case study** (below).
+2. **Place branding writing project** (MK009A, due 2 November 2026): see [`place-branding/README.md`](place-branding/README.md) for the plan, research and interview guides, labelled text templates, references and the portfolio build script.
+
+## Marketplace reliability case study
 
 Working repository for a marketplace-reliability case study (Cleveland shift data, Oct 2021 – Jan 2022): analysis of late cancellations and no-shows in a two-sided healthcare staffing marketplace, and a project proposal built on it.
 
-## Contents
+### Contents
 
 | Path | What it is |
 |---|---|
@@ -13,7 +20,7 @@ Working repository for a marketplace-reliability case study (Cleveland shift dat
 | `analysis/clipboard_reliability_analysis.py` | Independent Python cross-check: recomputes every figure and prints it (used to verify the workbook) |
 | `analysis/Clipboard_Case_Analysis.md` | The reasoning record: findings, options considered, tests run, corrections made |
 
-## Reproducing
+### Reproducing
 
 The raw case data files are **not** committed (they are the case provider's materials). Place them in `data/` as `Cleveland_shifts_logs.xlsx`, `Booking_logs.xlsx`, `Cancel_logs.xlsx`, then:
 
@@ -24,6 +31,6 @@ python analysis/build_proposal.py                   # writes the proposal PDF
 python analysis/clipboard_reliability_analysis.py   # prints the independent cross-check figures
 ```
 
-## The one-line recommendation
+### The one-line recommendation
 
 When a booked shift fails (late cancellation or no-show), detect it within minutes and re-offer it instantly to proven same-day claimers — recovery, not punishment, is where the data says the leverage is.
